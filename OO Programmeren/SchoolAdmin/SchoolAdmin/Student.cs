@@ -17,8 +17,8 @@ namespace SchoolAdmin
 
         public string toonInfo()
         {
-            string studentInfo = $"{Naam}{GeboorteDatum}{Cursussen}{StudentenNummer}";
-            return studentInfo;
+
+            return $"{Naam}, {GeboorteDatum.ToString("D")}, {StudentenNummer}, {StudentenTeller}, {Cursussen[0]} ";
         }
     }
 }
