@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB99C6F-F4B1-4C76-9A37-EBFAF74DAABB}|SchoolAdmin\\SchoolAdmin.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\schooladmin\\schooladmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB99C6F-F4B1-4C76-9A37-EBFAF74DAABB}|SchoolAdmin\\SchoolAdmin.csproj|solutionrelative:schooladmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB99C6F-F4B1-4C76-9A37-EBFAF74DAABB}|SchoolAdmin\\SchoolAdmin.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\schooladmin\\schooladmin\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB99C6F-F4B1-4C76-9A37-EBFAF74DAABB}|SchoolAdmin\\SchoolAdmin.csproj|solutionrelative:schooladmin\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\Student.cs",
+              "RelativeDocumentMoniker": "SchoolAdmin\\Student.cs",
+              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\Student.cs",
+              "RelativeToolTip": "SchoolAdmin\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T18:40:23.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\Program.cs",
+              "RelativeDocumentMoniker": "SchoolAdmin\\Program.cs",
+              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\Program.cs",
+              "RelativeToolTip": "SchoolAdmin\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T18:40:14.493Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

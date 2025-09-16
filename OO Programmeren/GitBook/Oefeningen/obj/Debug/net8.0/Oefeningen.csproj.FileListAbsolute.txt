@@ -1,0 +1,15 @@
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\GitBook\Oefeningen\bin\Debug\net8.0\Oefeningen.exe
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\GitBook\Oefeningen\bin\Debug\net8.0\Oefeningen.deps.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\GitBook\Oefeningen\bin\Debug\net8.0\Oefeningen.runtimeconfig.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\GitBook\Oefeningen\bin\Debug\net8.0\Oefeningen.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\GitBook\Oefeningen\bin\Debug\net8.0\Oefeningen.pdb
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\GitBook\Oefeningen\obj\Debug\net8.0\Oefeningen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\GitBook\Oefeningen\obj\Debug\net8.0\Oefeningen.AssemblyInfoInputs.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\GitBook\Oefeningen\obj\Debug\net8.0\Oefeningen.AssemblyInfo.cs
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\GitBook\Oefeningen\obj\Debug\net8.0\Oefeningen.csproj.CoreCompileInputs.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\GitBook\Oefeningen\obj\Debug\net8.0\Oefeningen.sourcelink.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\GitBook\Oefeningen\obj\Debug\net8.0\Oefeningen.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\GitBook\Oefeningen\obj\Debug\net8.0\refint\Oefeningen.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\GitBook\Oefeningen\obj\Debug\net8.0\Oefeningen.pdb
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\GitBook\Oefeningen\obj\Debug\net8.0\Oefeningen.genruntimeconfig.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\GitBook\Oefeningen\obj\Debug\net8.0\ref\Oefeningen.dll
