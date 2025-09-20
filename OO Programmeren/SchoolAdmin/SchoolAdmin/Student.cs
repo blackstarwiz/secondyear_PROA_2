@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Globalization;
+using System.Xml.Serialization;
 
 namespace SchoolAdmin
 {
@@ -11,14 +8,26 @@ namespace SchoolAdmin
         public string Naam;
         public DateTime GeboorteDatum;
         public uint StudentenNummer;
-        public string[] Cursussen;
-        public static uint StudentenTeller = 0;
+        private string[] cursussen;
+        public uint StudentenTeller = 0;
 
 
-        public string toonInfo()
+        public string GenereerNaamKaartje()
         {
+            return $"{this.Naam} (STUDENT)";
+        }
 
-            return $"{Naam}, {GeboorteDatum.ToString("D")}, {StudentenNummer}, {StudentenTeller}, {Cursussen[0]} ";
+        public double BepaalWerkBelasting()
+        {
+            return cursussen.Length * 10;
+        }
+
+        public void RegistreerVoorCursus(string cursus)
+        {
+           for(int i = 0; i <= cursussen.Length; i++)
+            {
+                cursussen[i] = cursus;
+            }
         }
     }
 }
