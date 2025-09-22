@@ -58,7 +58,7 @@
                     switch (topicNum)
                     {
                         case 1:
-                            string[] h10 = ["H10-dag-van-de-week", "H10-ticks-sinds-2000", "H10-schrikkelteller", "afsluiten"];
+                            string[] h10 = ["H10-dag-van-de-week", "H10-ticks-sinds-2000", "H10-schrikkelteller","H10-simpele-timing","H10-verjaardag-v2","H10-Getallencombinatie", "Terug naar Hoofdmenu"];
                             int h10Len = h10.Length - 1;
 
                             for (int i = 0; i < h10.Length; i++)
@@ -104,11 +104,18 @@
                                         Console.WriteLine(e.Message);
                                     }
                                     break;
-
+                                case 4:
+                                    Console.WriteLine($"Het duurt {DateTimeOefeningen.ArrayTimerProgramma()} milliseconden om een array van een miljoen elementen aan te maken en op te vullen met opeenvolgende waarden.");
+                                        break;
+                                case 5:
+                                    Console.WriteLine(DateTimeOefeningen.VerjaardagProgramma());
+                                    break;
+                                case 6:
+                                    DateTimeOefeningen.EigenObjectOefeningen();
+                                    break;
                                 default:
                                     if (subKeuze == h10.Length)
                                     {
-                                        Console.WriteLine("Terug naar hoofd Menu");
                                         sub_isActive = false;
                                     }
                                     else
