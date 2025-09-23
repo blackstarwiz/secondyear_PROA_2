@@ -2,6 +2,7 @@
 {
     internal class Program
     {
+        //test voor te zien nu alles gepushed wordt zonder problemen
         private Random rnd = new Random();
         private string[] classes = ["Communicatie", "Programmeren", "Webtechnolgie", "Databanken"];
 
