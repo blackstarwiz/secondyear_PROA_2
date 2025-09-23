@@ -5,40 +5,64 @@ namespace SchoolAdmin
 {
     internal class Student
     {
-
-        public string Naam;
-        public DateTime GeboorteDatum;
+        public string Name;
+        public DateTime Birthdate;
         public uint StudentNumber;
         private List<CourseResult> courseResults = new List<CourseResult>();
-        public static uint StudentenTeller = 1;
+        public static uint StudentCounter = 1;
+        
 
-        public string GenereerNaamKaartje()
+        public string GenerateNameCard()
         {
-            return $"{this.Naam} (STUDENT)";
+            return $"{this.Name} (STUDENT)";
         }
 
-        public byte DeterminWorkLoad()
+        public byte DetermineWorkload()
         {
-            byte total = 0;
-
-            foreach(string course in courses)
-            {
-                total += 10;
-            }
+            return (byte)(courseResults.Count * 10);
         }
 
         public void RegisterCourseResult(string course, byte result)
         {
             CourseResult courses = new CourseResult();
-
-            if(courses.Result > 20)
+            if (result > 20)
             {
                 Console.WriteLine("Ongeldig Cijfer");
             }
-            
-            courses.Name = course;
+            else
+            {
+                courses.Name = course;
+                courses.Result = result;
 
+                courseResults.Add(courses);
+            }
+        }
 
+        public double Average()
+        {
+            double res = 0;
+            foreach (CourseResult cijfers in courseResults)
+            {
+                res += cijfers.Result;
+            }
+
+            return res / courseResults.Count;
+        }
+
+        public void ShowOverview()
+        {
+            Console.WriteLine(this.GenerateNameCard());
+            Console.WriteLine($"Werkbelasting: {DetermineWorkload()}\n");
+            Console.WriteLine("Cijferrapport\n*************");
+
+            foreach (CourseResult result in courseResults)
+            {
+                Console.WriteLine($"{result.Name}:  {result.Result}");
+            }
+
+            Console.WriteLine($"Gemiddelde: {Average().ToString("N2")}");
+
+            Console.WriteLine();
         }
     }
 }
