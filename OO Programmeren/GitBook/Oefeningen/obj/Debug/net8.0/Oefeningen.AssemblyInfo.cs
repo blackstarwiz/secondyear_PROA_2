@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Oefeningen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f7c1007a762c86b22b74245a5d535cd5cf48e32")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35581121a2500ac73e8f498f12cb9157dfe6ca2b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Oefeningen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Oefeningen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
