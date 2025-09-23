@@ -5,29 +5,40 @@ namespace SchoolAdmin
 {
     internal class Student
     {
+
         public string Naam;
         public DateTime GeboorteDatum;
-        public uint StudentenNummer;
-        private string[] cursussen;
-        public uint StudentenTeller = 0;
-
+        public uint StudentNumber;
+        private List<CourseResult> courseResults = new List<CourseResult>();
+        public static uint StudentenTeller = 1;
 
         public string GenereerNaamKaartje()
         {
             return $"{this.Naam} (STUDENT)";
         }
 
-        public double BepaalWerkBelasting()
+        public byte DeterminWorkLoad()
         {
-            return cursussen.Length * 10;
+            byte total = 0;
+
+            foreach(string course in courses)
+            {
+                total += 10;
+            }
         }
 
-        public void RegistreerVoorCursus(string cursus)
+        public void RegisterCourseResult(string course, byte result)
         {
-           for(int i = 0; i <= cursussen.Length; i++)
+            CourseResult courses = new CourseResult();
+
+            if(courses.Result > 20)
             {
-                cursussen[i] = cursus;
+                Console.WriteLine("Ongeldig Cijfer");
             }
+            
+            courses.Name = course;
+
+
         }
     }
 }
