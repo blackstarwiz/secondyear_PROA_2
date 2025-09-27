@@ -18,13 +18,28 @@ namespace Bibliotheekbeheersysteem
         8.samenvatting (kort/lang),
       */
 
+    internal enum Genres
+    {
+        Actie = 1,
+        Avontuur,
+        Biografie,
+        Kinder,
+        Klassieke_fictie,
+        Misdaad,
+        Mysterie,
+        Fantasie,
+        Horro,
+        Humor,
+        Wetenschap
+    }
+
     internal class Book
     {
         private string title;
         private string author;
         private string language;
         private int isbn;
-        private string genre;
+        private Genres genre;
         private int pages;
         private string target_group;
         private string summary;
@@ -93,7 +108,7 @@ namespace Bibliotheekbeheersysteem
             }
             set
             {
-                //voor de set moet er eerst gecheck worden op bepaalde voorwaardes
+                //set moet er eerst gecheck worden op bepaalde voorwaardes
                 isbn = value;
             }
         }
@@ -102,15 +117,32 @@ namespace Bibliotheekbeheersysteem
         {
             get
             {
-                return genre;
+                return genre.ToString();
             }
             set
             {
-                if (value == "")
+                //eerste letter naar Upper, rest naar Lower
+                string firstLetter = value.Substring(0, 1).ToUpper();
+                string rest = value.Substring(1).ToLower();
+                string resultGenre = firstLetter + rest;
+
+                //Verplaats legen ruimste " " met "_" 
+                resultGenre = resultGenre.Replace(" ", "_");
+
+                Genres genre;
+                if (!Enum.TryParse(resultGenre, out genre) || !Enum.IsDefined(typeof(Genres), genre))
                 {
-                    throw new Exception("Veld is leeg, voer geldige genre in!");
+                    throw new Exception($"Genre bestaat niet!");
                 }
-                genre = value;
+                this.genre = genre;
+            }
+        }
+
+        public List<Genres> Genres
+        {
+            get
+            {
+                return Enum.GetValues(typeof(Genres)).Cast<Genres>().ToList();
             }
         }
 
