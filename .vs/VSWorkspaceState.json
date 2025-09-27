@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\OO Programmeren",
+    "\\OO Programmeren\\Project",
+    "\\OO Programmeren\\Project\\Bibliotheekbeheersysteem"
   ],
-  "SelectedNode": "\\Project.sln",
+  "SelectedNode": "\\OO Programmeren\\Project\\Bibliotheekbeheersysteem\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
