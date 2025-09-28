@@ -1,0 +1,86 @@
+body {
+      font-family: Arial, sans-serif;
+      display: grid;
+      grid-template-columns: 3fr 1fr; /* main + aside */
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+    }
+    header {
+      grid-column: 1 / span 2;
+      padding: 20px;
+      background: #fff;
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+    main {
+      padding: 20px;
+    }
+    .menu {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .card {
+      width: 200px;
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      overflow: hidden;
+      text-align: center;
+      background: #f9f9f9;
+    }
+    .card .placeholder {
+      height: 120px;
+      background: #eee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #888;
+      font-size: 0.9rem;
+    }
+    .card button {
+      background: red;
+      color: white;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 8px;
+      margin: 10px 0;
+      cursor: pointer;
+    }
+    .remove-button {
+      background: red; /* donkere rood - past bij bestelknop */
+      color: white;
+      padding: 6px 10px;
+      border: none;
+      border-radius: 6px;
+      margin-left: 10px;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+
+    aside {
+      background: #f9f9f9;
+      border-left: 2px solid #0d7b03;
+      padding: 20px;
+    }
+    aside h2 {
+      margin-top: 0;
+    }
+   .order-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      flex: 1;  
+      overflow: auto;
+    }
+    .order-list li {
+      padding: 6px 0;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
