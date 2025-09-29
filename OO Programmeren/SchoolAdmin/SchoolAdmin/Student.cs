@@ -55,12 +55,12 @@ namespace SchoolAdmin
             Console.WriteLine($"Werkbelasting: {DetermineWorkload()}\n");
             Console.WriteLine("Cijferrapport\n*************");
 
-            foreach (CourseResult result in courseResults)
+            foreach (CourseResult course in courseResults)
             {
-                Console.WriteLine($"{result.Name}:  {result.Result}");
+                Console.WriteLine($"{course.Name}:  {course.Result}");
             }
 
-            Console.WriteLine($"Gemiddelde: {Average().ToString("N2")}");
+            Console.WriteLine($"Gemiddelde: {Average().ToString("F1")}");
 
             Console.WriteLine();
         }
