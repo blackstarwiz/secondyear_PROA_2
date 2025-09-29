@@ -10,11 +10,20 @@ namespace SchoolAdmin
         public uint StudentNumber;
         private List<CourseResult> courseResults = new List<CourseResult>();
         public static uint StudentCounter = 1;
-        
+        private int age;
 
+
+        public int Age
+        {
+            get
+            {
+                TimeSpan age =  DateTime.Now - Birthdate;
+                return age.Days / 365;
+            }
+        }
         public string GenerateNameCard()
         {
-            return $"{this.Name} (STUDENT)";
+            return $"{this.Name} ({this.Age.ToString("F0")} jaar)";
         }
 
         public byte DetermineWorkload()
@@ -25,16 +34,14 @@ namespace SchoolAdmin
         public void RegisterCourseResult(string course, byte result)
         {
             CourseResult courses = new CourseResult();
-            if (result > 20)
+            try
             {
-                Console.WriteLine("Ongeldig Cijfer");
-            }
-            else
-            {
-                courses.Name = course;
                 courses.Result = result;
-
-                courseResults.Add(courses);
+                courses.Name = course;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
             }
         }
 
