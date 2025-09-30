@@ -38,7 +38,7 @@ namespace Bibliotheekbeheersysteem
         private string title;
         private string author;
         private string language;
-        private int isbn;
+        private string isbn;
         private Genres genre;
         private int pages;
         private string target_group;
@@ -100,7 +100,7 @@ namespace Bibliotheekbeheersysteem
             }
         }
 
-        public int ISBN
+        public string ISBN
         {
             get
             {
