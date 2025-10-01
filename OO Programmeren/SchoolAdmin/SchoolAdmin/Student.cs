@@ -10,17 +10,23 @@ namespace SchoolAdmin
         public uint StudentNumber;
         private List<CourseResult> courseResults = new List<CourseResult>();
         public static uint StudentCounter = 1;
-        private int age;
+        
 
+        public Student(string name, DateTime birthdate)
+        {
+            this.Name = name;
+            this.Birthdate = birthdate;
+        }
 
         public int Age
         {
             get
             {
-                TimeSpan age =  DateTime.Now - Birthdate;
+                TimeSpan age = DateTime.Now - Birthdate;
                 return age.Days / 365;
             }
         }
+
         public string GenerateNameCard()
         {
             return $"{this.Name} ({this.Age.ToString("F0")} jaar)";
@@ -31,13 +37,14 @@ namespace SchoolAdmin
             return (byte)(courseResults.Count * 10);
         }
 
-        public void RegisterCourseResult(string course, byte result)
+        public void RegisterCourseResult(string courseName, byte result)
         {
-            CourseResult courses = new CourseResult();
+            CourseResult course = new CourseResult();
             try
             {
-                courses.Result = result;
-                courses.Name = course;
+                course.Result = result;
+                course.Name = courseName;
+                courseResults.Add(course);
             }
             catch (Exception e)
             {
@@ -70,6 +77,10 @@ namespace SchoolAdmin
             Console.WriteLine($"Gemiddelde: {Average().ToString("F1")}");
 
             Console.WriteLine();
+            Console.WriteLine("Druk op Enter om verder te gaan");
+            Console.Write(">");
+            Console.ReadKey();
+
         }
     }
 }

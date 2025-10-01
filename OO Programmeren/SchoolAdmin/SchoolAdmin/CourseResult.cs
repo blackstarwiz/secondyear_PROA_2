@@ -1,5 +1,6 @@
 ﻿namespace SchoolAdmin
 {
+    //CourseResult is bedoeld om naam een resultaat van een student bij te houden bij een bepaalde opleiding
     internal class CourseResult
     {
         private string name;

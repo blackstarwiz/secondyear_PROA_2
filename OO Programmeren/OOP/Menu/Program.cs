@@ -4,7 +4,7 @@
     {
         private bool sub_isActive = true;
         private bool hoofd_isActive = true;
-        private string[] topic = ["DateTime", "Programma afsluiten"];
+        private string[] topic = ["DateTime", "ClassesAndObjects", "Programma afsluiten"];
 
         private static void Main(string[] args)
         {
@@ -68,9 +68,9 @@
 
                             Console.Write("> ");
 
-                            int subKeuze = Convert.ToInt32(Console.ReadLine());
+                            int sub1Keuze = Convert.ToInt32(Console.ReadLine());
 
-                            switch (subKeuze)
+                            switch (sub1Keuze)
                             {
                                 case 1:
                                     try
@@ -124,7 +124,53 @@
                                     break;
 
                                 default:
-                                    if (subKeuze == h10.Length)
+                                    if (sub1Keuze == h10.Length)
+                                    {
+                                        sub_isActive = false;
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("Ingevoerde keuze staat niet in de lijst, Klik op Enter");
+                                        Console.ReadKey();
+                                    }
+
+                                    break;
+                            }
+                            break;
+
+                        case 2:
+                            string[] h11 = ["H11-FiguresWithConstructor", "H11-FoodPurchase", "Terug naar Hoofdmenu"];
+                            int h11Len = h11.Length - 1;
+
+                            for (int i = 0; i < h11.Length; i++)
+                            {
+                                Console.WriteLine($"{i + 1}: {h11[i]}");
+                            }
+
+                            Console.Write("> ");
+
+                            int sub2Keuze = Convert.ToInt32(Console.ReadLine());
+
+                            switch (sub2Keuze)
+                            {
+                                case 1:
+                                    ClassesAndObjects.DemoFigures();
+                                    break;
+
+                                case 2:
+                                    try
+                                    {
+                                        FoodPurchase.DemoPurchase();
+                                    }
+                                    catch (Exception e)
+                                    {
+                                        Console.WriteLine(e.Message);
+                                    }
+
+                                    break;
+
+                                default:
+                                    if (sub2Keuze == h11.Length)
                                     {
                                         sub_isActive = false;
                                     }

@@ -30,7 +30,7 @@ namespace Menu
             {
                 if (value <= 0.0)
                 {
-                    throw new Exception($"Het is verboden een Basis van {value} in te stellen");
+                    throw new Exception($"Het is verboden een Basis van {value} in te stellen!");
                 }
                 @base = value;
             }
@@ -46,7 +46,7 @@ namespace Menu
             {
                 if (value <= 0.0)
                 {
-                    throw new Exception($"Het is verboden een Hoogte van {value} in te stellen");
+                    throw new Exception($"Het is verboden een Hoogte van {value} in te stellen!");
                 }
                 height = value;
             }
