@@ -10,7 +10,7 @@
         private static void Main(string[] args)
         {
             bool active = true;
-            string[] optie = ["DemonstreerStudenten uitvoeren", "DemostreerCursussen uitvoeren", "Terminating"];
+            string[] optie = ["DemonstreerStudenten uitvoeren", "DemostreerCursussen uitvoeren", "ReadTextFormatStudent", "Terminating"];
 
             do
             {
@@ -32,6 +32,10 @@
 
                     case 2:
                         DemoCourses();
+                        break;
+
+                    case 3:
+                        ReadTextFormatStudent();
                         break;
 
                     default:
@@ -115,6 +119,30 @@
 
             webCourse.ShowOverview();
             oopCourse.ShowOverview();
+        }
+
+        public static void ReadTextFormatStudent()
+        {
+            Console.WriteLine("Geef de tekstvoorstelling van 1 student in CSV-formaat:");
+            Console.Write(">");
+            string csvString = Console.ReadLine();
+
+            string[] csvArray = csvString.Split(";"); ;
+
+            Student student3 = new Student(csvArray[0].ToString(), new DateTime(Convert.ToInt32(csvArray[3]), Convert.ToInt32(csvArray[2]), Convert.ToInt32(csvArray[1])));
+            student3.StudentNumber = Student.StudentCounter;
+
+            Student.StudentCounter++;
+
+            for (int i = 4; i < csvArray.Length; i+=2)
+            {
+                string randomClass = csvArray[i];
+                byte result = Convert.ToByte(csvArray[i + 1]);
+
+                student3.RegisterCourseResult(randomClass, result);
+            }
+
+            student3.ShowOverview();
         }
     }
 }

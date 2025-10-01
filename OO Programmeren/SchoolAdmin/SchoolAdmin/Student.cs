@@ -39,11 +39,11 @@ namespace SchoolAdmin
 
         public void RegisterCourseResult(string courseName, byte result)
         {
-            CourseResult course = new CourseResult();
+            
             try
             {
-                course.Result = result;
-                course.Name = courseName;
+                CourseResult course = new CourseResult(courseName, result);
+                
                 courseResults.Add(course);
             }
             catch (Exception e)

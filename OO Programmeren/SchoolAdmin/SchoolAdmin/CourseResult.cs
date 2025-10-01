@@ -6,6 +6,11 @@
         private string name;
         private byte result;
 
+        public CourseResult(string name, byte result)
+        {
+            this.Name = name;
+            this.Result = result;
+        }
         public string Name
         {
             get
