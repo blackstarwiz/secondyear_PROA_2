@@ -8,7 +8,7 @@ namespace SchoolAdmin
         public string Name;
         public DateTime Birthdate;
         public uint StudentNumber;
-        private List<CourseResult> courseResults = new List<CourseResult>();
+        private List<CourseRegistration> courseRegistrations = new List<CourseRegistration>();
         public static uint StudentCounter = 1;
         
 
@@ -34,17 +34,17 @@ namespace SchoolAdmin
 
         public byte DetermineWorkload()
         {
-            return (byte)(courseResults.Count * 10);
+            return (byte)(courseRegistrations.Count * 10);
         }
 
-        public void RegisterCourseResult(string courseName, byte result)
+        public void RegisterCourseResult(string courseName, byte? result)
         {
             
             try
             {
-                CourseResult course = new CourseResult(courseName, result);
+                CourseRegistration course = new CourseRegistration(courseName, result);
                 
-                courseResults.Add(course);
+                courseRegistrations.Add(course);
             }
             catch (Exception e)
             {
@@ -55,12 +55,17 @@ namespace SchoolAdmin
         public double Average()
         {
             double res = 0;
-            foreach (CourseResult cijfers in courseResults)
+            int counter = 0;
+            foreach (CourseRegistration cijfers in courseRegistrations)
             {
-                res += cijfers.Result;
+                if(cijfers.Result != null)
+                {
+                    res += (byte) cijfers.Result;
+                    counter++;
+                } 
             }
 
-            return res / courseResults.Count;
+            return res / counter;
         }
 
         public void ShowOverview()
@@ -69,7 +74,7 @@ namespace SchoolAdmin
             Console.WriteLine($"Werkbelasting: {DetermineWorkload()}\n");
             Console.WriteLine("Cijferrapport\n*************");
 
-            foreach (CourseResult course in courseResults)
+            foreach (CourseRegistration course in courseRegistrations)
             {
                 Console.WriteLine($"{course.Name}:  {course.Result}");
             }
@@ -77,9 +82,7 @@ namespace SchoolAdmin
             Console.WriteLine($"Gemiddelde: {Average().ToString("F1")}");
 
             Console.WriteLine();
-            Console.WriteLine("Druk op Enter om verder te gaan");
-            Console.Write(">");
-            Console.ReadKey();
+            
 
         }
     }

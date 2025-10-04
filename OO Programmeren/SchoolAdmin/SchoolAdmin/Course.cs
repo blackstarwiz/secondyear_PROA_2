@@ -6,27 +6,21 @@
         public string Title;
         public List<Student> Students = new List<Student>();
         private byte creditPoints;
+        public int id;
         private static int maxId = 1;
-        private static List<Course> allCourses = new List<Course>();
+        public static List<Course> AllCourses = new List<Course>();
 
-
-        public Course(string title, List<Student> students, byte creditpoints) 
+        public Course(string title, List<Student> students, byte creditpoints)
         {
+            this.Id = maxId++;
+
             this.Title = title;
             this.Students = students;
             this.CreditPoints = creditpoints;
+            
+            Course.AllCourses.Add(this);
         }
 
-        public Course(string title,List<Student> students)
-        {
-            this.Title = title;
-            this.Students = students;
-        }
-
-        public Course(string title)
-        {
-            this.Title = title;
-        }
         public byte CreditPoints
         {
             get
@@ -43,7 +37,11 @@
         {
             get
             {
-                return maxId;
+                return id;
+            }
+            private set 
+            {
+                id = value; 
             }
         }
 
@@ -56,11 +54,20 @@
             {
                 Console.WriteLine($"{person.Name}");
             }
-            Console.WriteLine("Druk op Enter om verder te gaan");
-            Console.Write(">");
-            Console.ReadKey();
+           
+        }
 
-            Course.maxId++;
+        public static Course SearchCourseById(int id)
+        {
+            foreach (Course c in AllCourses)
+            {
+                if (c.Id == id)
+                {
+                    return c;
+                }
+            }
+
+            return null;
         }
     }
 }

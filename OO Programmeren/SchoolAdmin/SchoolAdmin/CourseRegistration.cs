@@ -1,16 +1,17 @@
 ﻿namespace SchoolAdmin
 {
-    //CourseResult is bedoeld om naam een resultaat van een student bij te houden bij een bepaalde opleiding
-    internal class CourseResult
+    //CourseRegistrationis bedoeld om naam een resultaat van een student bij te houden bij een bepaalde opleiding
+    internal class CourseRegistration
     {
         private string name;
-        private byte result;
+        private byte? result;
 
-        public CourseResult(string name, byte result)
+        public CourseRegistration(string name, byte? result)
         {
             this.Name = name;
             this.Result = result;
         }
+
         public string Name
         {
             get
@@ -23,7 +24,7 @@
             }
         }
 
-        public byte Result
+        public byte? Result
         {
             get
             {
@@ -31,15 +32,10 @@
             }
             set
             {
-                if(value > 20)
-                {
-                    Console.WriteLine("Ongeldig Cijfer");
-                }
-                else
+                if (!(value is null) && !(value > 20))
                 {
                     result = value;
                 }
-                    
             }
         }
     }

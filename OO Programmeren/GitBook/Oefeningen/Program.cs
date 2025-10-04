@@ -2,12 +2,19 @@
 {
     internal class Program
     {
-        DateTime Tijd = DateTime.Now;
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Program test = new Program();
-
-            test.verjaardag();
+            MiniDatumValue d1 = new MiniDatumValue();
+            d1.Dag = 6;
+            d1.Maand = 3;
+            d1.Jaar = 2016;
+            MiniDatumReference d2 = new MiniDatumReference();
+            d2.Dag = 6;
+            d2.Maand = 3;
+            d2.Jaar = 2016;
+            Program.WijzigDatums(d1, d2);
+            Console.WriteLine($"value na uitvoering: {d1.Dag}/{d1.Maand}/{d1.Jaar}");
+            Console.WriteLine($"reference na uitvoering: {d2.Dag}/{d2.Maand}/{d2.Jaar}");
         }
 
         public void klok()
@@ -19,8 +26,8 @@
                 System.Threading.Thread.Sleep(1000);
                 Console.Clear();
             }
-
         }
+
         public void verjaardag()
         {
             Console.WriteLine("Geef je geboorte jaar in: mm,dd");
@@ -34,5 +41,25 @@
 
             Console.WriteLine($"dagen tot verjaardag; {Math.Round(dagentotVer.TotalDays)}");
         }
+
+        private struct MiniDatumValue
+        {
+            public int Dag;
+            public int Maand;
+            public int Jaar;
+        }
+
+        private static void WijzigDatums(MiniDatumValue val, MiniDatumReference reference)
+        {
+            val.Maand = 2;
+            reference.Maand = 2;
+        }
+    }
+
+    internal class MiniDatumReference
+    {
+        public int Dag;
+        public int Maand;
+        public int Jaar;
     }
 }
