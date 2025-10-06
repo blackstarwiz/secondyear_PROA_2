@@ -37,7 +37,7 @@ namespace SchoolAdmin
             return (byte)(courseRegistrations.Count * 10);
         }
 
-        public void RegisterCourseResult(string courseName, byte? result)
+        public void RegisterCourseResult(Course courseName, byte? result)
         {
             
             try
@@ -76,7 +76,7 @@ namespace SchoolAdmin
 
             foreach (CourseRegistration course in courseRegistrations)
             {
-                Console.WriteLine($"{course.Name}:  {course.Result}");
+                Console.WriteLine($"{course.Course.Title}:  {course.Result}");
             }
 
             Console.WriteLine($"Gemiddelde: {Average().ToString("F1")}");

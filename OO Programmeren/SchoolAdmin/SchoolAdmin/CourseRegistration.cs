@@ -3,24 +3,24 @@
     //CourseRegistrationis bedoeld om naam een resultaat van een student bij te houden bij een bepaalde opleiding
     internal class CourseRegistration
     {
-        private string name;
+        private Course course;
         private byte? result;
 
-        public CourseRegistration(string name, byte? result)
+        public CourseRegistration(Course course, byte? result)
         {
-            this.Name = name;
+            this.Course = course;
             this.Result = result;
         }
 
-        public string Name
+        public Course Course
         {
             get
             {
-                return name;
+                return course;
             }
             set
             {
-                name = value;
+                course = value;
             }
         }
 

@@ -15,12 +15,22 @@
             this.Id = maxId++;
 
             this.Title = title;
-            this.Students = students;
+            this.Students = students ?? new List<Student>();
             this.CreditPoints = creditpoints;
             
             Course.AllCourses.Add(this);
         }
 
+        public Course(string title, List<Student> students) : this (title, students, 3)
+        {
+
+        }
+
+        //
+        public Course(string title) : this(title,null,3)
+        {
+
+        }
         public byte CreditPoints
         {
             get
@@ -47,14 +57,25 @@
 
         public void ShowOverview()
         {
+            
             Console.WriteLine($"{this.Title} ({this.Id}) ({this.CreditPoints}stp)");
             Console.WriteLine(String.Empty.PadLeft(this.Title.Length, '*'));
 
+            //if (Students is null)
+            //{
+            //    throw new NullReferenceException("fuck ik ben leeg");
+            //}
+
+
             foreach (Student person in Students)
             {
-                Console.WriteLine($"{person.Name}");
+                if(!(person is null))
+                {
+                    Console.WriteLine($"{person.Name}");
+                }
             }
-           
+
+            Console.WriteLine();
         }
 
         public static Course SearchCourseById(int id)

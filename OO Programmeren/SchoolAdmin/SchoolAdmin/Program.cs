@@ -6,14 +6,15 @@
 
         private string[] classes = ["Communicatie", "Programmeren", "Webtechnolgie", "Databanken"];
 
+        private List<Student> students = new List<Student>();
+
         private static void Main(string[] args)
         {
             // Variabele die bepaalt of het hoofdmenu actief blijft draaien
             bool active = true;
 
             // Menu-opties die de gebruiker kan kiezen
-            string[] optie = ["DemonstreerStudenten uitvoeren", "DemostreerCursussen uitvoeren", "ReadTextFormatStudent", "Terminating"];
-            
+            string[] optie = ["DemonstreerStudenten uitvoeren", "DemostreerCursussen uitvoeren", "ReadTextFormatStudent", "DemoStudyProgram", "Terminating"];
 
             do
             {
@@ -55,6 +56,11 @@
                         ReadTextFormatStudent();
                         break;
 
+                    case 4:
+
+                        DemoStudyProgram();
+                        break;
+
                     default:
                         Console.WriteLine("Terminating, press Enter");
                         Console.ReadKey();
@@ -68,7 +74,6 @@
         {
             Program opt = new Program();
 
-            List<Student> studenten = new List<Student>();
             Student student1 = new Student("Said Aziz", new DateTime(2000, 6, 1));
             Student student2 = new Student("Mieke Vermeulen", new DateTime(1998, 1, 1));
 
@@ -80,6 +85,7 @@
             {
                 byte? result;
                 int randomClass = opt.rnd.Next(0, opt.classes.Length);
+                Course courseName = new Course(opt.classes[randomClass]);
                 byte check = (byte)(opt.rnd.Next(0, 21));
 
                 if (check == 0)
@@ -91,7 +97,7 @@
                     result = check;
                 }
 
-                student1.RegisterCourseResult(opt.classes[randomClass], result);
+                student1.RegisterCourseResult(courseName, result);
             }
 
             student2.StudentNumber = Student.StudentCounter;
@@ -101,9 +107,10 @@
             for (int i = 0; i < 3; i++)
             {
                 int randomClass = opt.rnd.Next(0, opt.classes.Length);
+                Course courseName = new Course(opt.classes[randomClass]);
                 byte result = (byte)(opt.rnd.Next(0, 21));
 
-                student2.RegisterCourseResult(opt.classes[randomClass], result);
+                student2.RegisterCourseResult(courseName, result);
             }
 
             student1.ShowOverview();
@@ -116,45 +123,39 @@
 
         public static void DemoCourses()
         {
+            //object program maken voor de array en random te gebruiken binnen alle methodes
             Program opt = new Program();
 
-            List<Student> studenten = new List<Student>();
+            //student objecten maken
             Student student1 = new Student("Said Aziz", new DateTime(2000, 6, 1));
             Student.StudentCounter++;
+
             Student student2 = new Student("Mieke Vermeulen", new DateTime(1998, 1, 1));
             Student.StudentCounter++;
+            //student objecten tovoegen aan de list students
+            opt.students.Add(student1);
+            opt.students.Add(student2);
 
-            for (int i = 0; i > 2; i++)
+            //Course object aanmaken en studenten toevoegen plus studiepunten
+            Course webCourse = new Course("Webtechnologie", opt.students, 6);
+
+            Course oopCourse = new Course("OO Programmeren", opt.students);
+
+            Course wplCours = new Course("WPL");
+
+            try
             {
-                int randomClass = opt.rnd.Next(0, opt.classes.Length);
-                byte result = (byte)(opt.rnd.Next(0, 21));
+                webCourse.ShowOverview();
+                oopCourse.ShowOverview();
+                wplCours.ShowOverview();
 
-                student1.RegisterCourseResult(opt.classes[randomClass], result);
+                //Course idResult = Course.SearchCourseById(3);
+                //Console.WriteLine(idResult.Title);
             }
-
-            for (int i = 0; i > 2; i++)
+            catch (NullReferenceException e)
             {
-                int randomClass = opt.rnd.Next(0, opt.classes.Length);
-                byte result = (byte)(opt.rnd.Next(0, 21));
-
-                student2.RegisterCourseResult(opt.classes[randomClass], result);
+                Console.WriteLine(e.Message);
             }
-
-            studenten.Add(student1);
-            studenten.Add(student2);
-
-            Course webCourse = new Course("Webtechnologie", studenten, 6);
-            
-            Course oopCourse = new Course("OO Programmeren", studenten, 9);
-
-           
-
-            webCourse.ShowOverview();
-            oopCourse.ShowOverview();
-
-            Course idResult = Course.SearchCourseById(1);
-
-            Console.WriteLine(idResult.Title);
 
             Console.WriteLine("Druk op Enter om verder te gaan");
             Console.Write(">");
@@ -163,26 +164,74 @@
 
         public static void ReadTextFormatStudent()
         {
+            Program opt = new Program();
+            //csv bestand vragen
             Console.WriteLine("Geef de tekstvoorstelling van 1 student in CSV-formaat:");
             Console.Write(">");
             string csvString = Console.ReadLine();
-
+            //string omzetten naar array
             string[] csvArray = csvString.Split(";"); ;
-
-            Student student3 = new Student(csvArray[0].ToString(), new DateTime(Convert.ToInt32(csvArray[3]), Convert.ToInt32(csvArray[2]), Convert.ToInt32(csvArray[1])));
-            student3.StudentNumber = Student.StudentCounter;
+            //student aanmaken met indexen van de csv
+            Student csvStudent = new Student(csvArray[0].ToString(), new DateTime(Convert.ToInt32(csvArray[3]), Convert.ToInt32(csvArray[2]), Convert.ToInt32(csvArray[1])));
+            csvStudent.StudentNumber = Student.StudentCounter;
 
             Student.StudentCounter++;
-
+            //student toevoegen aan de list object students
+            opt.students.Add(csvStudent);
+            //door de array gaan om de vakken en punten te vinden
             for (int i = 4; i < csvArray.Length; i += 2)
             {
-                string randomClass = csvArray[i];
-                byte result = Convert.ToByte(csvArray[i + 1]);
+                //als het geen string is gaan we SearchCourseById() gebruiken om de student toetevoegen aan het juist vak
+                if (int.TryParse(csvArray[i], out int search))
+                {
+                    //maak course objecten aan
+                    Course natuurkundeCourse = new Course("Natuurkunde", null, 9);
+                    Course wiskundeCourse = new Course("Wiskunde");
+                    Course scheiCourse = new Course("Scheikunde", null, 12);
 
-                student3.RegisterCourseResult(randomClass, result);
+                    csvStudent.RegisterCourseResult(Course.SearchCourseById(search), Convert.ToByte(csvArray[i + 1]));
+                }
+                else
+                {
+                    string randomClass = csvArray[i];
+                    Course courseName = new Course(randomClass);
+
+                    csvStudent.RegisterCourseResult(courseName, Convert.ToByte(csvArray[i + 1]));
+
+                    Course wplCours = new Course("WPL");
+                }
             }
 
-            student3.ShowOverview();
+            try
+            {
+                csvStudent.ShowOverview();
+            }
+            catch (NullReferenceException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
+
+        public static void DemoStudyProgram()
+        {
+            Course communicatie = new Course("Communicatie");
+            Course programmeren = new Course("Programmeren");
+            Course databanken = new Course("Databanken");
+
+            List<Course> courses = new List<Course>() { communicatie, programmeren, databanken };
+
+            StudyProgram programmerenProgram = new StudyProgram("Programmeren");
+            StudyProgram snbProgram = new StudyProgram("Systeem- en netwerkbeheer");
+
+            programmerenProgram.Courses = courses;
+            snbProgram.Courses = courses;
+
+            programmerenProgram.ShowOverview();
+            snbProgram.ShowOverview();
+
+            Console.WriteLine("Druk op Enter om verder te gaan");
+            Console.Write(">");
+            Console.ReadKey();
         }
     }
 }
