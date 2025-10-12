@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Menu\\FoodPurchase.cs",
               "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\FoodPurchase.cs",
               "RelativeToolTip": "Menu\\FoodPurchase.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAqwEUAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-01T08:27:31.17Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "Menu\\Program.cs",
               "ViewState": "AgIAAEUAAAAAAAAAAADwv5AAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T14:46:29.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T14:46:29.241Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "Menu\\ClassesAndObjects.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T13:44:37.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-29T13:44:37.075Z"
             }
           ]
         }

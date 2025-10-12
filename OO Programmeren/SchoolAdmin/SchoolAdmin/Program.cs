@@ -214,18 +214,34 @@
 
         public static void DemoStudyProgram()
         {
+            //Course communicatie = new Course("Communicatie");
+            //Course programmeren = new Course("Programmeren");
+            //Course databanken = new Course("Databanken");
+
+            //List<Course> courses = new List<Course>() { communicatie, programmeren, databanken };
+
+            //StudyProgram programmerenProgram = new StudyProgram("Programmeren");
+            //StudyProgram snbProgram = new StudyProgram("Systeem- en netwerkbeheer");
+
+            //programmerenProgram.Courses = courses;
+            //snbProgram.Courses = courses;
+
+            //programmerenProgram.ShowOverview();
+            //snbProgram.ShowOverview();
+
             Course communicatie = new Course("Communicatie");
             Course programmeren = new Course("Programmeren");
             Course databanken = new Course("Databanken");
-
-            List<Course> courses = new List<Course>() { communicatie, programmeren, databanken };
-
+            List<Course> coursesProgrammeren = new List<Course>() { communicatie, programmeren, databanken };
+            List<Course> coursesSNB = new List<Course>() { communicatie, programmeren, databanken };
             StudyProgram programmerenProgram = new StudyProgram("Programmeren");
             StudyProgram snbProgram = new StudyProgram("Systeem- en netwerkbeheer");
-
-            programmerenProgram.Courses = courses;
-            snbProgram.Courses = courses;
-
+            programmerenProgram.Courses = coursesProgrammeren;
+            snbProgram.Courses = coursesSNB;
+            //we willen hieronder Databanken schrappen uit het programma SNB
+            snbProgram.Courses.Remove(databanken);
+            //voor SNB wordt de titel van de cursus Programmeren veranderd naar "Scripting"
+            snbProgram.Courses[1].Title = "Scripting";
             programmerenProgram.ShowOverview();
             snbProgram.ShowOverview();
 

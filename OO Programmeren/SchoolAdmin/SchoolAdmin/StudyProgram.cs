@@ -57,5 +57,17 @@ namespace SchoolAdmin
 
             Console.WriteLine();
         }
+
+        public void Remove(string input)
+        {
+            foreach(Course course in courses)
+            {
+                if(this.Name != input)
+                {
+                    throw new Exception("Ingevoerde richting is er niet");
+                }
+                courses.Remove(course);
+            }
+        }
     }
 }

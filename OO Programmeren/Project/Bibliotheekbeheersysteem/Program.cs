@@ -2,6 +2,11 @@
 {
     internal class Program
     {
+        private bool boekMenu = true;
+        private bool infoMenu = true;
+        private bool deleteMenu = true;
+        
+
         private static void Main(string[] args)
         {
             keuzeMenu();
@@ -15,13 +20,15 @@
 
             string[] options = ["Boek Toevoegen", "Extra Info Toevoegen", "Boek Zoeken -> (Titel,Auteur) ? Yes : No", "Bibliotheek Menu", "Boek Verwijderen", "Boeken Tonen", "CSV-Bestand In Lezen", "Afsluiten"];
 
+            Program opt = new Program();
+
             while (mainMenu)
             {
                 Console.Clear();
                 Console.WriteLine("Keuze Menu");
                 int mainChoice;
 
-                //print alle options uit om uit te kiezen
+                // print alle options uit om uit te kiezen
                 for (int i = 0; i < options.Length; i++)
                 {
                     Console.WriteLine($"{i + 1}: {options[i]}");
@@ -42,6 +49,7 @@
                 }
                 else
                 {
+                    //Als invoer niet een interger is zal  mainChoic 0 worden
                     mainChoice = 0;
                 }
 
@@ -83,10 +91,7 @@
                     case 2:
                         try
                         {
-                            bool boekMenu = true;
-                            bool infoMenu = true;
-
-                            while (boekMenu)
+                            while (opt.boekMenu)
                             {
                                 //print de lijst van het Library Object -> list<Books> -> Title
                                 for (int i = 0; i < bib.Books.Count; i++)
@@ -101,10 +106,14 @@
                                 do
                                 {
                                     Console.Clear();
+
                                     int infoChoice;
+
+                                    //GEKOZEN BOEK TONEN
                                     Console.WriteLine(bib.Books[choicenBook - 1].Title);
                                     Console.WriteLine(String.Empty.PadRight(bib.Books[choicenBook - 1].Title.Length, '*'));//--------
 
+                                    //Array van opties  voor extra info
                                     string[] infoOptions = ["Terug", "Taal", "Genre", "Aantal Bladeren", "Doelgroep", "Samenvatting", "ISBN", "Boek Wisselen"];
 
                                     for (int i = 0; i < infoOptions.Length; i++)
@@ -116,12 +125,14 @@
                                     Console.Write("> ");
                                     string inputInfo = Console.ReadLine();
 
+                                    //Checken of invoer interger is
                                     if (int.TryParse(inputInfo, out int resultInfo))
                                     {
                                         infoChoice = resultInfo;
                                     }
                                     else
                                     {
+                                        //Als het niet een int is geef -1 mee
                                         infoChoice = -1;
                                     }
 
@@ -131,11 +142,12 @@
                                             Console.WriteLine("input is een string, voer beschikbare optie in!\nDruk op enter");
                                             Console.Write(">");
                                             Console.ReadKey();
+                                            opt.infoMenu = false;
                                             break;
                                         //Terug
                                         case 0:
-                                            boekMenu = false;
-                                            infoMenu = false;
+                                            opt.boekMenu = false;
+                                            opt.infoMenu = false;
                                             break;
                                         //Taal
                                         case 1:
@@ -163,17 +175,34 @@
                                         case 2:
                                             try
                                             {
-                                                Console.Clear();
+                                                bool genreInput = true;
+                                                do
+                                                {
+                                                    Console.Clear();
 
-                                                Console.WriteLine(bib.Books[choicenBook - 1].Title);
-                                                Console.WriteLine(String.Empty.PadRight(bib.Books[choicenBook - 1].Title.Length, '*'));//--------
+                                                    Console.WriteLine(bib.Books[choicenBook - 1].Title);
+                                                    Console.WriteLine(String.Empty.PadRight(bib.Books[choicenBook - 1].Title.Length, '*'));
 
-                                                Console.WriteLine("Voer Genre in: ");
+                                                    Console.WriteLine("Voer Genre in: ");
 
-                                                Console.WriteLine();
+                                                    Console.WriteLine();
 
-                                                Console.Write("> ");
-                                                bib.Books[choicenBook - 1].Genre = Console.ReadLine();
+                                                    Console.Write("> ");
+
+                                                    try
+                                                    {
+                                                        bib.Books[choicenBook - 1].Genre = Console.ReadLine();
+                                                        genreInput = false;
+                                                    }
+                                                    catch (Exception e)
+                                                    {
+                                                        Console.WriteLine(e.Message);
+                                                    }
+
+                                                    Console.WriteLine("Druk op enter:");
+                                                    Console.Write(">");
+                                                    Console.ReadKey();
+                                                } while (genreInput);
                                             }
                                             catch (Exception e)
                                             {
@@ -187,7 +216,7 @@
                                             Console.WriteLine(bib.Books[choicenBook - 1].Title);
                                             Console.WriteLine(String.Empty.PadRight(bib.Books[choicenBook - 1].Title.Length, '*'));//--------
 
-                                            Console.WriteLine("VoerAantal Bladzijdes in: ");
+                                            Console.WriteLine("Voer aantal bladzijdes in: ");
 
                                             Console.WriteLine();
 
@@ -215,7 +244,7 @@
                                             Console.WriteLine(bib.Books[choicenBook - 1].Title);
                                             Console.WriteLine(String.Empty.PadRight(bib.Books[choicenBook - 1].Title.Length, '*'));//--------
 
-                                            Console.WriteLine("Voer Samenvatting in: ");
+                                            Console.WriteLine("Voer samenvatting in: ");
 
                                             Console.WriteLine();
 
@@ -224,23 +253,40 @@
                                             break;
                                         //ISBN
                                         case 6:
-                                            Console.Clear();
 
-                                            Console.WriteLine(bib.Books[choicenBook - 1].Title);
-                                            Console.WriteLine(String.Empty.PadRight(bib.Books[choicenBook - 1].Title.Length, '*'));//--------
+                                            bool isbninput = true;
+                                            do
+                                            {
+                                                Console.Clear();
 
-                                            Console.WriteLine("Voer Genre in: ");
+                                                Console.WriteLine(bib.Books[choicenBook - 1].Title);
+                                                Console.WriteLine(String.Empty.PadRight(bib.Books[choicenBook - 1].Title.Length, '*'));//--------
 
-                                            Console.WriteLine();
+                                                Console.WriteLine("Voer ISBN in: ");
+                                                Console.WriteLine();
 
-                                            Console.Write("> ");
-                                            bib.Books[choicenBook - 1].ISBN = Console.ReadLine();
+                                                Console.Write("> ");
+                                                try
+                                                {
+                                                    bib.Books[choicenBook - 1].ISBN = Console.ReadLine();
+                                                    Console.WriteLine("ISBN nummer is toegvoegd!!");
+                                                    isbninput = false;
+                                                }
+                                                catch (Exception e)
+                                                {
+                                                    Console.WriteLine(e.Message);
+                                                }
+
+                                                Console.WriteLine("Druk op enter:");
+                                                Console.Write(">");
+                                                Console.ReadKey();
+                                            } while (isbninput);
                                             break;
 
                                         //ander boek kiezen
                                         case 7:
 
-                                            infoMenu = false;
+                                            opt.infoMenu = false;
                                             break;
                                         //letters ingevoerd
                                         case > 8:
@@ -251,7 +297,7 @@
                                             break;
                                     }
                                     ;
-                                } while (infoMenu);
+                                } while (opt.infoMenu);
                             }
                             ;
                         }
@@ -260,29 +306,77 @@
                             Console.WriteLine(e.Message);
                         }
                         break;
-
+                    //Boek zoeken met title of auteur
                     case 3:
-                        break;
+                        try
+                        {
+                            bib.FindBookAuthAndTitle();
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine(e.Message);
+                        }
 
+                        Console.WriteLine("Druk op enter");
+                        Console.Write("> ");
+                        Console.ReadKey();
+
+                        break;
+                    //Bibliotheek Menu
                     case 4:
-                        break;
 
+                        break;
+                    //Boek Verwijderen
                     case 5:
-                        break;
+                        do
+                        {
+                            try
+                            {
+                                bib.DeleteBook();
+                                opt.deleteMenu = false;
+                            }
+                            catch (Exception e)
+                            {
+                                Console.WriteLine(e.Message);
 
+                                Console.WriteLine();
+                                Console.WriteLine("Druk op enter");
+                                Console.Write("> ");
+                                Console.ReadKey();
+                            }
+                        } while (opt.deleteMenu);
+
+                        break;
+                    //Boeken Tonen
                     case 6:
-                        break;
+                        Console.Clear();
+                        int counter = 0;
+                        string word = "Toon Boeken";
 
+                        Console.WriteLine(word);
+                        Console.WriteLine(string.Empty.PadRight(word.Length, '*'));
+
+                        foreach (Book book in bib.Books)
+                        {
+                            Console.WriteLine($"{++counter}: {book.Title}");
+                        }
+                        Console.WriteLine("Druk op enter");
+                        Console.Write("> ");
+                        Console.ReadKey();
+                        break;
+                    //CSV - Bestand In Lezen
                     case 7:
+                        bib.CsvFileReader();
+                        Console.ReadKey();
                         break;
-
+                    //aflsuiten van applicatie
                     case 8:
                         Console.WriteLine("bibliotheek applicatie afsluiten, Druk op Enter");
                         mainMenu = false;
                         Console.ReadKey();
                         break;
-
-                   case >8:
+                    //optie die niet in de lijst staan
+                    case > 8:
                         Console.WriteLine("Keuze staat niet in de lijst, voer beschikbare optie in!\nDruk op enter");
                         Console.Write(">");
                         Console.ReadKey();

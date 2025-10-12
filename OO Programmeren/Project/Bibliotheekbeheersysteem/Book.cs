@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Bibliotheekbeheersysteem
@@ -28,11 +29,11 @@ namespace Bibliotheekbeheersysteem
         Misdaad,
         Mysterie,
         Fantasie,
-        Horro,
+        Horror,
         Humor,
         Wetenschap
     }
-
+    
     internal class Book
     {
         private string title;
@@ -108,9 +109,33 @@ namespace Bibliotheekbeheersysteem
             }
             set
             {
-                //set moet er eerst gecheck worden op bepaalde voorwaardes
-                isbn = value;
+                if (IsValidISBN(value))
+                {
+                    isbn = value;
+                }
+                else
+                {
+                    throw new ArgumentException("Ongeldig ISBN formaat.");
+                }
             }
+        }
+
+        private bool IsValidISBN(string isbn)
+        {
+            // Verwijder streepjes
+            string cleanIsbn = isbn.Replace("-", "");
+            // @"^\d{10}$" 
+            //
+            //@ negeert escape van \\ 
+            //^ begin van de string
+            //\d cijfers van {0 - 9}
+            //{10} {13}  moet tien keer voor komen (length)
+            //
+            if (Regex.IsMatch(cleanIsbn, @"^\d{10}$") || Regex.IsMatch(cleanIsbn, @"^\d{13}$"))
+            {
+                return true;
+            }
+            return false;
         }
 
         public string Genre
@@ -134,6 +159,7 @@ namespace Bibliotheekbeheersysteem
                 {
                     throw new Exception($"Genre bestaat niet!");
                 }
+                Console.WriteLine("Genre is Toegevoegd!!");
                 this.genre = genre;
             }
         }

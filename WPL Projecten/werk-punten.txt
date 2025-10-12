@@ -1,0 +1,3 @@
+1. sneller een root: maken om extra werk te vermijden (trager vooruitgang in latere stage van de applicatie) --> mind-map voor standard waarde of lopende root hebben om per sprint nieuwe toevoegingen hebben
+
+2.duidelijkere syntax (meer comments als dit kan), het groeperen van syntax dat bij zelfde object/elementen horen
