@@ -57,7 +57,6 @@
                         break;
 
                     case 4:
-
                         DemoStudyProgram();
                         break;
 
@@ -165,12 +164,15 @@
         public static void ReadTextFormatStudent()
         {
             Program opt = new Program();
+
             //csv bestand vragen
             Console.WriteLine("Geef de tekstvoorstelling van 1 student in CSV-formaat:");
             Console.Write(">");
             string csvString = Console.ReadLine();
+
             //string omzetten naar array
-            string[] csvArray = csvString.Split(";"); ;
+            string[] csvArray = csvString.Split(";");
+
             //student aanmaken met indexen van de csv
             Student csvStudent = new Student(csvArray[0].ToString(), new DateTime(Convert.ToInt32(csvArray[3]), Convert.ToInt32(csvArray[2]), Convert.ToInt32(csvArray[1])));
             csvStudent.StudentNumber = Student.StudentCounter;

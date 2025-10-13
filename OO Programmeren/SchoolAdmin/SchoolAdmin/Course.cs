@@ -6,7 +6,7 @@
         public string Title;
         public List<Student> Students = new List<Student>();
         private byte creditPoints;
-        public int id;
+        private int id;
         private static int maxId = 1;
         public static List<Course> AllCourses = new List<Course>();
 
@@ -82,7 +82,7 @@
         {
             foreach (Course c in AllCourses)
             {
-                if (c.Id == id)
+                if (id == c.Id)
                 {
                     return c;
                 }

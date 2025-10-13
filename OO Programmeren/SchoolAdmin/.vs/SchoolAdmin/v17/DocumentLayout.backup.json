@@ -26,11 +26,11 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
@@ -51,9 +51,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\Program.cs",
               "RelativeDocumentMoniker": "SchoolAdmin\\Program.cs",
-              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\Program.cs",
-              "RelativeToolTip": "SchoolAdmin\\Program.cs",
-              "ViewState": "AgIAALoAAAAAAAAAAAAYwOAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\Program.cs*",
+              "RelativeToolTip": "SchoolAdmin\\Program.cs*",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAYwKsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-16T18:40:14.493Z",
               "EditorCaption": ""

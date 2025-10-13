@@ -34,7 +34,16 @@ namespace SchoolAdmin
 
         public byte DetermineWorkload()
         {
-            return (byte)(courseRegistrations.Count * 10);
+            byte total = 0;
+
+            foreach(CourseRegistration course in courseRegistrations)
+            {
+                if(course is not null)
+                {
+                    total +=10;
+                }
+            }
+            return total;
         }
 
         public void RegisterCourseResult(Course courseName, byte? result)

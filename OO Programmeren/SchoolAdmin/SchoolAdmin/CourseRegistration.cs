@@ -32,10 +32,11 @@
             }
             set
             {
-                if (!(value is null) && !(value > 20))
+                if (value is null || value > 20)
                 {
-                    result = value;
+                    throw new Exception("Ingevoerde waarde is null of hoger dan 20");
                 }
+                result = value;
             }
         }
     }
