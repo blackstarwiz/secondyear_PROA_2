@@ -4,7 +4,7 @@
     {
         private bool sub_isActive = true;
         private bool hoofd_isActive = true;
-        private string[] topic = ["DateTime", "ClassesAndObjects", "Programma afsluiten"];
+        private string[] topic = ["DateTime", "ClassesAndObjects", "Datastructuren", "Programma afsluiten"];
 
         private static void Main(string[] args)
         {
@@ -171,6 +171,57 @@
 
                                 default:
                                     if (sub2Keuze == h11.Length)
+                                    {
+                                        sub_isActive = false;
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("Ingevoerde keuze staat niet in de lijst, Klik op Enter");
+                                        Console.ReadKey();
+                                    }
+
+                                    break;
+                            }
+                            break;
+
+                        case 3:
+                            string[] h13 = ["H13-PhoneBookNameNumber","H13-PhoneBookCityNameNumber", "Terug naar Hoofdmenu"];
+                            int h13Len = h13.Length - 1;
+
+                            for (int i = 0; i < h13.Length; i++)
+                            {
+                                Console.WriteLine($"{i + 1}: {h13[i]}");
+                            }
+
+                            Console.Write("> ");
+
+                            int sub3Keuze = Convert.ToInt32(Console.ReadLine());
+
+                            switch (sub3Keuze)
+                            {
+                                case 1:
+                                    try
+                                    {
+                                        Datastructuren.PhoneBookNameNumber();
+                                    }
+                                    catch (Exception e)
+                                    {
+                                        Console.WriteLine($"{0}", e.Message);
+                                    }
+                                    break;
+                                case 2:
+                                    try
+                                    {
+                                        
+                                        Datastructuren.PhoneBookCityNameNumber();
+                                    }
+                                    catch(Exception e)
+                                    {
+                                        Console.WriteLine(e.Message);
+                                    }
+                                    break;
+                                default:
+                                    if (sub3Keuze == h13.Length)
                                     {
                                         sub_isActive = false;
                                     }
