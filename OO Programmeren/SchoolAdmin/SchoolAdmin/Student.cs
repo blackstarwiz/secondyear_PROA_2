@@ -1,38 +1,50 @@
-﻿using System.Globalization;
+﻿using System.Collections.Immutable;
+using System.Globalization;
 using System.Xml.Serialization;
 
 namespace SchoolAdmin
 {
-    internal class Student
+    internal class Student : Person
     {
-        public string Name;
-        public DateTime Birthdate;
-        public uint StudentNumber;
-        private List<CourseRegistration> courseRegistrations = new List<CourseRegistration>();
-        public static uint StudentCounter = 1;
-        
+        private List<CourseRegistration> courseRegistrations = new();
+        private static readonly ImmutableList<Student>.Builder allStudents = ImmutableList.CreateBuilder<Student>();
+        private ImmutableDictionary<DateTime, string> studentFile = ImmutableDictionary<DateTime, string>.Empty;
 
-        public Student(string name, DateTime birthdate)
+        public Student(string name, DateTime birthdate) : base(name, birthdate) {
+            allStudents.Add(this);
+        }
+
+
+        public ImmutableList<Student> Allstudents
         {
-            this.Name = name;
-            this.Birthdate = birthdate;
+            get
+            {
+                return allStudents.ToImmutableList();
+            }
+        }
+
+        public ImmutableDictionary<DateTime,string> StudentFile
+        {
+            get
+            {
+                return studentFile.ToImmutableDictionary();
+            }
         }
 
         public int Age
         {
             get
             {
-                TimeSpan age = DateTime.Now - Birthdate;
-                return age.Days / 365;
+                return base.Age;
             }
         }
 
-        public string GenerateNameCard()
+        public override string GenerateNameCard()
         {
-            return $"{this.Name} ({this.Age.ToString("F0")} jaar)";
+            return $"{base.Name} ({this.Age.ToString("F0")} jaar)";
         }
 
-        public byte DetermineWorkload()
+        public override double DetermineWorkload()
         {
             byte total = 0;
 
@@ -94,5 +106,6 @@ namespace SchoolAdmin
             
 
         }
+       
     }
 }

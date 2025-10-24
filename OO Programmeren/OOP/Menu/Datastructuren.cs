@@ -7,9 +7,9 @@ namespace Menu
         //phonebook name and number
         public static void PhoneBookNameNumber()
         {
-            //we maken een key, value pair dat de naam en nummer zal bij hoiuden
+            //we maken een key, value pair dat de naam en nummer zal bij houden
             //Dictionary<string, string> phoneBook = new Dictionary<string, string>();
-            //bool om de do while te laten werken tot als de gebruiker nee intypte
+            //bool om de do-while te laten werken tot als de gebruiker nee intypte
             bool activeUser = true;
 
             do
@@ -32,7 +32,6 @@ namespace Menu
             //als naam al voorkomt in de phone boek vervangen we de nummer
             if (phoneBook.TryGetValue(name, out var result))
             {
-                Console.WriteLine(result);
                 phoneBook[name] = number;
             }
             //anders voegen we de nieuwe entrie toe
@@ -60,7 +59,6 @@ namespace Menu
                 case "JA":
                 case "jA":
                     return true;
-                    
 
                 default:
                     foreach (KeyValuePair<string, string> data in phonebook)
@@ -68,10 +66,10 @@ namespace Menu
                         Console.WriteLine($"{data.Key}: {data.Value}");
                     }
                     return false;
-                    
             }
         }
 
+        //--------------------------------------------------------------------------------------------------------------------------
         //phonebook city name number
         public static void PhoneBookCityNameNumber()
         {
@@ -90,8 +88,6 @@ namespace Menu
                 activeUser = ViewPhoneBookCityNameNumber(ImmutableMultiDictionaryBuilder(city, name, number));
             } while (activeUser);
         }
-
-        
 
         private static ImmutableDictionary<string, ImmutableDictionary<string, string>> ImmutableMultiDictionaryBuilder(string city, string name, string number)
         {

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,12 +10,13 @@ namespace SchoolAdmin
     internal class StudyProgram
     {
         private string name;
-        private List<Course> courses;
+        private readonly ImmutableList<Course> courses = ImmutableList<Course>.Empty;
 
-        public StudyProgram(string name, List<Course> courses)
+        public StudyProgram(string name, List<Course> course)
         {
             this.Name = name;
-            this.Courses = courses ?? new List<Course>();
+
+            courses = course.ToImmutableList();
         }
 
         public StudyProgram(string name) : this(name, null)
@@ -33,15 +35,11 @@ namespace SchoolAdmin
             }
         }
 
-        public List<Course> Courses
+        public ImmutableList<Course> Courses
         {
             get
             {
-                return courses;
-            }
-            set
-            {
-                courses = value;
+                return courses.ToImmutableList();
             }
         }
 

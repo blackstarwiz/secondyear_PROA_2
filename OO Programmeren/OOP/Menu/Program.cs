@@ -4,7 +4,7 @@
     {
         private bool sub_isActive = true;
         private bool hoofd_isActive = true;
-        private string[] topic = ["DateTime", "ClassesAndObjects", "Datastructuren", "Programma afsluiten"];
+        private string[] topic = ["DateTime", "ClassesAndObjects", "Datastructuren", "Inheritance", "Programma afsluiten"];
 
         private static void Main(string[] args)
         {
@@ -122,6 +122,9 @@
                                     ClassesAndObjects.DemoFigures();
 
                                     break;
+                                case 8:
+                                    Inheritance.ShowSubMenu();
+                                    break;
 
                                 default:
                                     if (sub1Keuze == h10.Length)
@@ -234,7 +237,10 @@
                                     break;
                             }
                             break;
-
+                        case 4:
+                            Inheritance.ShowSubMenu();
+                            sub_isActive = false;
+                            break;
                         default:
                             Console.WriteLine("Dit zou topic#2 moeten zijn, terug keren naar hoofdmenu");
                             sub_isActive = false;

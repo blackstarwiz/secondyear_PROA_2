@@ -1,4 +1,6 @@
-﻿namespace SchoolAdmin
+﻿using System.Collections.Immutable;
+
+namespace SchoolAdmin
 {
     //Course is bedoeld om te zien hoeveel studenten er in de opleiding zit
     internal class Course
@@ -8,7 +10,7 @@
         private byte creditPoints;
         private int id;
         private static int maxId = 1;
-        public static List<Course> AllCourses = new List<Course>();
+        public static ImmutableList<Course>.Builder AllCourses = ImmutableList.CreateBuilder<Course>();
 
         public Course(string title, List<Student> students, byte creditpoints)
         {
@@ -18,7 +20,7 @@
             this.Students = students ?? new List<Student>();
             this.CreditPoints = creditpoints;
             
-            Course.AllCourses.Add(this);
+            AllCourses.Add(this);
         }
 
         public Course(string title, List<Student> students) : this (title, students, 3)

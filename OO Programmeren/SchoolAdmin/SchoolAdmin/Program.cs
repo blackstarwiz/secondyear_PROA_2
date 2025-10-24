@@ -1,4 +1,6 @@
-﻿namespace SchoolAdmin
+﻿using System.Threading.Channels;
+
+namespace SchoolAdmin
 {
     internal class Program
     {
@@ -14,7 +16,7 @@
             bool active = true;
 
             // Menu-opties die de gebruiker kan kiezen
-            string[] optie = ["DemonstreerStudenten uitvoeren", "DemostreerCursussen uitvoeren", "ReadTextFormatStudent", "DemoStudyProgram", "Terminating"];
+            string[] optie = ["DemonstreerStudenten uitvoeren", "DemostreerCursussen uitvoeren", "ReadTextFormatStudent", "DemoStudyProgram", "DemoAdministrativePersonnel", "Terminating"];
 
             do
             {
@@ -60,6 +62,10 @@
                         DemoStudyProgram();
                         break;
 
+                    case 5:
+                        DemoAdministrativePersonnel();
+                        break;
+
                     default:
                         Console.WriteLine("Terminating, press Enter");
                         Console.ReadKey();
@@ -75,10 +81,6 @@
 
             Student student1 = new Student("Said Aziz", new DateTime(2000, 6, 1));
             Student student2 = new Student("Mieke Vermeulen", new DateTime(1998, 1, 1));
-
-            student1.StudentNumber = Student.StudentCounter;
-
-            Student.StudentCounter++;
 
             for (int i = 0; i < 3; i++)
             {
@@ -98,10 +100,6 @@
 
                 student1.RegisterCourseResult(courseName, result);
             }
-
-            student2.StudentNumber = Student.StudentCounter;
-
-            Student.StudentCounter++;
 
             for (int i = 0; i < 3; i++)
             {
@@ -127,10 +125,9 @@
 
             //student objecten maken
             Student student1 = new Student("Said Aziz", new DateTime(2000, 6, 1));
-            Student.StudentCounter++;
 
             Student student2 = new Student("Mieke Vermeulen", new DateTime(1998, 1, 1));
-            Student.StudentCounter++;
+
             //student objecten tovoegen aan de list students
             opt.students.Add(student1);
             opt.students.Add(student2);
@@ -165,6 +162,7 @@
         {
             Program opt = new Program();
 
+            Console.Clear();
             //csv bestand vragen
             Console.WriteLine("Geef de tekstvoorstelling van 1 student in CSV-formaat:");
             Console.Write(">");
@@ -175,9 +173,7 @@
 
             //student aanmaken met indexen van de csv
             Student csvStudent = new Student(csvArray[0].ToString(), new DateTime(Convert.ToInt32(csvArray[3]), Convert.ToInt32(csvArray[2]), Convert.ToInt32(csvArray[1])));
-            csvStudent.StudentNumber = Student.StudentCounter;
 
-            Student.StudentCounter++;
             //student toevoegen aan de list object students
             opt.students.Add(csvStudent);
             //door de array gaan om de vakken en punten te vinden
@@ -207,6 +203,9 @@
             try
             {
                 csvStudent.ShowOverview();
+                Console.WriteLine("Student toegevoegd, terug naar menu");
+                Console.Write("> ");
+                Console.ReadKey();
             }
             catch (NullReferenceException e)
             {
@@ -231,16 +230,23 @@
             //programmerenProgram.ShowOverview();
             //snbProgram.ShowOverview();
 
+            //opleidingen maken van de verschillende  Course-objecten
             Course communicatie = new Course("Communicatie");
             Course programmeren = new Course("Programmeren");
             Course databanken = new Course("Databanken");
+
+            //list object maken van de verschillende richtingen waarvan de opleidngen meegegeven worden
             List<Course> coursesProgrammeren = new List<Course>() { communicatie, programmeren, databanken };
             List<Course> coursesSNB = new List<Course>() { communicatie, programmeren, databanken };
-            StudyProgram programmerenProgram = new StudyProgram("Programmeren");
-            StudyProgram snbProgram = new StudyProgram("Systeem- en netwerkbeheer");
-            programmerenProgram.Courses = coursesProgrammeren;
-            snbProgram.Courses = coursesSNB;
+
+            //study programma maken die een title en list van opleidingen nodig heeft
+            StudyProgram programmerenProgram = new StudyProgram("Programmeren", coursesProgrammeren);
+            StudyProgram snbProgram = new StudyProgram("Systeem- en netwerkbeheer", coursesSNB);
+            // programmerenProgram.Courses = coursesProgrammeren;
+            // snbProgram.Courses = coursesSNB;
             //we willen hieronder Databanken schrappen uit het programma SNB
+
+            //dit doet niets meer sinds het aanpassen van de courses in studyprogram -> immutable
             snbProgram.Courses.Remove(databanken);
             //voor SNB wordt de titel van de cursus Programmeren veranderd naar "Scripting"
             snbProgram.Courses[1].Title = "Scripting";
@@ -249,6 +255,27 @@
 
             Console.WriteLine("Druk op Enter om verder te gaan");
             Console.Write(">");
+            Console.ReadKey();
+        }
+
+        public static void DemoAdministrativePersonnel()
+        {
+            Dictionary<string, byte> taskAhmed = new Dictionary<string, byte> {
+                {"roostering", 10 },
+                {"correspondentie", 10 },
+                {"animatie", 10 }
+            };
+            AdministrativePersonnel ahem = new AdministrativePersonnel("Ahmed Azzaoui", new DateTime(1988, 02, 04), taskAhmed);
+            ahem.Seniority = 4;
+
+            foreach (var personnel in ahem.AllAdministrativePersonnel)
+            {
+                Console.WriteLine(personnel.GenerateNameCard());
+                Console.WriteLine(personnel.CalculateSalary());
+                Console.WriteLine(personnel.DetermineWorkload());
+            }
+            Console.WriteLine("dit waren al de collegas, terug naar menu");
+            Console.Write("Press Enter > ");
             Console.ReadKey();
         }
     }

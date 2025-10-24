@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2EB99C6F-F4B1-4C76-9A37-EBFAF74DAABB}|SchoolAdmin\\SchoolAdmin.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\schooladmin\\schooladmin\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EB99C6F-F4B1-4C76-9A37-EBFAF74DAABB}|SchoolAdmin\\SchoolAdmin.csproj|solutionrelative:schooladmin\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EB99C6F-F4B1-4C76-9A37-EBFAF74DAABB}|SchoolAdmin\\SchoolAdmin.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\schooladmin\\schooladmin\\studyprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EB99C6F-F4B1-4C76-9A37-EBFAF74DAABB}|SchoolAdmin\\SchoolAdmin.csproj|solutionrelative:schooladmin\\studyprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EB99C6F-F4B1-4C76-9A37-EBFAF74DAABB}|SchoolAdmin\\SchoolAdmin.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\schooladmin\\schooladmin\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EB99C6F-F4B1-4C76-9A37-EBFAF74DAABB}|SchoolAdmin\\SchoolAdmin.csproj|solutionrelative:schooladmin\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2EB99C6F-F4B1-4C76-9A37-EBFAF74DAABB}|SchoolAdmin\\SchoolAdmin.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\schooladmin\\schooladmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2EB99C6F-F4B1-4C76-9A37-EBFAF74DAABB}|SchoolAdmin\\SchoolAdmin.csproj|solutionrelative:schooladmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EB99C6F-F4B1-4C76-9A37-EBFAF74DAABB}|SchoolAdmin\\SchoolAdmin.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\schooladmin\\schooladmin\\courseregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EB99C6F-F4B1-4C76-9A37-EBFAF74DAABB}|SchoolAdmin\\SchoolAdmin.csproj|solutionrelative:schooladmin\\courseregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2EB99C6F-F4B1-4C76-9A37-EBFAF74DAABB}|SchoolAdmin\\SchoolAdmin.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\schooladmin\\schooladmin\\administrativepersonnel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB99C6F-F4B1-4C76-9A37-EBFAF74DAABB}|SchoolAdmin\\SchoolAdmin.csproj|solutionrelative:schooladmin\\administrativepersonnel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB99C6F-F4B1-4C76-9A37-EBFAF74DAABB}|SchoolAdmin\\SchoolAdmin.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\schooladmin\\schooladmin\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB99C6F-F4B1-4C76-9A37-EBFAF74DAABB}|SchoolAdmin\\SchoolAdmin.csproj|solutionrelative:schooladmin\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB99C6F-F4B1-4C76-9A37-EBFAF74DAABB}|SchoolAdmin\\SchoolAdmin.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\schooladmin\\schooladmin\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB99C6F-F4B1-4C76-9A37-EBFAF74DAABB}|SchoolAdmin\\SchoolAdmin.csproj|solutionrelative:schooladmin\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB99C6F-F4B1-4C76-9A37-EBFAF74DAABB}|SchoolAdmin\\SchoolAdmin.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\schooladmin\\schooladmin\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB99C6F-F4B1-4C76-9A37-EBFAF74DAABB}|SchoolAdmin\\SchoolAdmin.csproj|solutionrelative:schooladmin\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,8 +29,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 493,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,66 +43,72 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StudyProgram.cs",
-              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\StudyProgram.cs",
-              "RelativeDocumentMoniker": "SchoolAdmin\\StudyProgram.cs",
-              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\StudyProgram.cs",
-              "RelativeToolTip": "SchoolAdmin\\StudyProgram.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAgwDoAAAAIAAAAAAAAAA==",
+              "Title": "AdministrativePersonnel.cs",
+              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\AdministrativePersonnel.cs",
+              "RelativeDocumentMoniker": "SchoolAdmin\\AdministrativePersonnel.cs",
+              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\AdministrativePersonnel.cs",
+              "RelativeToolTip": "SchoolAdmin\\AdministrativePersonnel.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAD4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T14:44:32.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\Student.cs",
-              "RelativeDocumentMoniker": "SchoolAdmin\\Student.cs",
-              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\Student.cs",
-              "RelativeToolTip": "SchoolAdmin\\Student.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAkwDUAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T09:53:12.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CourseRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\CourseRegistration.cs",
-              "RelativeDocumentMoniker": "SchoolAdmin\\CourseRegistration.cs",
-              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\CourseRegistration.cs",
-              "RelativeToolTip": "SchoolAdmin\\CourseRegistration.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAkwCIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T10:01:28.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\Program.cs",
-              "RelativeDocumentMoniker": "SchoolAdmin\\Program.cs",
-              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\Program.cs",
-              "RelativeToolTip": "SchoolAdmin\\Program.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAgwDoAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T18:40:14.493Z",
+              "WhenOpened": "2025-10-24T17:24:18.465Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\Course.cs",
-              "RelativeDocumentMoniker": "SchoolAdmin\\Course.cs",
-              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\Course.cs",
-              "RelativeToolTip": "SchoolAdmin\\Course.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAA1wFUAAAARAAAAAAAAAA==",
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\Employee.cs",
+              "RelativeDocumentMoniker": "SchoolAdmin\\Employee.cs",
+              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\Employee.cs",
+              "RelativeToolTip": "SchoolAdmin\\Employee.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T21:23:12.094Z",
+              "WhenOpened": "2025-10-24T16:48:08.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\Person.cs",
+              "RelativeDocumentMoniker": "SchoolAdmin\\Person.cs",
+              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\Person.cs",
+              "RelativeToolTip": "SchoolAdmin\\Person.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADgvxsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T14:02:57.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\Program.cs",
+              "RelativeDocumentMoniker": "SchoolAdmin\\Program.cs",
+              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\Program.cs",
+              "RelativeToolTip": "SchoolAdmin\\Program.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAApwAsBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T18:40:14.493Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 17,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\Student.cs",
+              "RelativeDocumentMoniker": "SchoolAdmin\\Student.cs",
+              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\SchoolAdmin\\SchoolAdmin\\Student.cs",
+              "RelativeToolTip": "SchoolAdmin\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T15:02:44.098Z",
               "EditorCaption": ""
             }
           ]
