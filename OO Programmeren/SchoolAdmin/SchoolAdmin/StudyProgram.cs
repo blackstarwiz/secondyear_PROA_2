@@ -11,7 +11,7 @@ namespace SchoolAdmin
     {
         private string name;
         private readonly ImmutableList<Course> courses = ImmutableList<Course>.Empty;
-
+        
         public StudyProgram(string name, List<Course> course)
         {
             this.Name = name;

@@ -1,0 +1,87 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Collections.Immutable;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SchoolAdmin
+{
+    internal class Lecturer : Employee
+    {
+        private ImmutableList<Lecturer> allLecturer = ImmutableList<Lecturer>.Empty;
+        private ImmutableDictionary<Course, byte> allCourses = ImmutableDictionary<Course, byte>.Empty;
+
+        public Lecturer(string name, DateTime birthdate, Dictionary<string, byte> courses) : base(name, birthdate, courses)
+        {
+            allLecturer = allLecturer.Add(this);
+
+            if (courses != null)
+            {
+                foreach (var course in courses)
+                {
+                    allCourses = allCourses.Add(new Course(course.Key, ImmutableList<Student>.Empty.ToList(), 0), course.Value);
+                }
+            }
+        }
+
+        public ImmutableList<Lecturer> AllLecturer
+        {
+            get
+            {
+                return allLecturer;
+            }
+        }
+
+        public ImmutableDictionary<Course, byte> AllCourses
+        {
+            get
+            {
+                return allCourses;
+            }
+        }
+
+        public override uint CalculateSalary()
+        {
+            uint basisSalary = 2200;
+            uint resultSalary = 0;
+
+            if (this.Seniority >= 4)
+            {
+                //jaren dienst ==> decimal years
+                var y = this.Seniority / 4;
+                decimal years = Math.Floor(Convert.ToDecimal(y));
+
+                //werkbelasting ophalen van werknemen
+                double workload = this.DetermineWorkload();
+
+                //basis + accientiteit x workload / voltijdswerk(40u);
+                resultSalary = Convert.ToUInt32((basisSalary + Convert.ToUInt32((years * 120))) * workload / 40);
+            }
+            else
+            {
+                resultSalary = basisSalary;
+            }
+
+            return resultSalary;
+        }
+
+        public override double DetermineWorkload()
+        {
+            double result = 0;
+            foreach (var lector in AllLecturer)
+            {
+                foreach (var course in lector.AllCourses)
+                {
+                    result += course.Value;
+                }
+            }
+            return result;
+        }
+
+        public override string GenerateNameCard()
+        {
+            return $"{this.Name} \nLector voor:";
+        }
+    }
+}

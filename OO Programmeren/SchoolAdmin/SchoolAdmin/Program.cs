@@ -16,7 +16,7 @@ namespace SchoolAdmin
             bool active = true;
 
             // Menu-opties die de gebruiker kan kiezen
-            string[] optie = ["DemonstreerStudenten uitvoeren", "DemostreerCursussen uitvoeren", "ReadTextFormatStudent", "DemoStudyProgram", "DemoAdministrativePersonnel", "Terminating"];
+            string[] optie = ["DemonstreerStudenten uitvoeren", "DemostreerCursussen uitvoeren", "ReadTextFormatStudent", "DemoStudyProgram", "DemoAdministrativePersonnel","DemoLecturers", "Terminating"];
 
             do
             {
@@ -65,9 +65,13 @@ namespace SchoolAdmin
                     case 5:
                         DemoAdministrativePersonnel();
                         break;
+                    case 6:
+                        DemoLecturers();
+                        break;
 
                     default:
                         Console.WriteLine("Terminating, press Enter");
+                        Console.Write("> ");
                         Console.ReadKey();
                         active = false;
                         break;
@@ -271,11 +275,47 @@ namespace SchoolAdmin
             foreach (var personnel in ahem.AllAdministrativePersonnel)
             {
                 Console.WriteLine(personnel.GenerateNameCard());
+
                 Console.WriteLine(personnel.CalculateSalary());
                 Console.WriteLine(personnel.DetermineWorkload());
             }
             Console.WriteLine("dit waren al de collegas, terug naar menu");
             Console.Write("Press Enter > ");
+            Console.ReadKey();
+        }
+
+        public static void DemoLecturers()
+        {
+            Lecturer lectoren;//all lectoren toevoegen met dit ==>list van maken is ook een optie maar niet gevraagd in opgave
+
+            var courses_Anna = new Dictionary<string, byte>
+            {
+                {"Economie", 10 },
+                {"Statistiek", 10 },
+                { "Analytische meetkunde", 10}
+            };
+
+            var annaBolzano = new Lecturer("Anna Bolzano", new DateTime(1975, 06, 12), courses_Anna);
+
+            annaBolzano.Seniority = 9;
+
+            lectoren = annaBolzano;
+
+            foreach(var lector in lectoren.AllLecturer)
+            {
+                Console.WriteLine(lector.GenerateNameCard());
+
+                foreach (var course in lectoren.AllCourses)
+                {
+                    Console.WriteLine(course.Key.Title);
+                }
+
+                Console.WriteLine(lector.CalculateSalary());
+                Console.WriteLine(lector.DetermineWorkload());
+            }
+
+            Console.WriteLine("alle lectoren zijn getoont, terug naar menu");
+            Console.Write("press enter >");
             Console.ReadKey();
         }
     }
