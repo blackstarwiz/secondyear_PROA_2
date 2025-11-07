@@ -24,6 +24,16 @@ namespace SchoolAdmin
             }
         }
 
+        public override string ToString()
+        {
+            string person = "Person\n";
+            string underline = $"{String.Empty.PadRight(person.Length, '-')}\n";
+            string name = $"Name: {GenerateNameCard()}\n";
+            string age = $"Leeftijd: {Age}\n";
+            string admin = $"Administratief personeel";
+
+            return $"{person}{underline}{name}{age}{admin}";
+        }
         public override uint CalculateSalary()
         {
             uint basisSalary = 2000;

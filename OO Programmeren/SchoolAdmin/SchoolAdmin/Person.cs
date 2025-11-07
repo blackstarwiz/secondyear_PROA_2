@@ -75,8 +75,30 @@ namespace SchoolAdmin
             }
         }
 
+        public override bool Equals(object? obj)
+        {
+            if(!(obj is null))
+                return obj is Person other && Id == other.Id;
+            return false;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Id);
+        }
+
         public abstract string GenerateNameCard();
 
         public abstract double DetermineWorkload();
+
+        public override string ToString()
+        {
+            string person = "Person\n";
+            string underline = $"{String.Empty.PadRight(person.Length, '-')}\n";
+            string name = $"Name {GenerateNameCard()}\n";
+            string age = $"Leeftijd: {Age}\n";
+
+            return $"{person}{underline}{name}{age}";
+        }
     }
 }

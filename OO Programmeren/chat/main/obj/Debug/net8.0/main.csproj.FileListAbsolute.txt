@@ -1,0 +1,15 @@
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\chat\main\bin\Debug\net8.0\main.exe
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\chat\main\bin\Debug\net8.0\main.deps.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\chat\main\bin\Debug\net8.0\main.runtimeconfig.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\chat\main\bin\Debug\net8.0\main.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\chat\main\bin\Debug\net8.0\main.pdb
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\chat\main\obj\Debug\net8.0\main.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\chat\main\obj\Debug\net8.0\main.AssemblyInfoInputs.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\chat\main\obj\Debug\net8.0\main.AssemblyInfo.cs
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\chat\main\obj\Debug\net8.0\main.csproj.CoreCompileInputs.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\chat\main\obj\Debug\net8.0\main.sourcelink.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\chat\main\obj\Debug\net8.0\main.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\chat\main\obj\Debug\net8.0\refint\main.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\chat\main\obj\Debug\net8.0\main.pdb
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\chat\main\obj\Debug\net8.0\main.genruntimeconfig.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\chat\main\obj\Debug\net8.0\ref\main.dll

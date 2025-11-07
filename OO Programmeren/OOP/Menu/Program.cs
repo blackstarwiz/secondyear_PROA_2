@@ -13,6 +13,7 @@
 
             do
             {
+                Console.Clear();
                 Console.WriteLine("Topic van de uit te voeren oefening");
 
                 for (int i = 0; i < Menu.topic.Length; i++)
@@ -23,7 +24,7 @@
                 Console.Write("> ");
 
                 keuzeTopic = Convert.ToInt32(Console.ReadLine());
-
+                Console.Clear();
                 try
                 {
                     if (keuzeTopic % Menu.topic.Length != 0)

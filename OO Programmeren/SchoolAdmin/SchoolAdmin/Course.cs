@@ -57,6 +57,17 @@ namespace SchoolAdmin
             }
         }
 
+        public override bool Equals(object? obj)
+        {
+            if (!(obj is null))
+                return obj is Course other && Id == other.Id;
+            return false;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Id);
+        }
         public void ShowOverview()
         {
             

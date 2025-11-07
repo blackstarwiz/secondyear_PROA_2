@@ -1,0 +1,29 @@
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\23-24\23-24\Toets\SchoolAdmin\SchoolAdmin\bin\Debug\net6.0\SchoolAdmin.exe
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\23-24\23-24\Toets\SchoolAdmin\SchoolAdmin\bin\Debug\net6.0\SchoolAdmin.deps.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\23-24\23-24\Toets\SchoolAdmin\SchoolAdmin\bin\Debug\net6.0\SchoolAdmin.runtimeconfig.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\23-24\23-24\Toets\SchoolAdmin\SchoolAdmin\bin\Debug\net6.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\23-24\23-24\Toets\SchoolAdmin\SchoolAdmin\bin\Debug\net6.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\23-24\23-24\Toets\SchoolAdmin\SchoolAdmin\obj\Debug\net6.0\SchoolAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\23-24\23-24\Toets\SchoolAdmin\SchoolAdmin\obj\Debug\net6.0\SchoolAdmin.AssemblyInfoInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\23-24\23-24\Toets\SchoolAdmin\SchoolAdmin\obj\Debug\net6.0\SchoolAdmin.AssemblyInfo.cs
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\23-24\23-24\Toets\SchoolAdmin\SchoolAdmin\obj\Debug\net6.0\SchoolAdmin.csproj.CoreCompileInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\23-24\23-24\Toets\SchoolAdmin\SchoolAdmin\obj\Debug\net6.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\23-24\23-24\Toets\SchoolAdmin\SchoolAdmin\obj\Debug\net6.0\refint\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\23-24\23-24\Toets\SchoolAdmin\SchoolAdmin\obj\Debug\net6.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\23-24\23-24\Toets\SchoolAdmin\SchoolAdmin\obj\Debug\net6.0\SchoolAdmin.genruntimeconfig.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\23-24\23-24\Toets\SchoolAdmin\SchoolAdmin\obj\Debug\net6.0\ref\SchoolAdmin.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\Tusssentijdse-toetsen\1ste\SchoolAdmin\SchoolAdmin\SchoolAdmin\bin\Debug\net6.0\SchoolAdmin.exe
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\Tusssentijdse-toetsen\1ste\SchoolAdmin\SchoolAdmin\SchoolAdmin\bin\Debug\net6.0\SchoolAdmin.deps.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\Tusssentijdse-toetsen\1ste\SchoolAdmin\SchoolAdmin\SchoolAdmin\bin\Debug\net6.0\SchoolAdmin.runtimeconfig.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\Tusssentijdse-toetsen\1ste\SchoolAdmin\SchoolAdmin\SchoolAdmin\bin\Debug\net6.0\SchoolAdmin.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\Tusssentijdse-toetsen\1ste\SchoolAdmin\SchoolAdmin\SchoolAdmin\bin\Debug\net6.0\SchoolAdmin.pdb
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\Tusssentijdse-toetsen\1ste\SchoolAdmin\SchoolAdmin\SchoolAdmin\obj\Debug\net6.0\SchoolAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\Tusssentijdse-toetsen\1ste\SchoolAdmin\SchoolAdmin\SchoolAdmin\obj\Debug\net6.0\SchoolAdmin.AssemblyInfoInputs.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\Tusssentijdse-toetsen\1ste\SchoolAdmin\SchoolAdmin\SchoolAdmin\obj\Debug\net6.0\SchoolAdmin.AssemblyInfo.cs
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\Tusssentijdse-toetsen\1ste\SchoolAdmin\SchoolAdmin\SchoolAdmin\obj\Debug\net6.0\SchoolAdmin.csproj.CoreCompileInputs.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\Tusssentijdse-toetsen\1ste\SchoolAdmin\SchoolAdmin\SchoolAdmin\obj\Debug\net6.0\SchoolAdmin.sourcelink.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\Tusssentijdse-toetsen\1ste\SchoolAdmin\SchoolAdmin\SchoolAdmin\obj\Debug\net6.0\SchoolAdmin.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\Tusssentijdse-toetsen\1ste\SchoolAdmin\SchoolAdmin\SchoolAdmin\obj\Debug\net6.0\refint\SchoolAdmin.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\Tusssentijdse-toetsen\1ste\SchoolAdmin\SchoolAdmin\SchoolAdmin\obj\Debug\net6.0\SchoolAdmin.pdb
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\Tusssentijdse-toetsen\1ste\SchoolAdmin\SchoolAdmin\SchoolAdmin\obj\Debug\net6.0\SchoolAdmin.genruntimeconfig.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\Tusssentijdse-toetsen\1ste\SchoolAdmin\SchoolAdmin\SchoolAdmin\obj\Debug\net6.0\ref\SchoolAdmin.dll

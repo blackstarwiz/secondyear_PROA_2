@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bibliotheekbeheersysteem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7b8e3bff7b966362a3bb50c4dc0fa889213d127")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dccceff8ad02a63426961a09e2c2041731cfec42")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bibliotheekbeheersysteem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bibliotheekbeheersysteem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

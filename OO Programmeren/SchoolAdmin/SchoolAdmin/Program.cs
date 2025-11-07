@@ -269,12 +269,12 @@ namespace SchoolAdmin
                 {"correspondentie", 10 },
                 {"animatie", 10 }
             };
-            AdministrativePersonnel ahem = new AdministrativePersonnel("Ahmed Azzaoui", new DateTime(1988, 02, 04), taskAhmed);
-            ahem.Seniority = 4;
+            AdministrativePersonnel person1 = new AdministrativePersonnel("Ahmed Azzaoui", new DateTime(1988, 02, 04), taskAhmed);
+            person1.Seniority = 4;
 
-            foreach (var personnel in ahem.AllAdministrativePersonnel)
+            foreach (var personnel in person1.AllAdministrativePersonnel)
             {
-                Console.WriteLine(personnel.GenerateNameCard());
+                Console.WriteLine(personnel.ToString());
 
                 Console.WriteLine(personnel.CalculateSalary());
                 Console.WriteLine(personnel.DetermineWorkload());
