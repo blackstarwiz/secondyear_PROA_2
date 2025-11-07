@@ -6,6 +6,7 @@ namespace Bibliotheekbeheersysteem
     {
         private string nameLibary;
         private List<Book> books = new List<Book>();
+        private Dictionary<DateTime, ReadingRoomItem> allReadingRoom = new Dictionary<DateTime, ReadingRoomItem>();
 
         public Library(string name)
         {
@@ -29,6 +30,14 @@ namespace Bibliotheekbeheersysteem
             get
             {
                 return books;
+            }
+        }
+
+        public Dictionary<DateTime, ReadingRoomItem> AllReadingRoom
+        {
+            get
+            {
+                return allReadingRoom;
             }
         }
 
@@ -114,7 +123,7 @@ namespace Bibliotheekbeheersysteem
                         }
                         else
                         {
-                            Console.WriteLine(this.Books[i].Title);
+                            throw new ArgumentException("Gekoze boek staat niet in de lijst");
                         }
                     }
 
@@ -334,8 +343,8 @@ namespace Bibliotheekbeheersysteem
 
                 var lines = File.ReadAllLines(csvPath);
                 Console.WriteLine($"Gevonden: {csvPath} (totaal regels: {lines.Length})");
-                
-                books = new string[lines.Length,8];
+
+                books = new string[lines.Length, 8];
 
                 for (int i = 0; i < lines.Length; i++)
                 {
@@ -343,7 +352,7 @@ namespace Bibliotheekbeheersysteem
                 }
                 Console.WriteLine(books);
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 Console.WriteLine(e.Message);
             }
@@ -355,10 +364,8 @@ namespace Bibliotheekbeheersysteem
 
             while (dir != null)
             {
-
                 if (dir.GetFiles("*.sln").Any())
                     return dir.FullName;
-
 
                 if (dir.GetDirectories("csv").Any())
                     return dir.FullName;
@@ -384,9 +391,57 @@ namespace Bibliotheekbeheersysteem
             var projectRoot = FindProjectRoot();
             var csvDir = Path.Combine(projectRoot, "csv");
 
-            
-
             return Path.Combine(csvDir, fileName);
+        }
+
+        //------------------------- kranten en magazines -------------------------------------
+
+        internal void AddNewaPaper(ReadingRoomItem item)
+        {
+            DateTime addedDate = DateTime.Now;
+            allReadingRoom.Add(addedDate, item);
+        }
+
+        internal void AddMagazine(ReadingRoomItem item)
+        {
+            DateTime addedDate = DateTime.Now;
+            allReadingRoom.Add(addedDate, item);
+        }
+
+        internal void ShowAllNewsPapers()
+        {
+            foreach (var krant in allReadingRoom)
+            {
+                if (krant.Value.GetType().Name == "NewsPaper")
+                {
+                    Console.WriteLine(krant.Value.Publisher);
+                }
+            }
+        }
+
+        internal void ShowAllMagazine()
+        {
+            foreach (var magazine in allReadingRoom)
+            {
+                if (magazine.Value.GetType().Name == "Magazine")
+                {
+                    Console.WriteLine(magazine.Value.Publisher);
+                }
+            }
+        }
+
+        internal void AcquisitionsReadingRoomToday()
+        {
+            if (allReadingRoom is not null)
+            {
+                foreach (var item in allReadingRoom)
+                {
+                    var id = item.Value.Identification;
+                    var title = item.Value.Title;
+
+                    Console.WriteLine($"{title} met id {id}");
+                }
+            }
         }
     }
 }
