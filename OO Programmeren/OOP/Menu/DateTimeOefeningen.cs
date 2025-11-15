@@ -4,6 +4,87 @@ namespace Menu
 {
     internal class DateTimeOefeningen
     {
+        private bool active = true;
+        private string[] dateTimeMenu = ["H10-dag-van-de-week", "H10-ticks-sinds-2000", "H10-schrikkelteller", "H10-simpele-timing", "H10-verjaardag-v2", "H10-Getallencombinatie", "H10-Figures", "Terug naar Hoofdmenu"];
+
+        public static void ShowSubMenu()
+        {
+            DateTimeOefeningen menu = new DateTimeOefeningen();
+            do
+            {
+                Console.Clear();
+                for (int i = 0; i < menu.dateTimeMenu.Length; i++)
+                {
+                    Console.WriteLine($"{i + 1}.{menu.dateTimeMenu[i]}");
+                }
+                Console.Write("> ");
+                int choice = Convert.ToInt32(Console.ReadLine());
+                Console.Clear();
+
+                switch (choice)
+                {
+                    case 1:
+                        Console.WriteLine(DagVanDeWeek());
+                        break;
+
+                    case 2:
+                        Console.WriteLine($"Sinds 1 januari 2000 zijn er {Ticks2000Programma().ToString("N0")} ticks voorbijgegaan.");
+                        break;
+
+                    case 3:
+
+                        Console.Write("Geef een jaar in: ");
+                        int jaar = Convert.ToInt32(Console.ReadLine());
+
+                        DateTime thisYear = DateTime.Now;
+
+                        try
+                        {
+                            Console.WriteLine($"Er zijn {SchrikkeljaarProgramma(jaar)} schikkeljaren tussen {jaar} en {thisYear.ToString("yyyy")}");
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine(e.Message);
+                        }
+                        break;
+
+                    case 4:
+                        Console.WriteLine($"Het duurt {ArrayTimerProgramma()} milliseconden om een array van een miljoen elementen aan te maken en op te vullen met opeenvolgende waarden.");
+                        break;
+
+                    case 5:
+                        Console.WriteLine(VerjaardagProgramma());
+                        break;
+
+                    case 6:
+                        EigenObjectOefeningen();
+                        break;
+
+                    case 7:
+
+                        ClassesAndObjects.DemoFigures();
+
+                        break;
+
+                    default:
+                        if (choice == menu.dateTimeMenu.Length)
+                        {
+                            menu.active = false;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Ingevoerde keuze staat niet in de lijst, Klik op Enter");
+                            Console.ReadKey();
+                        }
+
+                        break;
+                }
+                if (choice <= menu.dateTimeMenu.Length-1)
+                    Console.ReadKey();
+            } while (menu.active);
+            
+        }
+
         public static string DagVanDeWeek()
         {
             string dagVanDeWeek = DateTime.Now.ToString("dddd");

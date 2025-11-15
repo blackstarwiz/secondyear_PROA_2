@@ -54,6 +54,8 @@ namespace Menu
                         menu.active = false;
                         break;
                 }
+                if (choice <= menu.inhertanceMenu.Length - 1)
+                    Console.ReadKey();
             } while (menu.active);
         }
 

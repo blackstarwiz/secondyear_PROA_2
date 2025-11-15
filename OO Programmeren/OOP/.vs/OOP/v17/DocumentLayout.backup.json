@@ -3,56 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\inheritance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\inheritance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\meal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\meal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\childrenmeal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\childrenmeal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\internationalorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\internationalorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\classesandobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\classesandobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\veggie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\veggie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\margerita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\margerita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\registeredletter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\registeredletter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\highpriorityregisteredletter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\highpriorityregisteredletter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\internationalregisteredletter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\internationalregisteredletter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,180 +18,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 296,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ChildrenMeal.cs",
-              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\ChildrenMeal.cs",
-              "RelativeDocumentMoniker": "Menu\\ChildrenMeal.cs",
-              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\ChildrenMeal.cs",
-              "RelativeToolTip": "Menu\\ChildrenMeal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ClassesAndObjects.cs",
+              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\ClassesAndObjects.cs",
+              "RelativeDocumentMoniker": "Menu\\ClassesAndObjects.cs",
+              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\ClassesAndObjects.cs",
+              "RelativeToolTip": "Menu\\ClassesAndObjects.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwD0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T17:41:45.977Z",
+              "WhenOpened": "2025-11-15T10:47:31.53Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Meal.cs",
-              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Meal.cs",
-              "RelativeDocumentMoniker": "Menu\\Meal.cs",
-              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Meal.cs",
-              "RelativeToolTip": "Menu\\Meal.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwBIAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T17:24:53.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Margerita.cs",
-              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Margerita.cs",
-              "RelativeDocumentMoniker": "Menu\\Margerita.cs",
-              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Margerita.cs",
-              "RelativeToolTip": "Menu\\Margerita.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T16:22:06.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Pizza.cs",
-              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Pizza.cs",
-              "RelativeDocumentMoniker": "Menu\\Pizza.cs",
-              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Pizza.cs",
-              "RelativeToolTip": "Menu\\Pizza.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T16:12:50.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Inheritance.cs",
-              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Inheritance.cs",
-              "RelativeDocumentMoniker": "Menu\\Inheritance.cs",
-              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Inheritance.cs",
-              "RelativeToolTip": "Menu\\Inheritance.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAcwAwAAABxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T18:22:00.417Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InternationalOrder.cs",
-              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\InternationalOrder.cs",
-              "RelativeDocumentMoniker": "Menu\\InternationalOrder.cs",
-              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\InternationalOrder.cs",
-              "RelativeToolTip": "Menu\\InternationalOrder.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T13:19:12.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Program.cs",
               "RelativeDocumentMoniker": "Menu\\Program.cs",
               "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Program.cs",
               "RelativeToolTip": "Menu\\Program.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAYwA8AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwEwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-16T14:46:29.241Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Veggie.cs",
-              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Veggie.cs",
-              "RelativeDocumentMoniker": "Menu\\Veggie.cs",
-              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Veggie.cs",
-              "RelativeToolTip": "Menu\\Veggie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T16:24:22.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Order.cs",
-              "RelativeDocumentMoniker": "Menu\\Order.cs",
-              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Order.cs",
-              "RelativeToolTip": "Menu\\Order.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T13:04:14.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Animal.cs",
-              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Animal.cs",
-              "RelativeDocumentMoniker": "Menu\\Animal.cs",
-              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Animal.cs",
-              "RelativeToolTip": "Menu\\Animal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T12:30:45.586Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RegisteredLetter.cs",
-              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\RegisteredLetter.cs",
-              "RelativeDocumentMoniker": "Menu\\RegisteredLetter.cs",
-              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\RegisteredLetter.cs",
-              "RelativeToolTip": "Menu\\RegisteredLetter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T18:42:12.759Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "InternationalRegisteredLetter.cs",
-              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\InternationalRegisteredLetter.cs",
-              "RelativeDocumentMoniker": "Menu\\InternationalRegisteredLetter.cs",
-              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\InternationalRegisteredLetter.cs",
-              "RelativeToolTip": "Menu\\InternationalRegisteredLetter.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T20:20:15.856Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HighPriorityRegisteredLetter.cs",
-              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\HighPriorityRegisteredLetter.cs",
-              "RelativeDocumentMoniker": "Menu\\HighPriorityRegisteredLetter.cs",
-              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\HighPriorityRegisteredLetter.cs",
-              "RelativeToolTip": "Menu\\HighPriorityRegisteredLetter.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBUAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:29:36.269Z"
             }
           ]
         }

@@ -4,6 +4,43 @@ namespace Menu
 {
     internal class Datastructuren
     {
+        private bool active = true;
+        private string[] dataStructureMenu = ["H13-PhoneBookNameNumber", "H13-PhoneBookCityNameNumber", "Terug naar Hoofdmenu"];
+
+        public static void ShowSubMenu()
+        {
+            Datastructuren menu = new Datastructuren();
+            do
+            {
+                Console.Clear();
+                for (int i = 0; i < menu.dataStructureMenu.Length; i++)
+                {
+                    Console.WriteLine($"{i + 1}.{menu.dataStructureMenu[i]}");
+                }
+                Console.Write("> ");
+                int choice = Convert.ToInt32(Console.ReadLine());
+                Console.Clear();
+
+                switch (choice)
+                {
+                    case 1:
+                        PhoneBookNameNumber();
+                        break;
+
+                    case 2:
+                        PhoneBookCityNameNumber();
+
+                        break;
+
+                    default:
+                        menu.active = false;
+                        break;
+                }
+                if (choice <= menu.dataStructureMenu.Length - 1)
+                    Console.ReadKey();
+            } while (menu.active);
+        }
+
         //phonebook name and number
         public static void PhoneBookNameNumber()
         {

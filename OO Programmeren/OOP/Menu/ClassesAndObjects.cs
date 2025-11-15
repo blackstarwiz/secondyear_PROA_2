@@ -8,6 +8,63 @@ namespace Menu
 {
     internal class ClassesAndObjects
     {
+
+        private bool active = true;
+        private string[] classObjectsMenu = ["H11-FiguresWithConstructor", "H11-FoodPurchase", "Terug naar Hoofdmenu"];
+
+        public static void ShowSubMenu()
+        {
+            ClassesAndObjects menu = new ClassesAndObjects();
+            do
+            {
+                Console.Clear();
+                for (int i = 0; i < menu.classObjectsMenu.Length; i++)
+                {
+                    Console.WriteLine($"{i + 1}.{menu.classObjectsMenu[i]}");
+                }
+                Console.Write("> ");
+                int choice = Convert.ToInt32(Console.ReadLine());
+                Console.Clear();
+
+
+                switch (choice)
+                {
+                    case 1:
+                       DemoFigures();
+                        break;
+                    case 2:
+                        try
+                        {
+                            FoodPurchase.DemoPurchase();
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine(e.Message);
+                        }
+
+                        break;
+
+                    default:
+                        if (choice == menu.classObjectsMenu.Length)
+                        {
+                            menu.active = false;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Ingevoerde keuze staat niet in de lijst, Klik op Enter");
+                            Console.ReadKey();
+                        }
+
+
+                        break;
+                }
+                if(choice <= menu.classObjectsMenu.Length - 1)
+                    Console.ReadKey();
+            } while (menu.active);
+        }
+
+
+
         public static void DemoFigures()
         {
             bool figMenu = true;
