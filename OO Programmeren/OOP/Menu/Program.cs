@@ -49,6 +49,7 @@
                 }
                 catch (Exception e)
                 {
+                    Console.WriteLine("Main Menu Catch (standaard catcher)");
                     Console.WriteLine(e.Message);
                     Console.ReadKey();
                     Menu.hoofd_isActive = true;

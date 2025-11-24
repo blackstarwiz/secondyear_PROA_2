@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Security.AccessControl;
 
 namespace Menu
 {
-    internal class ExeptionHandeling
+    internal class ExeptionHandeling : Exception
     {
         private bool active = true;
-        private string[] exeptionHandelingMenu = ["h16-weekdagen-zonder-exception-handling", "h16-weekdagen-met-exception-handling", "Terug naar hoofdmenu"];
+        private string[] exeptionHandelingMenu = ["h16-weekdagen-zonder-exception-handling", "h16-weekdagen-met-exception-handling", "h16-overflow-zonder-exception-handling", "h16-overflow-met-exception-handling", "h16-juiste-index", "h16-juiste-index-exeption", "h16-leeftijd-kat", "h16-leeftijd-katten", "h16-filehelper","h16-leeftijd-kat-custom", "Terug naar hoofdmenu"];
 
         public static void ShowSubMenu()
         {
@@ -23,6 +19,7 @@ namespace Menu
                 }
                 Console.Write("> ");
                 int choice = Convert.ToInt32(Console.ReadLine());
+
                 Console.Clear();
 
                 switch (choice)
@@ -34,7 +31,47 @@ namespace Menu
                     case 2:
 
                         DemonstreerFoutafhandelingWeekdagenMetException();
-                        
+
+                        break;
+
+                    case 3:
+                        DemonstreerFoutafhandelingOverflowZonderException();
+                        break;
+
+                    case 4:
+                        DemonstreerFoutAfhandelingOverflowMetException();
+                        break;
+
+                    case 5:
+                        DemonstreerKeuzeElement();
+                        break;
+
+                    case 6:
+                        DemonstreerKeuzeElementExeption();
+                        break;
+
+                    case 7:
+                        try
+                        {
+                            Kat kat = new Kat(27);
+                        }
+                        catch (ArgumentException a)
+                        {
+                            Console.WriteLine(a.Message);
+                        }
+                        break;
+
+                    case 8:
+                        Kat.DemonstreerLeeftijdKatMetResourceCleanup();
+                        break;
+
+                    case 9:
+                        FileHelper();
+                        break;
+
+                    case 10:
+                        KatMetCustomExeption.DemonstreerLeeftijdKatMetCustomException();
+
                         break;
 
                     default:
@@ -51,7 +88,11 @@ namespace Menu
                         break;
                 }
                 if (choice <= menu.exeptionHandelingMenu.Length - 1)
+                {
+                    Console.WriteLine("Druk op enter om terug naar Exeption menu te gaan");
+                    Console.Write("> ");
                     Console.ReadKey();
+                } 
             } while (menu.active);
         }
 
@@ -64,7 +105,7 @@ namespace Menu
             arr[3] = "Woensdag";
             arr[4] = "Donderdag";
 
-            for (int i = 0; i <= 4; i++)
+            for (int i = 0; i <= arr.Length; i++)
             {
                 Console.WriteLine(arr[i].ToString());
             }
@@ -81,17 +122,199 @@ namespace Menu
 
             try
             {
-                checked
+                for (int i = 0; i <= 5; i++)
                 {
+                    Console.WriteLine(arr[i].ToString());
                 }
             }
             catch (OverflowException e)
             {
+                Console.WriteLine("Dit is wat te ver");
+            }
+        }
+
+        private static void DemonstreerFoutafhandelingOverflowZonderException()
+        {
+            int num1, num2, calulated;
+            byte resultaat;
+            num1 = 30;
+            num2 = 60;
+            calulated = num1 * num2;
+            if (calulated > 255)
+            {
+                Console.WriteLine("{0} x {1} = {2}", num1, num2, calulated);
+            }
+            else
+            {
+                resultaat = Convert.ToByte(calulated);
+                Console.WriteLine("{0} x {1} = {2}", num1, num2, resultaat);
+            }
+        }
+
+        private static void DemonstreerFoutAfhandelingOverflowMetException()
+        {
+            int num1, num2, calulated;
+            byte resultaat;
+            num1 = 30;
+            num2 = 60;
+            calulated = num1 * num2;
+
+            try
+            {
+                resultaat = Convert.ToByte(calulated);
+                Console.WriteLine("{0} x {1} = {2}", num1, num2, resultaat);
+            }
+            catch (OverflowException e)
+            {
+                Console.WriteLine("berekening is groter de byte (0-255)");
+                Console.WriteLine("{0} x {1} = {2}", num1, num2, calulated);
+            }
+        }
+
+        private static void DemonstreerKeuzeElement()
+        {
+            bool active = true;
+            int result = 0;
+            string geefIndex = "Geef index van het getal in dat je wil zien";
+            string keuzeIndex = "Het getal is ";
+            string doorGaan = "Wil je doorgaan";
+
+            string hebbenWeNiet = "Die index hebben we niet!";
+
+            string inputIndex = "";
+            string inputDoorGaan = "";
+
+            Random rn = new Random();
+            int[] array = new int[3];
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                int x = rn.Next(0, 101);
+                array[i] = x;
             }
 
-            for (int i = 0; i <= arr.Length; i++)
+            do
             {
-                Console.WriteLine(arr[i].ToString());
+                Console.Clear();
+                Console.WriteLine(geefIndex);
+                inputIndex = Console.ReadLine();
+
+                result = Convert.ToInt32(inputIndex);
+
+                if (result < 0)
+                {
+                    Console.WriteLine(hebbenWeNiet);
+                }
+                else if (result > array.Length)
+                {
+                    Console.WriteLine(hebbenWeNiet);
+                }
+                else
+                {
+                    Console.WriteLine($"{keuzeIndex}{array[result]}");
+                }
+
+                Console.WriteLine(doorGaan);
+                string awnser = Console.ReadLine();
+
+                if (awnser == "nee")
+                    active = false;
+            } while (active);
+        }
+
+        private static void DemonstreerKeuzeElementExeption()
+        {
+            bool active = true;
+            int result = 0;
+            string geefIndex = "Geef index van het getal in dat je wil zien";
+            string keuzeIndex = "Het getal is ";
+            string doorGaan = "Wil je doorgaan";
+
+            string hebbenWeNiet = "Die index hebben we niet!";
+
+            string inputIndex = "";
+            string inputDoorGaan = "";
+
+            Random rn = new Random();
+            int[] array = new int[3];
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                int x = rn.Next(0, 101);
+                array[i] = x;
+            }
+
+            do
+            {
+                Console.Clear();
+                Console.WriteLine(geefIndex);
+                inputIndex = Console.ReadLine();
+
+                try
+                {
+                    result = Convert.ToInt32(inputIndex);
+                }
+                catch (FormatException f)
+                {
+                    Console.WriteLine($"Format is niet juist {inputIndex} verwachte format (1,100,1000,...)");
+                    break;
+                }
+                catch (OverflowException o)
+                {
+                    Console.WriteLine("Input is te groot!");
+                    break;
+                }
+
+                if (result < 0)
+                {
+                    Console.WriteLine(hebbenWeNiet);
+                }
+                else if (result > array.Length)
+                {
+                    Console.WriteLine(hebbenWeNiet);
+                }
+                else
+                {
+                    Console.WriteLine($"{keuzeIndex}{array[result]}");
+                }
+
+                Console.WriteLine(doorGaan);
+                string awnser = Console.ReadLine();
+
+                if (awnser == "nee")
+                    active = false;
+            } while (active);
+        }
+
+        private static void FileHelper()
+        {
+            Console.WriteLine("Welke file wil je lezen?");
+            Console.Write("> ");
+
+            string filePath = Console.ReadLine();
+
+            try
+            {
+                using (StreamReader sr = new StreamReader(filePath))
+                {
+                    Console.WriteLine(sr.ReadToEnd());
+                }
+            }
+            catch (FileNotFoundException n)
+            {
+                Console.WriteLine("File kon niet gevonden worden.");
+            }
+            catch (UnauthorizedAccessException)
+            {
+                Console.WriteLine("File bestaat, maar kon niet gelezen worden. Mogelijk heb je geen toegangsrechten.");
+            }
+            catch (NullReferenceException)
+            {
+                Console.WriteLine("File kon niet gevonden worden.");
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Er is iets misgelopen. Neem een screenshot van wat je aan het doen was contacteer de helpdesk.");
             }
         }
     }

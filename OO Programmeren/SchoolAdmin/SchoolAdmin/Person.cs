@@ -69,10 +69,6 @@ namespace SchoolAdmin
             {
                 return allPersons.ToImmutableList();
             }
-            set
-            {
-                allPersons = value;
-            }
         }
 
         public override bool Equals(object? obj)
@@ -90,7 +86,7 @@ namespace SchoolAdmin
         public abstract string GenerateNameCard();
 
         public abstract double DetermineWorkload();
-
+         
         public override string ToString()
         {
             string person = "Person\n";

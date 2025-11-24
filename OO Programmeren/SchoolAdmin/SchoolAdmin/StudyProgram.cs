@@ -10,17 +10,27 @@ namespace SchoolAdmin
     internal class StudyProgram
     {
         private string name;
-        private readonly ImmutableList<Course> courses = ImmutableList<Course>.Empty;
-        
-        public StudyProgram(string name, List<Course> course)
+
+        //private readonly ImmutableList<Course> courses = ImmutableList<Course>.Empty;
+        //private byte semester;
+        private readonly Dictionary<Course, byte> courses;
+
+        public StudyProgram(string name, Dictionary<Course, byte> courses)
         {
             this.Name = name;
-
-            courses = course.ToImmutableList();
+            this.courses = courses;
         }
 
         public StudyProgram(string name) : this(name, null)
         {
+        }
+
+        public ImmutableDictionary<Course, byte> Courses
+        {
+            get
+            {
+                return courses.ToImmutableDictionary();
+            }
         }
 
         public string Name
@@ -35,22 +45,39 @@ namespace SchoolAdmin
             }
         }
 
-        public ImmutableList<Course> Courses
-        {
-            get
-            {
-                return courses.ToImmutableList();
-            }
-        }
-
         public void ShowOverview()
         {
-            Console.WriteLine($"{this.Name}");
-            Console.WriteLine(String.Empty.PadLeft(this.Name.Length, '*'));
+            Console.WriteLine($"Programma: {this.Name}");
+            //Console.WriteLine(String.Empty.PadLeft(this.Name.Length, '*'));
+            Console.WriteLine();
 
-            foreach (Course course in Courses)
+            //voor 3 semesters
+            for (int i = 0; i < 2; i++)
             {
-                Console.WriteLine($"-{course.Title}");
+                Console.WriteLine($"Semester {i + 1}:");
+
+                bool hasCourses = false;
+                //bekijken we de courses
+                foreach (var kv in Courses)
+                {
+                    //als de kv.Value (Semester) is gelijk aan het semester
+                    if (kv.Value == i+1)
+                    {
+                        hasCourses = true ;
+
+                        //print key (course.title + course.creditpoints)
+                        Course course = kv.Key;
+                        Console.WriteLine($"{course.Title}\t({course.CreditPoints}sp)");
+                    }
+                    //als er geen zijn zou er een tekst moeten zijn "Er zijn geen cursussen in semester {i+!}"
+                }
+
+                if (!hasCourses)
+                {
+                    Console.WriteLine($"Er zijn geen cursussen in semester {i+1}");
+                }
+
+                Console.WriteLine();
             }
 
             Console.WriteLine();
@@ -58,13 +85,13 @@ namespace SchoolAdmin
 
         public void Remove(string input)
         {
-            foreach(Course course in courses)
+            foreach (var k in Courses.Keys)
             {
-                if(this.Name != input)
+                if (k.Title != input)
                 {
                     throw new Exception("Ingevoerde richting is er niet");
                 }
-                courses.Remove(course);
+                Courses.Remove(k);
             }
         }
     }

@@ -6,28 +6,62 @@ namespace SchoolAdmin
 {
     internal class Student : Person
     {
-        private List<CourseRegistration> courseRegistrations = new();
-        private static readonly ImmutableList<Student>.Builder allStudents = ImmutableList.CreateBuilder<Student>();
+        //private List<CourseRegistration> courseRegistrations = new List<CourseRegistration>();
+        //private static readonly ImmutableList<Student>.Builder allStudents = ImmutableList.CreateBuilder<Student>();
         private ImmutableDictionary<DateTime, string> studentFile = ImmutableDictionary<DateTime, string>.Empty;
 
-        public Student(string name, DateTime birthdate) : base(name, birthdate) {
-            allStudents.Add(this);
+        public Student(string name, DateTime birthdate) : base(name, birthdate)
+        {
+            // allStudents.Add(this);
         }
 
-
-        public ImmutableList<Student> Allstudents
+        public Student Allstudents
         {
             get
             {
-                return allStudents.ToImmutableList();
+                return this;
             }
         }
 
-        public ImmutableDictionary<DateTime,string> StudentFile
+        public ImmutableDictionary<DateTime, string> StudentFile
         {
             get
             {
                 return studentFile.ToImmutableDictionary();
+            }
+        }
+
+        public ImmutableList<CourseRegistration> CourseRegistrations
+        {
+            get
+            {
+                var registration = ImmutableList.CreateBuilder<CourseRegistration>();
+                foreach (var stud in CourseRegistration.AllCourseRegistrations)
+                {
+                    if (stud.Student is not null && stud.Student is Student)
+                    {
+                        registration.Add(stud);
+                    }
+                }
+
+                return registration.ToImmutableList();
+            }
+        }
+
+        public ImmutableList<Course> Courses
+        {
+            get
+            {
+                var courses = ImmutableList.CreateBuilder<Course>();
+                foreach (var course in CourseRegistrations)
+                {
+                    if (Equals(this))
+                    {
+                        courses.Add(course.Course);
+                    }
+                }
+
+                return courses.ToImmutable();
             }
         }
 
@@ -48,24 +82,22 @@ namespace SchoolAdmin
         {
             byte total = 0;
 
-            foreach(CourseRegistration course in courseRegistrations)
+            foreach (CourseRegistration course in CourseRegistrations)
             {
-                if(course is not null)
+                if (course is not null)
                 {
-                    total +=10;
+                    total += 10;
                 }
             }
+
             return total;
         }
 
         public void RegisterCourseResult(Course courseName, byte? result)
         {
-            
             try
             {
-                CourseRegistration course = new CourseRegistration(courseName, result);
-                
-                courseRegistrations.Add(course);
+                CourseRegistration course = new CourseRegistration(this, courseName, result);
             }
             catch (Exception e)
             {
@@ -77,13 +109,13 @@ namespace SchoolAdmin
         {
             double res = 0;
             int counter = 0;
-            foreach (CourseRegistration cijfers in courseRegistrations)
+            foreach (CourseRegistration cijfers in CourseRegistrations)
             {
-                if(cijfers.Result != null)
+                if (cijfers.Result != null)
                 {
-                    res += (byte) cijfers.Result;
+                    res += (byte)cijfers.Result;
                     counter++;
-                } 
+                }
             }
 
             return res / counter;
@@ -95,7 +127,7 @@ namespace SchoolAdmin
             Console.WriteLine($"Werkbelasting: {DetermineWorkload()}\n");
             Console.WriteLine("Cijferrapport\n*************");
 
-            foreach (CourseRegistration course in courseRegistrations)
+            foreach (CourseRegistration course in CourseRegistrations)
             {
                 Console.WriteLine($"{course.Course.Title}:  {course.Result}");
             }
@@ -103,9 +135,6 @@ namespace SchoolAdmin
             Console.WriteLine($"Gemiddelde: {Average().ToString("F1")}");
 
             Console.WriteLine();
-            
-
         }
-       
     }
 }

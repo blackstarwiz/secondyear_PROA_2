@@ -6,32 +6,49 @@ namespace SchoolAdmin
     internal class Course
     {
         public string Title;
-        public List<Student> Students = new List<Student>();
+        //public List<Student> Students = new List<Student>();
         private byte creditPoints;
         private int id;
         private static int maxId = 1;
         public static ImmutableList<Course>.Builder AllCourses = ImmutableList.CreateBuilder<Course>();
 
-        public Course(string title, List<Student> students, byte creditpoints)
+        public Course(string title, byte creditpoints)
         {
             this.Id = maxId++;
 
             this.Title = title;
-            this.Students = students ?? new List<Student>();
+            //this.Students = students ?? new List<Student>();
             this.CreditPoints = creditpoints;
-            
+
             AllCourses.Add(this);
         }
 
-        public Course(string title, List<Student> students) : this (title, students, 3)
+        public Course(string title) : this(title, 3)
         {
-
         }
 
-        //
-        public Course(string title) : this(title,null,3)
+        /// 
+        /// public Course(string title) : this(title, null, 3)
+        //{
+        //}
+        /// 
+        /// 
+        
+        public ImmutableList<Student> Students
         {
+            get
+            {
+                var students = ImmutableList.CreateBuilder<Student>();
 
+                foreach(var student in CourseRegistrations)
+                {
+                    if (Equals(student.Student))
+                    {
+                        students.Add(student.Student);
+                    }
+                }
+                return students.ToImmutable();
+            }
         }
         public byte CreditPoints
         {
@@ -51,9 +68,26 @@ namespace SchoolAdmin
             {
                 return id;
             }
-            private set 
+            private set
             {
-                id = value; 
+                id = value;
+            }
+        }
+
+        public ImmutableList<CourseRegistration> CourseRegistrations
+        {
+            get
+            {
+                var courses = ImmutableList.CreateBuilder<CourseRegistration>();
+                foreach (var course in CourseRegistrations)
+                {
+                    if (Equals(course))
+                    {
+                        courses.Add(course);
+                    }
+                }
+
+                return courses.ToImmutable();
             }
         }
 
@@ -68,9 +102,9 @@ namespace SchoolAdmin
         {
             return HashCode.Combine(Id);
         }
+
         public void ShowOverview()
         {
-            
             Console.WriteLine($"{this.Title} ({this.Id}) ({this.CreditPoints}stp)");
             Console.WriteLine(String.Empty.PadLeft(this.Title.Length, '*'));
 
@@ -79,10 +113,9 @@ namespace SchoolAdmin
             //    throw new NullReferenceException("fuck ik ben leeg");
             //}
 
-
             foreach (Student person in Students)
             {
-                if(!(person is null))
+                if (!(person is null))
                 {
                     Console.WriteLine($"{person.Name}");
                 }

@@ -9,17 +9,18 @@ namespace SchoolAdmin
 {
     internal abstract class Employee : Person
     {
-        private static ImmutableList<Employee> allEmployees = ImmutableList<Employee>.Empty;
+        //private static ImmutableList<Employee> allEmployees = ImmutableList<Employee>.Empty;
         private byte seniority;
+
         private ImmutableDictionary<string, byte> tasks = ImmutableDictionary<string, byte>.Empty;
 
         public Employee(string name, DateTime birthdate, Dictionary<string, byte> inputtask) : base(name, birthdate)
         {
-            allEmployees = allEmployees.Add(this);
+            //allEmployees = allEmployees.Add(this);
 
             if (inputtask != null)
             {
-                foreach(var task in inputtask)
+                foreach (var task in inputtask)
                 {
                     tasks = tasks.Add(task.Key, task.Value);
                 }
@@ -27,14 +28,14 @@ namespace SchoolAdmin
         }
 
         //lijst van administratief mederwerkers
-        public ImmutableList<Employee> AllEmployees
+        public Employee AllEmployees
         {
             get
             {
-                return allEmployees;
+                return this;
             }
         }
-        
+
         //tijd in dienst
         public byte Seniority
         {
@@ -44,7 +45,7 @@ namespace SchoolAdmin
             }
             set
             {
-                if(value > 50)
+                if (value > 50)
                 {
                     seniority = 50;
                 }
@@ -64,7 +65,6 @@ namespace SchoolAdmin
         }
 
         public abstract uint CalculateSalary();
-        
 
         public override string GenerateNameCard()
         {

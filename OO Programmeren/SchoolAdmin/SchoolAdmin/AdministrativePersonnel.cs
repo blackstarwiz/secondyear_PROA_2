@@ -9,18 +9,18 @@ namespace SchoolAdmin
 {
     internal class AdministrativePersonnel : Employee
     {
-        private readonly ImmutableList<AdministrativePersonnel> allAdministrativePersonnel = ImmutableList<AdministrativePersonnel>.Empty;
+        // private readonly ImmutableList<AdministrativePersonnel> allAdministrativePersonnel = ImmutableList<AdministrativePersonnel>.Empty;
 
         public AdministrativePersonnel(string name, DateTime birthdate, Dictionary<string, byte> task) : base(name, birthdate, task)
         {
-            allAdministrativePersonnel = allAdministrativePersonnel.Add(this);
+            //allAdministrativePersonnel = allAdministrativePersonnel.Add(this);
         }
 
-        public ImmutableList<AdministrativePersonnel> AllAdministrativePersonnel
+        public AdministrativePersonnel AllAdministrativePersonnel
         {
             get
             {
-                return allAdministrativePersonnel;
+                return this;
             }
         }
 
@@ -34,6 +34,7 @@ namespace SchoolAdmin
 
             return $"{person}{underline}{name}{age}{admin}";
         }
+
         public override uint CalculateSalary()
         {
             uint basisSalary = 2000;
@@ -61,15 +62,7 @@ namespace SchoolAdmin
 
         public override double DetermineWorkload()
         {
-            double result = 0;
-            foreach (var person in AllAdministrativePersonnel)
-            {
-                foreach (var taskHours in person.Tasks)
-                {
-                    result += taskHours.Value;
-                }
-            }
-            return result;
+            return this.Tasks.Values.Sum(v => (double)v);
         }
 
         public override string GenerateNameCard()

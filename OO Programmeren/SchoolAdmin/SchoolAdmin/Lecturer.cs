@@ -9,27 +9,27 @@ namespace SchoolAdmin
 {
     internal class Lecturer : Employee
     {
-        private ImmutableList<Lecturer> allLecturer = ImmutableList<Lecturer>.Empty;
+        //private ImmutableList<Lecturer> allLecturer = ImmutableList<Lecturer>.Empty;
         private ImmutableDictionary<Course, byte> allCourses = ImmutableDictionary<Course, byte>.Empty;
 
         public Lecturer(string name, DateTime birthdate, Dictionary<string, byte> courses) : base(name, birthdate, courses)
         {
-            allLecturer = allLecturer.Add(this);
+            // allLecturer = allLecturer.Add(this);
 
             if (courses != null)
             {
                 foreach (var course in courses)
                 {
-                    allCourses = allCourses.Add(new Course(course.Key, ImmutableList<Student>.Empty.ToList(), 0), course.Value);
+                    allCourses.Add(new Course(course.Key), course.Value);
                 }
             }
         }
 
-        public ImmutableList<Lecturer> AllLecturer
+        public Lecturer AllLecturer
         {
             get
             {
-                return allLecturer;
+                return this;
             }
         }
 
@@ -68,15 +68,7 @@ namespace SchoolAdmin
 
         public override double DetermineWorkload()
         {
-            double result = 0;
-            foreach (var lector in AllLecturer)
-            {
-                foreach (var course in lector.AllCourses)
-                {
-                    result += course.Value;
-                }
-            }
-            return result;
+            return AllCourses.Values.Sum(v => (double)v);
         }
 
         public override string GenerateNameCard()

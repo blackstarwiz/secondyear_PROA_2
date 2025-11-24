@@ -1,6 +1,4 @@
-﻿using System.Threading.Channels;
-
-namespace SchoolAdmin
+﻿namespace SchoolAdmin
 {
     internal class Program
     {
@@ -8,7 +6,7 @@ namespace SchoolAdmin
 
         private string[] classes = ["Communicatie", "Programmeren", "Webtechnolgie", "Databanken"];
 
-        private List<Student> students = new List<Student>();
+        //private List<Student> students = new List<Student>();
 
         private static void Main(string[] args)
         {
@@ -16,7 +14,7 @@ namespace SchoolAdmin
             bool active = true;
 
             // Menu-opties die de gebruiker kan kiezen
-            string[] optie = ["DemonstreerStudenten uitvoeren", "DemostreerCursussen uitvoeren", "ReadTextFormatStudent", "DemoStudyProgram", "DemoAdministrativePersonnel","DemoLecturers", "Terminating"];
+            string[] optie = ["DemonstreerStudenten", "DemostreerCursussen", "ReadTextFormatStudent", "DemoStudyProgram", "DemoAdministrativePersonnel", "DemoLecturers", "Student toevoegen", "Cursus Toevoegen", "VakInschrijving toevoegen", "Inschrijvingsgegevens tonen", "Terminating"];
 
             do
             {
@@ -65,8 +63,95 @@ namespace SchoolAdmin
                     case 5:
                         DemoAdministrativePersonnel();
                         break;
+
                     case 6:
                         DemoLecturers();
+                        break;
+
+                    case 7:
+                        try
+                        {
+                            Console.WriteLine("Naam van de student?");
+                            Console.Write("> ");
+                            string name = Console.ReadLine();
+                            Console.WriteLine("Geboortedatum van de student? (jaar/maand/dag)");
+                            Console.Write("> ");
+                            string date = Console.ReadLine();
+
+                            if (date is null)
+                                throw new NullReferenceException("Geen datum is ingevoerd");
+
+                            DateTime birthDate = DateTime.Parse(date);
+
+                            Student newstu = new Student(name, birthDate);
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine(e.Message);
+                        }
+
+                        break;
+
+                    case 8:
+                        Console.WriteLine("Titel van de cursus?");
+                        Console.Write("> ");
+                        string course = Console.ReadLine();
+
+                        Console.WriteLine("Aantal studiepunten?");
+                        Console.Write("> ");
+                        byte points = Convert.ToByte(Console.ReadLine());
+
+                        Course newCourse = new Course(course, points);
+                        break;
+
+                    case 9:
+                        List<Student> studenten = new List<Student>();
+
+                        Console.WriteLine("Welke student?");
+
+                        for (int i = 0; i < Person.AllPersons.Count; i++)
+                        {
+                            if (Person.AllPersons[i] is Student)
+                            {
+                                Console.WriteLine($"{i + 1}: {Person.AllPersons[i].Name}");
+                                studenten.Add((Student)Person.AllPersons[i]);
+                            }
+                        }
+
+                        Console.Write("> ");
+                        int choiceStudent = Convert.ToInt32(Console.ReadLine()) - 1;
+
+                        for (int i = 0; i < Course.AllCourses.Count; i++)
+                        {
+                            Console.WriteLine($"{i + 1} {Course.AllCourses[i].Title}");
+                        }
+
+                        Console.Write("> ");
+                        int choiceCourse = Convert.ToInt32(Console.ReadLine()) - 1;
+
+                        Console.WriteLine("Wil je een resultaat toekennen? ja/nee");
+                        Console.Write("> ");
+                        string choiceResult = Console.ReadLine();
+                        byte result = 0;
+
+                        if (choiceResult == "ja")
+                        {
+                            Console.WriteLine("Wat is het resultaat");
+                            Console.Write("> ");
+                            result = Convert.ToByte(Console.ReadLine());
+                        }
+
+                        CourseRegistration newRegistration = new CourseRegistration(studenten[choiceStudent], Course.AllCourses[choiceCourse], result);
+                        
+                        break;
+
+                    case 10:
+
+                        foreach(var student in CourseRegistration.AllCourseRegistrations)
+                        {
+                            Console.WriteLine($"{student.Student.Name} ingescreven voor {student.Course.Title}");
+                        }
+                        Console.ReadKey();
                         break;
 
                     default:
@@ -133,13 +218,13 @@ namespace SchoolAdmin
             Student student2 = new Student("Mieke Vermeulen", new DateTime(1998, 1, 1));
 
             //student objecten tovoegen aan de list students
-            opt.students.Add(student1);
-            opt.students.Add(student2);
+            // opt.students.Add(student1);
+            //opt.students.Add(student2);
 
             //Course object aanmaken en studenten toevoegen plus studiepunten
-            Course webCourse = new Course("Webtechnologie", opt.students, 6);
+            Course webCourse = new Course("Webtechnologie", 6);
 
-            Course oopCourse = new Course("OO Programmeren", opt.students);
+            Course oopCourse = new Course("OO Programmeren");
 
             Course wplCours = new Course("WPL");
 
@@ -179,7 +264,7 @@ namespace SchoolAdmin
             Student csvStudent = new Student(csvArray[0].ToString(), new DateTime(Convert.ToInt32(csvArray[3]), Convert.ToInt32(csvArray[2]), Convert.ToInt32(csvArray[1])));
 
             //student toevoegen aan de list object students
-            opt.students.Add(csvStudent);
+            // opt.students.Add(csvStudent);
             //door de array gaan om de vakken en punten te vinden
             for (int i = 4; i < csvArray.Length; i += 2)
             {
@@ -187,9 +272,9 @@ namespace SchoolAdmin
                 if (int.TryParse(csvArray[i], out int search))
                 {
                     //maak course objecten aan
-                    Course natuurkundeCourse = new Course("Natuurkunde", null, 9);
+                    Course natuurkundeCourse = new Course("Natuurkunde", 9);
                     Course wiskundeCourse = new Course("Wiskunde");
-                    Course scheiCourse = new Course("Scheikunde", null, 12);
+                    Course scheiCourse = new Course("Scheikunde", 12);
 
                     csvStudent.RegisterCourseResult(Course.SearchCourseById(search), Convert.ToByte(csvArray[i + 1]));
                 }
@@ -219,43 +304,33 @@ namespace SchoolAdmin
 
         public static void DemoStudyProgram()
         {
-            //Course communicatie = new Course("Communicatie");
-            //Course programmeren = new Course("Programmeren");
-            //Course databanken = new Course("Databanken");
+            //Maken van verschillende vak objecten
+            Course commu = new Course("Communicatie");
+            Course pro = new Course("Programmeren");
+            Course data = new Course("Databanken");
 
-            //List<Course> courses = new List<Course>() { communicatie, programmeren, databanken };
+            //Dictonary's voor de verschillende studyprograms
+            Dictionary<Course, byte> programmerenCourses = new Dictionary<Course, byte>
+            {
+                {commu, 1},
+                {pro, 1},
+                {data, 1}
+            };
 
-            //StudyProgram programmerenProgram = new StudyProgram("Programmeren");
-            //StudyProgram snbProgram = new StudyProgram("Systeem- en netwerkbeheer");
+            Dictionary<Course, byte> systemAndNetwork = new Dictionary<Course, byte>
+            {
+                {commu, 2},
+                {pro, 1},
+                {data, 1}
+            };
 
-            //programmerenProgram.Courses = courses;
-            //snbProgram.Courses = courses;
+            //Studyprogam objecten aanmaken
+            StudyProgram programmeren = new StudyProgram("Programmeren", programmerenCourses);
+            StudyProgram SNN = new StudyProgram("System and Network", systemAndNetwork);
 
-            //programmerenProgram.ShowOverview();
-            //snbProgram.ShowOverview();
-
-            //opleidingen maken van de verschillende  Course-objecten
-            Course communicatie = new Course("Communicatie");
-            Course programmeren = new Course("Programmeren");
-            Course databanken = new Course("Databanken");
-
-            //list object maken van de verschillende richtingen waarvan de opleidngen meegegeven worden
-            List<Course> coursesProgrammeren = new List<Course>() { communicatie, programmeren, databanken };
-            List<Course> coursesSNB = new List<Course>() { communicatie, programmeren, databanken };
-
-            //study programma maken die een title en list van opleidingen nodig heeft
-            StudyProgram programmerenProgram = new StudyProgram("Programmeren", coursesProgrammeren);
-            StudyProgram snbProgram = new StudyProgram("Systeem- en netwerkbeheer", coursesSNB);
-            // programmerenProgram.Courses = coursesProgrammeren;
-            // snbProgram.Courses = coursesSNB;
-            //we willen hieronder Databanken schrappen uit het programma SNB
-
-            //dit doet niets meer sinds het aanpassen van de courses in studyprogram -> immutable
-            snbProgram.Courses.Remove(databanken);
-            //voor SNB wordt de titel van de cursus Programmeren veranderd naar "Scripting"
-            snbProgram.Courses[1].Title = "Scripting";
-            programmerenProgram.ShowOverview();
-            snbProgram.ShowOverview();
+            //tonen van de verschullende
+            programmeren.ShowOverview();
+            SNN.ShowOverview();
 
             Console.WriteLine("Druk op Enter om verder te gaan");
             Console.Write(">");
@@ -272,12 +347,14 @@ namespace SchoolAdmin
             AdministrativePersonnel person1 = new AdministrativePersonnel("Ahmed Azzaoui", new DateTime(1988, 02, 04), taskAhmed);
             person1.Seniority = 4;
 
-            foreach (var personnel in person1.AllAdministrativePersonnel)
+            foreach (var personeel in Person.AllPersons)
             {
-                Console.WriteLine(personnel.ToString());
-
-                Console.WriteLine(personnel.CalculateSalary());
-                Console.WriteLine(personnel.DetermineWorkload());
+                if (personeel is AdministrativePersonnel admin)
+                {
+                    Console.WriteLine(admin.ToString());
+                    Console.WriteLine(admin.DetermineWorkload());
+                    Console.WriteLine(admin.CalculateSalary());
+                }
             }
             Console.WriteLine("dit waren al de collegas, terug naar menu");
             Console.Write("Press Enter > ");
@@ -301,17 +378,20 @@ namespace SchoolAdmin
 
             lectoren = annaBolzano;
 
-            foreach(var lector in lectoren.AllLecturer)
+            foreach (var lector in Person.AllPersons)
             {
-                Console.WriteLine(lector.GenerateNameCard());
-
-                foreach (var course in lectoren.AllCourses)
+                if (lector is Lecturer)
                 {
-                    Console.WriteLine(course.Key.Title);
-                }
+                    Console.WriteLine(lector.GenerateNameCard());
 
-                Console.WriteLine(lector.CalculateSalary());
-                Console.WriteLine(lector.DetermineWorkload());
+                    foreach (var course in lectoren.AllCourses)
+                    {
+                        Console.WriteLine(course.Key.Title);
+                    }
+
+                    //Console.WriteLine(lector.CalculateSalary());
+                    Console.WriteLine(lector.DetermineWorkload());
+                }
             }
 
             Console.WriteLine("alle lectoren zijn getoont, terug naar menu");

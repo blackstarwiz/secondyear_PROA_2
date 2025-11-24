@@ -1,5 +1,5 @@
 const express = require('express');
-const bodyParser = require('body-parser');
+const fs = require('fs');
 
 const app = express();
 const port = 3000;
@@ -7,8 +7,17 @@ const port = 3000;
 // Body parser middleware to parse form data
 app.use(bodyParser.urlencoded({ extended: false }));
 
+const bezoekers:any[] = [];
+if(fs.existsSync("/app/data/bezoekers.js")){
+    bezoekers.push(...JSON.parse(fs.readFileSync("/app/data/bezoekers.json", "utf-8")))
+}
+
+
+
 // GET-handler voor het pad "/"
 app.get('/', (req, res) => {
+    const name = req._construct.body.name;
+    bezoekers.push(name);
     res.send(`
         <html>
             <body>
@@ -20,6 +29,7 @@ app.get('/', (req, res) => {
             </body>
         </html>
     `);
+    fs.writeFileSync("Bezoekers.json", JSON.stringify(bezoekers), "utf-8")
 });
 
 // POST-handler voor het pad "/"
