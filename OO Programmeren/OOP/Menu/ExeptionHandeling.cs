@@ -5,7 +5,7 @@ namespace Menu
     internal class ExeptionHandeling : Exception
     {
         private bool active = true;
-        private string[] exeptionHandelingMenu = ["h16-weekdagen-zonder-exception-handling", "h16-weekdagen-met-exception-handling", "h16-overflow-zonder-exception-handling", "h16-overflow-met-exception-handling", "h16-juiste-index", "h16-juiste-index-exeption", "h16-leeftijd-kat", "h16-leeftijd-katten", "h16-filehelper","h16-leeftijd-kat-custom", "Terug naar hoofdmenu"];
+        private string[] exeptionHandelingMenu = ["h16-weekdagen-zonder-exception-handling", "h16-weekdagen-met-exception-handling", "h16-overflow-zonder-exception-handling", "h16-overflow-met-exception-handling", "h16-juiste-index", "h16-juiste-index-exeption", "h16-leeftijd-kat", "h16-leeftijd-katten", "h16-filehelper", "h16-leeftijd-kat-custom", "h16-gedeeltelijke-afhandeling", "Terug naar hoofdmenu"];
 
         public static void ShowSubMenu()
         {
@@ -74,6 +74,10 @@ namespace Menu
 
                         break;
 
+                    case 11:
+                        DemonstreerFormulieren();
+                        break;
+
                     default:
                         if (choice == menu.exeptionHandelingMenu.Length)
                         {
@@ -92,7 +96,7 @@ namespace Menu
                     Console.WriteLine("Druk op enter om terug naar Exeption menu te gaan");
                     Console.Write("> ");
                     Console.ReadKey();
-                } 
+                }
             } while (menu.active);
         }
 
@@ -315,6 +319,36 @@ namespace Menu
             catch (Exception)
             {
                 Console.WriteLine("Er is iets misgelopen. Neem een screenshot van wat je aan het doen was contacteer de helpdesk.");
+            }
+        }
+
+        private static void DemonstreerFormulieren()
+        {
+            var vraag1 = new FormulierGetalVraag("Hoe oud ben je?", 18, 130);
+            var vraag2 = new FormulierVrijeTekstVraag("Hoe ziet jouw ideale dag eruit?");
+            var vraag3 = new FormulierGetalVraag("Hoe veel personen heb je ten laste?", 0, 10);
+            var vraag4 = new FormulierVrijeTekstVraag("Wie is je idool?");
+            Formulier f1 = new Formulier(new List<FormulierVraag> { vraag1, vraag2 });
+            Formulier f2 = new Formulier(new List<FormulierVraag> { vraag3, vraag4 });
+            try
+            {
+                f1.VulIn();
+                f1.Toon();
+            }
+            catch (Exception)
+            {
+                System.Console.WriteLine("We zullen dit formulier weggooien.");
+                f1 = null;
+            }
+            try
+            {
+                f2.VulIn();
+                f2.Toon();
+            }
+            catch (Exception)
+            {
+                System.Console.WriteLine("We zullen dit formulier weggooien.");
+                f2 = null;
             }
         }
     }

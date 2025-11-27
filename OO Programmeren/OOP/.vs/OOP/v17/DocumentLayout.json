@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\formuliergetalvraag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\formuliergetalvraag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\exeptionhandeling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\exeptionhandeling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\katmetcustomexeption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\katmetcustomexeption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\formulier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\formulier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\katleeftijdexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\katleeftijdexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\formuliervraag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\formuliervraag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\formuliervrijetekstvraag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\formuliervrijetekstvraag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\kat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\kat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,7 +33,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 296,
+          "DockedWidth": 394,
           "SelectedChildIndex": 5,
           "Children": [
             {
@@ -41,66 +45,86 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "KatLeeftijdException.cs",
-              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\KatLeeftijdException.cs",
-              "RelativeDocumentMoniker": "Menu\\KatLeeftijdException.cs",
-              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\KatLeeftijdException.cs",
-              "RelativeToolTip": "Menu\\KatLeeftijdException.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwA4AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T09:42:46.606Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "KatMetCustomExeption.cs",
-              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\KatMetCustomExeption.cs",
-              "RelativeDocumentMoniker": "Menu\\KatMetCustomExeption.cs",
-              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\KatMetCustomExeption.cs",
-              "RelativeToolTip": "Menu\\KatMetCustomExeption.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAADwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T16:01:56.405Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Kat.cs",
-              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Kat.cs",
-              "RelativeDocumentMoniker": "Menu\\Kat.cs",
-              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Kat.cs",
-              "RelativeToolTip": "Menu\\Kat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T14:52:50.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "ExeptionHandeling.cs",
               "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\ExeptionHandeling.cs",
               "RelativeDocumentMoniker": "Menu\\ExeptionHandeling.cs",
               "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\ExeptionHandeling.cs",
               "RelativeToolTip": "Menu\\ExeptionHandeling.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAEQBAAAAAAAAAAA0wEUBAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T11:19:00.962Z",
+              "WhenOpened": "2025-11-27T16:40:17.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Formulier.cs",
+              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Formulier.cs",
+              "RelativeDocumentMoniker": "Menu\\Formulier.cs",
+              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Formulier.cs",
+              "RelativeToolTip": "Menu\\Formulier.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T11:13:06.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormulierGetalVraag.cs",
+              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\FormulierGetalVraag.cs",
+              "RelativeDocumentMoniker": "Menu\\FormulierGetalVraag.cs",
+              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\FormulierGetalVraag.cs",
+              "RelativeToolTip": "Menu\\FormulierGetalVraag.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAAC0AAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T11:20:19.034Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "FormulierVraag.cs",
+              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\FormulierVraag.cs",
+              "RelativeDocumentMoniker": "Menu\\FormulierVraag.cs",
+              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\FormulierVraag.cs",
+              "RelativeToolTip": "Menu\\FormulierVraag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T11:13:18.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormulierVrijeTekstVraag.cs",
+              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\FormulierVrijeTekstVraag.cs",
+              "RelativeDocumentMoniker": "Menu\\FormulierVrijeTekstVraag.cs",
+              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\FormulierVrijeTekstVraag.cs",
+              "RelativeToolTip": "Menu\\FormulierVrijeTekstVraag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T11:20:00.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Program.cs",
               "RelativeDocumentMoniker": "Menu\\Program.cs",
               "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Program.cs",
               "RelativeToolTip": "Menu\\Program.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAD4vzUAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAUwFwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T14:46:29.241Z"
+              "WhenOpened": "2025-09-16T14:46:29.241Z",
+              "EditorCaption": ""
             }
           ]
         }
