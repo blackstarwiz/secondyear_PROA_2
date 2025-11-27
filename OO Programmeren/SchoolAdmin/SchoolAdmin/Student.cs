@@ -55,7 +55,7 @@ namespace SchoolAdmin
                 var courses = ImmutableList.CreateBuilder<Course>();
                 foreach (var course in CourseRegistrations)
                 {
-                    if (Equals(this))
+                    if (Equals(this) && course.Course is not null)
                     {
                         courses.Add(course.Course);
                     }
@@ -135,6 +135,35 @@ namespace SchoolAdmin
             Console.WriteLine($"Gemiddelde: {Average().ToString("F1")}");
 
             Console.WriteLine();
+        }
+
+        public static void AddStudent()
+        {
+            try
+            {
+                Console.WriteLine("Naam van de student?");
+                Console.Write("> ");
+                string name = Console.ReadLine();
+                Console.WriteLine("Geboortedatum van de student? (jaar/maand/dag)");
+                Console.Write("> ");
+                string date = Console.ReadLine();
+
+                if (date is null)
+                    throw new NullReferenceException("Geen datum is ingevoerd");
+
+                DateTime birthDate = DateTime.Parse(date);
+
+                Student newstu = new Student(name, birthDate);
+
+                Console.Write("Student is corect toegevoegd, Druk op enter > ");
+                Console.ReadKey();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                Console.Write("Druk op enter om door te gaan > ");
+                Console.ReadKey();
+            }
         }
     }
 }

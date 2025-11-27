@@ -8,9 +8,9 @@ namespace Menu
 {
     internal class KatLeeftijdException : ArgumentException
     {
-        private int meegegevenWaarde;
-        private int laagste;
-        private int hoogste;
+        private readonly int meegegevenWaarde;
+        private readonly int laagste;
+        private readonly int hoogste;
 
         public KatLeeftijdException(int meegeven, int laagste, int hoogste)
              : base($"{meegeven} is geen geldige leeftijd. De laagste mogelijke leeft is {laagste} jaar, de hoogst mogelijke leeftijd is {hoogste} jaar")

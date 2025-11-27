@@ -69,85 +69,22 @@
                         break;
 
                     case 7:
-                        try
-                        {
-                            Console.WriteLine("Naam van de student?");
-                            Console.Write("> ");
-                            string name = Console.ReadLine();
-                            Console.WriteLine("Geboortedatum van de student? (jaar/maand/dag)");
-                            Console.Write("> ");
-                            string date = Console.ReadLine();
-
-                            if (date is null)
-                                throw new NullReferenceException("Geen datum is ingevoerd");
-
-                            DateTime birthDate = DateTime.Parse(date);
-
-                            Student newstu = new Student(name, birthDate);
-                        }
-                        catch (Exception e)
-                        {
-                            Console.WriteLine(e.Message);
-                        }
+                        Student.AddStudent();
 
                         break;
-
+                    //addcourse
                     case 8:
-                        Console.WriteLine("Titel van de cursus?");
-                        Console.Write("> ");
-                        string course = Console.ReadLine();
 
-                        Console.WriteLine("Aantal studiepunten?");
-                        Console.Write("> ");
-                        byte points = Convert.ToByte(Console.ReadLine());
-
-                        Course newCourse = new Course(course, points);
+                        Course.AddCourse();
                         break;
 
                     case 9:
-                        List<Student> studenten = new List<Student>();
-
-                        Console.WriteLine("Welke student?");
-
-                        for (int i = 0; i < Person.AllPersons.Count; i++)
-                        {
-                            if (Person.AllPersons[i] is Student)
-                            {
-                                Console.WriteLine($"{i + 1}: {Person.AllPersons[i].Name}");
-                                studenten.Add((Student)Person.AllPersons[i]);
-                            }
-                        }
-
-                        Console.Write("> ");
-                        int choiceStudent = Convert.ToInt32(Console.ReadLine()) - 1;
-
-                        for (int i = 0; i < Course.AllCourses.Count; i++)
-                        {
-                            Console.WriteLine($"{i + 1} {Course.AllCourses[i].Title}");
-                        }
-
-                        Console.Write("> ");
-                        int choiceCourse = Convert.ToInt32(Console.ReadLine()) - 1;
-
-                        Console.WriteLine("Wil je een resultaat toekennen? ja/nee");
-                        Console.Write("> ");
-                        string choiceResult = Console.ReadLine();
-                        byte result = 0;
-
-                        if (choiceResult == "ja")
-                        {
-                            Console.WriteLine("Wat is het resultaat");
-                            Console.Write("> ");
-                            result = Convert.ToByte(Console.ReadLine());
-                        }
-
-                        CourseRegistration newRegistration = new CourseRegistration(studenten[choiceStudent], Course.AllCourses[choiceCourse], result);
-                        
+                        CourseRegistration.AddCourseRegistration();
                         break;
 
                     case 10:
 
-                        foreach(var student in CourseRegistration.AllCourseRegistrations)
+                        foreach (var student in CourseRegistration.AllCourseRegistrations)
                         {
                             Console.WriteLine($"{student.Student.Name} ingescreven voor {student.Course.Title}");
                         }
