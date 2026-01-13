@@ -1,0 +1,15 @@
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\UnitTesting_Oefeningen\UnitTesting\bin\Debug\net8.0\UnitTesting.exe
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\UnitTesting_Oefeningen\UnitTesting\bin\Debug\net8.0\UnitTesting.deps.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\UnitTesting_Oefeningen\UnitTesting\bin\Debug\net8.0\UnitTesting.runtimeconfig.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\UnitTesting_Oefeningen\UnitTesting\bin\Debug\net8.0\UnitTesting.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\UnitTesting_Oefeningen\UnitTesting\bin\Debug\net8.0\UnitTesting.pdb
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\UnitTesting_Oefeningen\UnitTesting\obj\Debug\net8.0\UnitTesting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\UnitTesting_Oefeningen\UnitTesting\obj\Debug\net8.0\UnitTesting.AssemblyInfoInputs.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\UnitTesting_Oefeningen\UnitTesting\obj\Debug\net8.0\UnitTesting.AssemblyInfo.cs
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\UnitTesting_Oefeningen\UnitTesting\obj\Debug\net8.0\UnitTesting.csproj.CoreCompileInputs.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\UnitTesting_Oefeningen\UnitTesting\obj\Debug\net8.0\UnitTesting.sourcelink.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\UnitTesting_Oefeningen\UnitTesting\obj\Debug\net8.0\UnitTesting.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\UnitTesting_Oefeningen\UnitTesting\obj\Debug\net8.0\refint\UnitTesting.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\UnitTesting_Oefeningen\UnitTesting\obj\Debug\net8.0\UnitTesting.pdb
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\UnitTesting_Oefeningen\UnitTesting\obj\Debug\net8.0\UnitTesting.genruntimeconfig.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\OO Programmeren\UnitTesting_Oefeningen\UnitTesting\obj\Debug\net8.0\ref\UnitTesting.dll

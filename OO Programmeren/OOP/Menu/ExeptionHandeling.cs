@@ -75,6 +75,10 @@ namespace Menu
                         break;
 
                     case 11:
+                        DateTime day1 = DateTime.Now;
+                        DateTime day2 = DateTime.Now.AddDays(4);
+
+                        TimeSpan aantaldag = day2 - day1;
                         DemonstreerFormulieren();
                         break;
 
@@ -186,7 +190,7 @@ namespace Menu
             string hebbenWeNiet = "Die index hebben we niet!";
 
             string inputIndex = "";
-            string inputDoorGaan = "";
+            //string inputDoorGaan = "";
 
             Random rn = new Random();
             int[] array = new int[3];
@@ -201,7 +205,7 @@ namespace Menu
             {
                 Console.Clear();
                 Console.WriteLine(geefIndex);
-                inputIndex = Console.ReadLine();
+                inputIndex = Console.ReadLine() ?? "";
 
                 result = Convert.ToInt32(inputIndex);
 
@@ -219,7 +223,7 @@ namespace Menu
                 }
 
                 Console.WriteLine(doorGaan);
-                string awnser = Console.ReadLine();
+                string awnser = Console.ReadLine() ?? "";
 
                 if (awnser == "nee")
                     active = false;
@@ -237,7 +241,7 @@ namespace Menu
             string hebbenWeNiet = "Die index hebben we niet!";
 
             string inputIndex = "";
-            string inputDoorGaan = "";
+            //string inputDoorGaan = "";
 
             Random rn = new Random();
             int[] array = new int[3];
@@ -252,7 +256,7 @@ namespace Menu
             {
                 Console.Clear();
                 Console.WriteLine(geefIndex);
-                inputIndex = Console.ReadLine();
+                inputIndex = Console.ReadLine() ?? "";
 
                 try
                 {
@@ -283,7 +287,7 @@ namespace Menu
                 }
 
                 Console.WriteLine(doorGaan);
-                string awnser = Console.ReadLine();
+                string awnser = Console.ReadLine() ?? "";
 
                 if (awnser == "nee")
                     active = false;
@@ -295,7 +299,7 @@ namespace Menu
             Console.WriteLine("Welke file wil je lezen?");
             Console.Write("> ");
 
-            string filePath = Console.ReadLine();
+            string filePath = Console.ReadLine() ?? "";
 
             try
             {
@@ -338,7 +342,7 @@ namespace Menu
             catch (Exception)
             {
                 System.Console.WriteLine("We zullen dit formulier weggooien.");
-                f1 = null;
+                f1 = new Formulier(); ;
             }
             try
             {
@@ -348,7 +352,7 @@ namespace Menu
             catch (Exception)
             {
                 System.Console.WriteLine("We zullen dit formulier weggooien.");
-                f2 = null;
+                f2 = new Formulier();
             }
         }
     }

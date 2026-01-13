@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Menu
 {
-    internal interface IAandrijving
+    public interface IAandrijving
     {
-        void EnergieToeboeging();
+        void EnergieToevoegen();
 
         void Vertragen(int kmPerUurPerSeconde, int doelSnelheid);
 

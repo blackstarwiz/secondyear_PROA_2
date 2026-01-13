@@ -16,8 +16,8 @@ namespace Bibliotheekbeheersysteem
 
         public ReadingRoomItem(string title,string publisher, DateTime date)
         {
-            this.title = title;
-            this.publisher = publisher;
+            Title = title;
+            Publisher = publisher;
 
             try
             {
@@ -72,6 +72,19 @@ namespace Bibliotheekbeheersysteem
             get
             {
                 return title;
+            }private set
+            {
+                if (!int.TryParse(value, out int result))
+                {
+                    if(value == "")
+                        throw new ArgumentException("Er is niets ingevoerd bij naam");
+                    title = value;
+                }
+                else
+                {
+                    throw new ArgumentException("Voer een naam in aub!");
+                }
+               
             }
         }
 
@@ -80,6 +93,20 @@ namespace Bibliotheekbeheersysteem
             get
             {
                 return publisher;
+            }
+            private set
+            {
+                if (!int.TryParse(value, out int result))
+                {
+                    if (value == "")
+                        throw new ArgumentException("Er is niets ingevoerd bij uitgever");
+                    publisher = value;
+                }
+                else
+                {
+                    throw new ArgumentException("Voer een uitgever in aub!");
+                }
+               
             }
         }
 
@@ -95,7 +122,8 @@ namespace Bibliotheekbeheersysteem
 
         public override bool Equals(object? obj)
         {
-            return obj is ReadingRoomItem other && obj.GetHashCode() == other.GetHashCode();
+
+            return obj is ReadingRoomItem other && this.GetHashCode() == other.GetHashCode();
         }
 
         public override int GetHashCode()

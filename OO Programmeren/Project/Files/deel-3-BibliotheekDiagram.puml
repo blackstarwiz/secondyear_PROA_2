@@ -1,0 +1,143 @@
+@startuml
+' PlantUML class diagram generated from project files (Library, Book, ReadingRoomItem, NewsPaper, Magazine, ILendable, DuplicateDataException)
+
+package "Bibliotheekbeheersysteem" {
+  interface ILendable {
+    +bool IsAvailable {get; set;}
+    +DateTime BorrowingDate {get; set;}
+    +int BorrowDays {get; set;}
+    +void Borrow()
+    +void Return()
+  }
+
+  class Library {
+    -bool infoBoekMenu
+    -bool readingRoomMenu
+    -bool infoMenu
+    -string nameLibary
+    -List<Book> books
+    -Dictionary<DateTime, ReadingRoomItem> allReadingRoom
+    -string[] optionsBook
+    -string[] optionsReadingItems
+
+    +Library(string name)
+    +string NameLibary { get; set; }
+    +List<Book> Books { get; }
+    +Dictionary<DateTime, ReadingRoomItem> AllReadingRoom { get; }
+    +void BookMenu()
+    +void ReturnBook()
+    +void BorrowBook()
+    +void AddBook(Book book)
+    -bool IsValidISBN(string isbn)
+    +void DeleteBook()
+    +void FindBookAuthAndTitle()
+    +void InfoBookMenu()
+    +void FindBookWithISBN()
+    +void FindBookFromAuth()
+    +void FindBooksByPages()
+    +void CsvFileReader()
+    -static string FindProjectRoot()
+    +static string GetCsvPath(string fileName)
+    +void KrantEnMagazineMenu()
+    +void AddNewaPaper(ReadingRoomItem item)
+    +void AddMagazine(ReadingRoomItem item)
+    +void ShowAllNewsPapers()
+    +void ShowAllMagazine()
+    +void AcquisitionsReadingRoomToday()
+  }
+
+  class Book {
+    -string title
+    -string author
+    -string language
+    -string isbn
+    -Genres genre
+    -int pages
+    -string target_group
+    -string summary
+
+    +Book(Library library, string title, string author)
+    +string Title { get; set; }
+    +string Author { get; set; }
+    +string Language { get; set; }
+    +string ISBN { get; set; }
+    -bool IsValidISBN(string isbn)
+    +string Genre { get; set; }
+    +List<Genres> Genres { get; }
+    +int Pages { get; set; }
+    +string Target_Group { get; set; }
+    +string Summary { get; set; }
+
+    -bool isAvailable
+    -DateTime borrowingDate
+    -int borrowDays
+    +DateTime BorrowingDate { get; set; }
+    +int BorrowDays { get; set; }
+    +bool IsAvailable { get; set; }
+    +void Borrow()
+    +void Return()
+
+    +override bool Equals(object? obj)
+    +override int GetHashCode()
+    +void Overview()
+  }
+
+  abstract class ReadingRoomItem {
+    -string title
+    -string publisher
+    -DateTime date
+
+    +ReadingRoomItem(string title, string publisher, DateTime date)
+    +DateTime Date { get; }
+    +string Title { get; set; }
+    +string Publisher { get; set; }
+    +abstract string Identification { get; }
+    +abstract string Categorie { get; }
+    +override bool Equals(object? obj)
+    +override int GetHashCode()
+  }
+
+  class NewsPaper {
+    +NewsPaper(string title, string publisher, DateTime date)
+    +override string Identification
+    +override string Categorie
+  }
+
+  class Magazine {
+    +Magazine(string title, string publisher, DateTime date)
+    +override string Identification
+    +override string Categorie
+  }
+
+  class DuplicateDataException {
+    -Object object1
+    -Object object2
+    +DuplicateDataException(string msg, Object nieuwe, Object bestaande)
+    +Object Object1 { get; }
+    +Object Object2 { get; }
+  }
+
+  ' Optional placeholder type referenced by Book
+  class Genres {
+    '.. enum / domain type used by Book'
+  }
+}
+
+' Inheritance / Implementation
+Book ..|> ILendable
+ReadingRoomItem <|-- NewsPaper
+ReadingRoomItem <|-- Magazine
+
+' Aggregation / Associations
+Library "1" o-- "0..*" Book : "books"
+Library "1" o-- "0..*" ReadingRoomItem : "allReadingRoom (DateTime -> item)"
+
+' Exception usage
+Library ..> DuplicateDataException : "throws on AddBook when duplicate"
+
+' Notes
+note right of Library
+  - Holds menu option arrays: optionsBook, optionsReadingItems
+  - CSV helpers: GetCsvPath / FindProjectRoot
+end note
+@enduml

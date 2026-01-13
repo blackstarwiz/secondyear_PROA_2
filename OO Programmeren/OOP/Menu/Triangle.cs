@@ -10,7 +10,6 @@ namespace Menu
     {
         private double @base;
         private double height;
-        private double area;
 
 
         public Triangle(double baseTri, double height)

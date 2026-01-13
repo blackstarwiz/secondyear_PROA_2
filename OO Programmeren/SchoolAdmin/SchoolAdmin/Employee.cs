@@ -9,15 +9,12 @@ namespace SchoolAdmin
 {
     internal abstract class Employee : Person
     {
-        //private static ImmutableList<Employee> allEmployees = ImmutableList<Employee>.Empty;
         private byte seniority;
 
         private ImmutableDictionary<string, byte> tasks = ImmutableDictionary<string, byte>.Empty;
 
         public Employee(string name, DateTime birthdate, Dictionary<string, byte> inputtask) : base(name, birthdate)
         {
-            //allEmployees = allEmployees.Add(this);
-
             if (inputtask != null)
             {
                 foreach (var task in inputtask)

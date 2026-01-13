@@ -10,27 +10,13 @@ namespace SchoolAdmin
     internal class StudyProgram
     {
         private string name;
+        public ImmutableList<Course> Courses { get; }//readonly autoproperty
 
-        //private readonly ImmutableList<Course> courses = ImmutableList<Course>.Empty;
-        //private byte semester;
-        private readonly Dictionary<Course, byte> courses;
-
-        public StudyProgram(string name, Dictionary<Course, byte> courses)
+        public StudyProgram(string name, ImmutableList<Course> courses) 
         {
-            this.Name = name;
-            this.courses = courses;
-        }
-
-        public StudyProgram(string name) : this(name, null)
-        {
-        }
-
-        public ImmutableDictionary<Course, byte> Courses
-        {
-            get
-            {
-                return courses.ToImmutableDictionary();
-            }
+            this.name = name;
+            //readonly poperty 's kan alleen bij de start van het maken van het object toegewezen worden
+            this.Courses = courses;
         }
 
         public string Name
@@ -39,60 +25,78 @@ namespace SchoolAdmin
             {
                 return name;
             }
-            set
-            {
-                name = value;
-            }
         }
-
+       
         public void ShowOverview()
         {
-            Console.WriteLine($"Programma: {this.Name}");
-            //Console.WriteLine(String.Empty.PadLeft(this.Name.Length, '*'));
+            //intro text
+            string introText = $"Programma: {name}";
+            Console.WriteLine(introText);
+            Console.WriteLine(String.Empty.PadLeft(introText.Length,'*'));
+            //Space
             Console.WriteLine();
-
-            //voor 3 semesters
-            for (int i = 0; i < 2; i++)
+            //Lijst van al de vakken
+            for(int i = 0; i < Courses.Count; i++)
             {
-                Console.WriteLine($"Semester {i + 1}:");
-
-                bool hasCourses = false;
-                //bekijken we de courses
-                foreach (var kv in Courses)
-                {
-                    //als de kv.Value (Semester) is gelijk aan het semester
-                    if (kv.Value == i+1)
-                    {
-                        hasCourses = true ;
-
-                        //print key (course.title + course.creditpoints)
-                        Course course = kv.Key;
-                        Console.WriteLine($"{course.Title}\t({course.CreditPoints}sp)");
-                    }
-                    //als er geen zijn zou er een tekst moeten zijn "Er zijn geen cursussen in semester {i+!}"
-                }
-
-                if (!hasCourses)
-                {
-                    Console.WriteLine($"Er zijn geen cursussen in semester {i+1}");
-                }
-
-                Console.WriteLine();
+                //toon het vak
+                Console.WriteLine($"{Courses[i].Title} ({i+1}) sp({Courses[i].CreditPoints})");
             }
 
+            //Space
             Console.WriteLine();
         }
 
-        public void Remove(string input)
+        public void Remove(Course input)
         {
-            foreach (var k in Courses.Keys)
+            //voor elke course in Courses
+            foreach (var k in Courses)
             {
-                if (k.Title != input)
+
+                if (k != input)
                 {
                     throw new Exception("Ingevoerde richting is er niet");
                 }
                 Courses.Remove(k);
             }
         }
+
+
+
+        //DEMO'S
+        public static void DemoStudyProgram()
+        {
+            //Maken van verschillende vak objecten
+            Course commu = new Course("Communicatie");
+            Course pro = new Course("Programmeren");
+            Course data = new Course("Databanken");
+            Course sec = new Course("Security");
+
+            //steek al de vakken in een  onveranderlijke lijst
+            var courses = ImmutableList<Course>.Empty
+                .Add(commu)
+                .Add(pro)
+                .Add(data)
+                .Add(sec);
+
+            //maak de studie programma's
+            StudyProgram programmerenProgram = new StudyProgram("Programmeren",courses);
+            StudyProgram snbProgram = new StudyProgram("Systeem- en netwerkbeheer",courses);
+
+            //Databanken verwijderen uit richt snbProgram
+            //Door Remove gaan de bestaande lijst aanpassen en deze terug geven bij het aanmaken van de studyprogram
+            snbProgram = new StudyProgram("Systeem- en netwerkbeheer",snbProgram.Courses.Remove(data));
+            //Entry aanpassen
+            //Hiervoor gaan we ook een nieuwe studyprogram maken door de insert de aanpassing te laten doen
+          
+            programmerenProgram = new StudyProgram("Programmeren", programmerenProgram.Courses.Insert(1, new Course("Scripting")));
+            //Inhoud tonen van bijde richtingen
+            programmerenProgram.ShowOverview();
+            snbProgram.ShowOverview();
+            Console.WriteLine("Druk op Enter om verder te gaan");
+            Console.Write(">");
+            Console.ReadKey();
+        }
+
+
     }
 }

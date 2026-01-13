@@ -16,6 +16,10 @@ namespace Menu
             this.vragen = vragen.ToList();
         }
 
+        public Formulier()
+        {
+            vragen = new List<FormulierVraag>();
+        }
         public ImmutableList<FormulierVraag> Vragen
         {
             get

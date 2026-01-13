@@ -83,7 +83,7 @@ namespace Menu
             string[] options = ["Standaard", "Internationaal", "Hoge Priotiteit", "Geen enkele, we zijn er klaar met invoeren"];
             Console.WriteLine("Wil je nog een brief toevoegen? (ja/nee)");
             Console.Write("> ");
-            string awnser = Console.ReadLine();
+            string awnser = Console.ReadLine() ?? "";
             int dis = 0;
 
             if (awnser.ToLower() == "ja")

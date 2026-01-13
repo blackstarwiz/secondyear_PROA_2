@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\exeptionhandeling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\exeptionhandeling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\kalender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\kalender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\formuliergetalvraag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\formuliergetalvraag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\iroosterbaar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\iroosterbaar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\formulier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\formulier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\formuliervraag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\formuliervraag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\formuliervrijetekstvraag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\formuliervrijetekstvraag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\qualitytime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\qualitytime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\polymorfisme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\polymorfisme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\taak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\taak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|c:\\users\\jason\\onedrive\\desktop\\01-programmeren-25-26\\oo programmeren\\oop\\menu\\afspraak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4A297B-5269-45E6-92FE-D1222516DD9F}|Menu\\Menu.csproj|solutionrelative:menu\\afspraak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,13 +37,9 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 394,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 885,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -49,81 +49,104 @@
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ExeptionHandeling.cs",
-              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\ExeptionHandeling.cs",
-              "RelativeDocumentMoniker": "Menu\\ExeptionHandeling.cs",
-              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\ExeptionHandeling.cs",
-              "RelativeToolTip": "Menu\\ExeptionHandeling.cs",
-              "ViewState": "AgIAAEQBAAAAAAAAAAA0wEUBAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T16:40:17.009Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Formulier.cs",
-              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Formulier.cs",
-              "RelativeDocumentMoniker": "Menu\\Formulier.cs",
-              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Formulier.cs",
-              "RelativeToolTip": "Menu\\Formulier.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB8AAAAQAAAAAAAAAA==",
+              "Title": "QualityTime.cs",
+              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\QualityTime.cs",
+              "RelativeDocumentMoniker": "Menu\\QualityTime.cs",
+              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\QualityTime.cs",
+              "RelativeToolTip": "Menu\\QualityTime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvzMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T11:13:06.443Z",
+              "WhenOpened": "2026-01-12T16:58:18.803Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormulierGetalVraag.cs",
-              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\FormulierGetalVraag.cs",
-              "RelativeDocumentMoniker": "Menu\\FormulierGetalVraag.cs",
-              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\FormulierGetalVraag.cs",
-              "RelativeToolTip": "Menu\\FormulierGetalVraag.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Kalender.cs",
+              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Kalender.cs",
+              "RelativeDocumentMoniker": "Menu\\Kalender.cs",
+              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Kalender.cs",
+              "RelativeToolTip": "Menu\\Kalender.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAYwPgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T11:20:19.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormulierVraag.cs",
-              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\FormulierVraag.cs",
-              "RelativeDocumentMoniker": "Menu\\FormulierVraag.cs",
-              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\FormulierVraag.cs",
-              "RelativeToolTip": "Menu\\FormulierVraag.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T11:13:18.695Z",
+              "WhenOpened": "2026-01-09T15:32:04.519Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FormulierVrijeTekstVraag.cs",
-              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\FormulierVrijeTekstVraag.cs",
-              "RelativeDocumentMoniker": "Menu\\FormulierVrijeTekstVraag.cs",
-              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\FormulierVrijeTekstVraag.cs",
-              "RelativeToolTip": "Menu\\FormulierVrijeTekstVraag.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
+              "Title": "Polymorfisme.cs",
+              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Polymorfisme.cs",
+              "RelativeDocumentMoniker": "Menu\\Polymorfisme.cs",
+              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Polymorfisme.cs",
+              "RelativeToolTip": "Menu\\Polymorfisme.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwFMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T11:20:00.745Z",
+              "WhenOpened": "2026-01-08T18:07:49.837Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Program.cs",
               "RelativeDocumentMoniker": "Menu\\Program.cs",
               "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Program.cs",
               "RelativeToolTip": "Menu\\Program.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAUwFwAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwDkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T14:46:29.241Z",
+              "WhenOpened": "2026-01-09T15:10:18.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Taak.cs",
+              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Taak.cs",
+              "RelativeDocumentMoniker": "Menu\\Taak.cs",
+              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Taak.cs",
+              "RelativeToolTip": "Menu\\Taak.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwCwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T14:52:01.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Afspraak.cs",
+              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Afspraak.cs",
+              "RelativeDocumentMoniker": "Menu\\Afspraak.cs",
+              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\Afspraak.cs",
+              "RelativeToolTip": "Menu\\Afspraak.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAIwGIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T14:51:51.426Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 31,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IRoosterbaar.cs",
+              "DocumentMoniker": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\IRoosterbaar.cs",
+              "RelativeDocumentMoniker": "Menu\\IRoosterbaar.cs",
+              "ToolTip": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\OO Programmeren\\OOP\\Menu\\IRoosterbaar.cs",
+              "RelativeToolTip": "Menu\\IRoosterbaar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T14:53:56.304Z",
               "EditorCaption": ""
             }
           ]

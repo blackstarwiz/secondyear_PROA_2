@@ -9,11 +9,9 @@ namespace SchoolAdmin
 {
     internal class AdministrativePersonnel : Employee
     {
-        // private readonly ImmutableList<AdministrativePersonnel> allAdministrativePersonnel = ImmutableList<AdministrativePersonnel>.Empty;
-
         public AdministrativePersonnel(string name, DateTime birthdate, Dictionary<string, byte> task) : base(name, birthdate, task)
         {
-            //allAdministrativePersonnel = allAdministrativePersonnel.Add(this);
+            
         }
 
         public AdministrativePersonnel AllAdministrativePersonnel

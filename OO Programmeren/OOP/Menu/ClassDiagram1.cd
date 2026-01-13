@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Menu.Ketel" Collapsed="true">
+    <Position X="5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAEAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Ketel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menu.KetelMetDoseren" Collapsed="true">
+    <Position X="7.75" Y="7.25" Width="1.5" />
+    <InheritanceLine Type="Menu.Ketel" ManuallyRouted="true">
+      <Path>
+        <Point X="5.75" Y="4.312" />
+        <Point X="5.75" Y="6.41" />
+        <Point X="8.5" Y="6.41" />
+        <Point X="8.5" Y="7.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAQAIAAAAAAAEAAAAAAEAAAAAAA=</HashCode>
+      <FileName>KetelMetDoseren.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Menu.KetelZonderDoseren" Collapsed="true">
+    <Position X="1.75" Y="7.25" Width="1.5" />
+    <InheritanceLine Type="Menu.Ketel" ManuallyRouted="true">
+      <Path>
+        <Point X="5.75" Y="4.312" />
+        <Point X="5.75" Y="6.41" />
+        <Point X="2.5" Y="6.41" />
+        <Point X="2.5" Y="7.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAEAAAAAAEAAAAAAA=</HashCode>
+      <FileName>KetelZonderDoseren.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.207" />
+  </Class>
+  <Class Name="Menu.StoomKetel" Collapsed="true">
+    <Position X="5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAQAAAAAAAAAEAAAAAAEAAAEAAA=</HashCode>
+      <FileName>StoomKetel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Menu.IStoomVerwarmen" Collapsed="true">
+    <Position X="8.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>IStoomVerwarmen.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Menu.IVerwarmen" Collapsed="true">
+    <Position X="6.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IVerwarmen.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Menu.IWaterDoseren" Collapsed="true">
+    <Position X="4" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IWaterDoseren.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Menu.IAfkoelen" Collapsed="true">
+    <Position X="2" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>IAfkoelen.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

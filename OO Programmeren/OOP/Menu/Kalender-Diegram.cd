@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Menu.Kalender" Collapsed="true">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAIEAABAAAAgAAgAAQAAAABAGAAAQAAAAEEA=</HashCode>
+      <FileName>Kalender.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Menu.Polymorfisme">
+    <Position X="0.75" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAASAAAAAAAAAIAAIAAAEAAAEAAgAIAAAAAA=</HashCode>
+      <FileName>Polymorfisme.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menu.Taak">
+    <Position X="7" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAgAAAAAAAAAAAAAAAAAAAEAAIABAACA=</HashCode>
+      <FileName>Taak.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Menu.Afspraak">
+    <Position X="4.75" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAgAAAAAgAAAAAAAAAAACAEAAIAAAACA=</HashCode>
+      <FileName>Afspraak.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Menu.IRoosterbaar" Collapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAgAAAAAAAAAAAAAAAAAAAEAAIAAAAAA=</HashCode>
+      <FileName>IRoosterbaar.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

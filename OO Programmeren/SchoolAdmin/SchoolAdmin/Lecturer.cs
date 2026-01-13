@@ -9,13 +9,10 @@ namespace SchoolAdmin
 {
     internal class Lecturer : Employee
     {
-        //private ImmutableList<Lecturer> allLecturer = ImmutableList<Lecturer>.Empty;
         private ImmutableDictionary<Course, byte> allCourses = ImmutableDictionary<Course, byte>.Empty;
 
         public Lecturer(string name, DateTime birthdate, Dictionary<string, byte> courses) : base(name, birthdate, courses)
         {
-            // allLecturer = allLecturer.Add(this);
-
             if (courses != null)
             {
                 foreach (var course in courses)

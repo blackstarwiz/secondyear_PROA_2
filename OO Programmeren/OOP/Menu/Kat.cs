@@ -43,11 +43,11 @@ namespace Menu
                 Console.WriteLine("De volledige lijst met katten is aangemaakt");
             }catch(ArgumentException a)
             {
-                Console.WriteLine("Het is niet geluk :-(");
+                Console.WriteLine(a.Message);
 
             }catch(Exception e)
             {
-                Console.WriteLine("Het is niet gelukt :-(");
+                Console.WriteLine(e.Message);
             }
             finally
             {

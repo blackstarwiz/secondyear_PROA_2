@@ -14,12 +14,10 @@ namespace Menu
             Male,
             Female
         }
-        private string name;
+        private string? name;
 
         private Genders gender;
-
-        //private ImmutableList<string> allergies = ImmutableList<string>.Empty;
-        public string Name
+        public string? Name
         {
             get
             {
@@ -43,7 +41,7 @@ namespace Menu
             }
         }
 
-        public abstract ImmutableList<string> Allergies
+        public abstract ImmutableList<string>? Allergies
         {
             get;
             set;
@@ -54,7 +52,7 @@ namespace Menu
         public static void DemoVet()
         {
             var patients = new List<Animal>();
-            var animal1 = new Dog();
+            var animal1 = new Dog();//poly
             animal1.IndividualAllergies = new List<string> { "vis" };
             animal1.Chip = "ABC123";
             animal1.Gender = Genders.Female;
@@ -69,6 +67,10 @@ namespace Menu
                 Console.WriteLine(animal.Name);
                 Console.WriteLine(animal.Gender);
                 Console.WriteLine("allergieën:");
+
+                if (animal.Allergies is null)
+                    throw new ArgumentNullException();
+
                 foreach (var allergie in animal.Allergies)
                 {
                     Console.WriteLine(allergie);

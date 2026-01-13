@@ -4,7 +4,7 @@
     {
         private bool sub_isActive = true;
         private bool hoofd_isActive = true;
-        private string[] topic = ["DateTime", "ClassesAndObjects", "Datastructuren", "Inheritance", "Exeption Handeling", "Programma afsluiten"];
+        private string[] topic = ["DateTime", "ClassesAndObjects", "Datastructuren", "Inheritance", "Exeption Handeling","Polymorfisme", "Programma afsluiten"];
 
         private static void Main(string[] args)
         {
@@ -91,6 +91,10 @@
 
                         case 5:
                             ExeptionHandeling.ShowSubMenu();
+                            sub_isActive = false;
+                            break;
+                        case 6:
+                            Polymorfisme.ShowSubMenu();
                             sub_isActive = false;
                             break;
 

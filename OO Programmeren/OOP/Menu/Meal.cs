@@ -10,7 +10,7 @@ namespace Menu
     {
         private ConsoleColor randomColor;
         private Random rn = new Random();
-        private string name;
+        private string? name;
         private double price;
 
         public Meal(string name, double price)
@@ -21,7 +21,7 @@ namespace Menu
             Name = name;
         }
 
-        public string Name
+        public string? Name
         {
             get
             {

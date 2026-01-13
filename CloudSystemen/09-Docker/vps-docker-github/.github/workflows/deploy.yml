@@ -1,8 +1,0 @@
-- name:
-     Deploy to Azure VM
-  uses: appleboy/ssh-action@v0.1.10
-  with:
-    host: <jouw-azure-ip>  # Bijv. 20.123.45.67
-    username: azureuser
-    key: ${{ secrets.AZURE_SSH_KEY }}
-    # ... rest van het script

@@ -8,43 +8,49 @@ namespace SchoolAdmin
         private static List<CourseRegistration> allCourseRegistrations = new();
         private Course? course;
         private byte? result;
-        private Student? student;
+        private readonly Student student;
 
-        public CourseRegistration(Student? student, Course? course, byte? result)
+        //aantal student toegelaten in course
+        private int maxStu = 20;
+
+        //de aantal  students counter
+        private int aantal = 1;
+
+        public CourseRegistration(Student student, Course? course, byte? result)
         {
+            if (student is null)
+                throw new ArgumentNullException(nameof(student), "Student mag niet ontbreken!");
+            this.student = student;
             this.Course = course;//check op null object -> property
-            this.Student = student;//check op null object ->property
-            this.Result = result;
+            this.Result = result;//check op null object -> property
 
-
-
-
-            //aantal student toegelaten in course
-            int maxStu = 20;
-            //de aantal  students counter 
-            int aantal = 0;
-            //voor elke registratie
-            foreach(var stu in AllCourseRegistrations)
+            //bekijken of max aantal studenten voor course bereikt is of niet
+            foreach (var co in AllCourseRegistrations)
             {
-                
-                //bekijken we of deze niet null is van bestaande en binnen komende Object, ook bekijken we de id  of deze het zelfde is al gekozen course
-                if(stu.Course is not null && course is not null && stu.Course.Equals(course) && stu.Student is not null)
-                {
-                    foreach(var courses in stu.Student.Courses)
-                    {
-                        if (courses == course)
-                            throw new ArgumentException("Een student kan niet meermaals inschrijven voor dezelfde cursus.");
-                    }
-                    //als Result = 0 
-                    if(stu.Result == 0)
-                    {
-                        aantal++;
-                    }
-                }
+                if (co.Course.Title == Course.Title)
+                    aantal++;
             }
-               
-            if (aantal >= maxStu)
-                throw new CapacityExceededException($"Er zijn al teveel studenten ingeschreven voor {course.Title}");
+
+            //als het aantal gelijk is aan maxstu dan zal er een execption gegooit worden.
+            if (aantal == maxStu && course is not null)
+                throw new CapacityExceededException($"Max aantal studenten bereikt voor {Course.Title}");
+
+            //als max aantal niet bereik is gaan we verder
+            //voor elke registratie
+            foreach (var registration in AllCourseRegistrations)
+            {
+                //als Course niet leeg is
+                if (Course is not null)
+                    //bekijken we of de student de klass in zijn lijst heeft staan
+                    if (registration.student.Courses.Contains(Course))
+                    {
+                        //als dit zo is zullen we de id's van de lijst(studenten).id verglijkt worden met de ingevoerde student
+                        // die zich wilt inschrijven
+                        if (registration.student.Id == student.Id)
+                            //als de student gelijk is stoppen we de terminal en gooien we exeption
+                            throw new ArgumentOutOfRangeException($"Je kunt je niet dubbel inschrijven voor {Course.Title}");
+                    }
+            }
 
             allCourseRegistrations.Add(this);
         }
@@ -63,19 +69,7 @@ namespace SchoolAdmin
             }
         }
 
-        public Student? Student
-        {
-            get
-            {
-                return student;
-            }
-            private set
-            {
-                if (value is null)
-                    throw new ArgumentException("Student mag niet ontbreken");
-                student = value;
-            }
-        }
+        public Student Student => student;
 
         public byte? Result
         {

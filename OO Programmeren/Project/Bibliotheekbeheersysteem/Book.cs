@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace Bibliotheekbeheersysteem
+namespace Bibliotheekbeheersysteem 
 {
     //EINGENSCHAPPEN BOEK
     /*
@@ -33,9 +33,10 @@ namespace Bibliotheekbeheersysteem
         Humor,
         Wetenschap
     }
-    
-    internal class Book
+
+    internal class Book : ILendable
     {
+        
         private string title;
         private string author;
         private string language;
@@ -47,12 +48,25 @@ namespace Bibliotheekbeheersysteem
 
         public Book(Library library, string title, string author)
         {
-            this.Title = title;
-            this.Author = author;
+            
+            if (title == "Terug")
+            {
+                this.Title = title;
+                this.Author = author;
+            }
+            else
+            {
+                IsAvailable = true;
 
-            library.AddBook(this);
+
+                this.Title = title;
+                this.Author = author;
+                library.AddBook(this);
+            }
         }
 
+
+       
         public string Title
         {
             get
@@ -124,9 +138,9 @@ namespace Bibliotheekbeheersysteem
         {
             // Verwijder streepjes
             string cleanIsbn = isbn.Replace("-", "");
-            // @"^\d{10}$" 
+            // @"^\d{10}$"
             //
-            //@ negeert escape van \\ 
+            //@ negeert escape van \\
             //^ begin van de string
             //\d cijfers van {0 - 9}
             //{10} {13}  moet tien keer voor komen (length)
@@ -151,7 +165,7 @@ namespace Bibliotheekbeheersysteem
                 string rest = value.Substring(1).ToLower();
                 string resultGenre = firstLetter + rest;
 
-                //Verplaats legen ruimste " " met "_" 
+                //Verplaats legen ruimste " " met "_"
                 resultGenre = resultGenre.Replace(" ", "_");
 
                 Genres genre;
@@ -212,14 +226,95 @@ namespace Bibliotheekbeheersysteem
             }
             set
             {
-                if (value == "")
+                if (int.TryParse(value, out int integer))
                 {
-                    throw new Exception("Veld is leeg, voer geldige samenvatting in!");
+                    throw new FormatException("Ingevoerde waarde is enkel een getal");
                 }
+
+                if (value == "")
+                    throw new Exception("Veld is leeg, voer geldige samenvatting in!");
+
                 summary = value;
             }
         }
 
+        public override bool Equals(object? obj)
+        {
+            return obj is Book other && obj.Equals(other.Title);
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Title);
+        }
+
+
+
+        //-----------------------ILenable------------------------
+
+
+        private bool isAvailable;
+        private DateTime borrowingDate;
+        private int borrowDays;
+
+        public DateTime BorrowingDate
+        {
+            get
+            {
+               
+                return borrowingDate;
+            }
+            set
+            {
+                borrowingDate = value;
+            }
+        }
+         public int BorrowDays
+        {
+            get
+            {
+                TimeSpan days;
+
+                if (this.Genre == "Schoolbook")
+                {
+                    days = BorrowingDate.AddDays(10) - BorrowingDate;
+                }
+                else
+                {
+                    days = BorrowingDate.AddDays(20) - BorrowingDate;
+                }
+                return (int)days.TotalDays;
+            }
+            set
+            {
+                borrowDays = value;
+            }
+        }
+        
+        public bool IsAvailable
+        {
+            get
+            {
+                return isAvailable;
+            }
+            set
+            {
+                isAvailable = value;
+            }
+        }
+
+
+
+        public void Borrow()
+        {
+            
+        }
+
+        public void Return()
+        {
+
+        }
+        //-----------------einde ILenable -------------------------
         public void Overview()
         {
             string bookOverview = $"titel: {Title}\n auteur: {Author}\n genre: {Genre}\n isbn: {ISBN}\n taal: {Language}\n aantal paginas: {Pages}\n doelgroep: {Target_Group}\n samenvatting: {Summary}";
