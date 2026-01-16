@@ -1,6 +1,4 @@
-﻿using System.Threading.Tasks;
-
-namespace SchoolAdmin
+﻿namespace SchoolAdmin
 {
     internal class Program
     {
@@ -33,6 +31,9 @@ namespace SchoolAdmin
                     if (!int.TryParse(Console.ReadLine(), out int keuze))
                         throw new ArgumentException("Voer geldige waarde in");
 
+                    if (keuze > optie.Count())
+                        throw new ArgumentOutOfRangeException("Optie bestaat niet");
+
                     switch (keuze)
                     {
                         case 1:
@@ -49,7 +50,10 @@ namespace SchoolAdmin
                             break;
 
                         case 4:
-                            StudyProgram.DemoStudyProgram();
+
+                            StudyProgram pro = new StudyProgram();
+                            
+                            pro.DemoStudyProgram();
                             break;
 
                         case 5:
@@ -74,9 +78,10 @@ namespace SchoolAdmin
                             break;
 
                         case 10:
-
                             foreach (var student in CourseRegistration.AllCourseRegistrations)
                             {
+                                if (student.Course is null)
+                                    continue;
                                 Console.WriteLine($"{student.Student.Name} ingescreven voor {student.Course.Title}");
                             }
                             Console.ReadKey();
@@ -84,6 +89,25 @@ namespace SchoolAdmin
 
                         case 11:
 
+                            Console.Clear();
+
+                            var students = Person.AllPersons.OfType<Student>().ToList();
+
+                            if (students.Count == 0)
+                                throw new ArgumentNullException("Er zijn nog geen studenten toegevoeg: druk op 7");
+
+                            //we geven de klasse mee die we willen gebruiken om de lijst spicifiek te sorteren
+                            students.Sort(new StudentsAscendingByName());
+
+                            //voor elke student in students
+                            foreach (var student in students)
+                            {
+                                //tonen we de naam
+                                Console.WriteLine($"{student.Id} - {student.Name}");
+                            }
+                            Console.WriteLine("Druk op Enter");
+                            Console.Write("> ");
+                            Console.ReadKey();
                             break;
 
                         default:
@@ -97,6 +121,15 @@ namespace SchoolAdmin
                 catch (FormatException e)
                 {
                     Console.WriteLine(e.Message);
+                    Console.WriteLine("Druk op Enter");
+                    Console.Write("> ");
+                    Console.ReadKey();
+                }catch(Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                    Console.WriteLine("Druk op Enter");
+                    Console.Write("> ");
+                    Console.ReadKey();
                 }
             } while (active);
         }
@@ -115,9 +148,6 @@ namespace SchoolAdmin
                 throw new ArgumentException("Path kan niet leeg zijn");
 
             string[] csvArray = text.Split(";");
-
-
-           
         }
 
         public static void DemoAdministrativePersonnel()

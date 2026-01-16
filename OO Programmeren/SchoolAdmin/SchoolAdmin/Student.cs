@@ -1,5 +1,6 @@
 ﻿using System.Collections.Immutable;
 using System.Globalization;
+using System.Runtime.CompilerServices;
 using System.Xml.Serialization;
 
 namespace SchoolAdmin
@@ -9,6 +10,10 @@ namespace SchoolAdmin
         private ImmutableDictionary<DateTime, string> studentFile = ImmutableDictionary<DateTime, string>.Empty;
 
         public Student(string name, DateTime birthdate) : base(name, birthdate)
+        {
+        }
+
+        public Student() : base("null", new DateTime())
         {
         }
 
@@ -24,7 +29,7 @@ namespace SchoolAdmin
         {
             get
             {
-                return studentFile.ToImmutableDictionary();
+                return studentFile;
             }
         }
 
@@ -63,7 +68,7 @@ namespace SchoolAdmin
             }
         }
 
-        public int Age
+        public new int Age
         {
             get
             {
@@ -73,7 +78,7 @@ namespace SchoolAdmin
 
         public override string GenerateNameCard()
         {
-            return $"{base.Name} ({this.Age.ToString("F0")} jaar)";
+            return $"{base.Name} ({this.Age} jaar)";
         }
 
         public override double DetermineWorkload()
@@ -133,7 +138,6 @@ namespace SchoolAdmin
 
         public void ShowOverview()
         {
-            
             var studentName = this.GenerateNameCard();
             var cijferRapport = "Cijferrapport";
 
@@ -145,7 +149,7 @@ namespace SchoolAdmin
             Console.WriteLine();
             //CijferRapport
             Console.WriteLine(cijferRapport);
-            Console.WriteLine(string.Empty.PadLeft(cijferRapport.Length,'*'));
+            Console.WriteLine(string.Empty.PadLeft(cijferRapport.Length, '*'));
 
             foreach (CourseRegistration course in CourseRegistrations)
             {
@@ -164,21 +168,25 @@ namespace SchoolAdmin
         {
             try
             {
-                Console.WriteLine("Naam van de student?");
+                Console.WriteLine("Naam van de student? (Verplicht)");
                 Console.Write("> ");
-                string name = Console.ReadLine();
+                string name = Console.ReadLine() ?? "";
+
+                if (name == "")
+                    throw new ArgumentNullException("Voer een naam in");
+
                 Console.WriteLine("Geboortedatum van de student? (jaar/maand/dag)");
                 Console.Write("> ");
-                string date = Console.ReadLine();
 
-                if (date is null)
-                    throw new NullReferenceException("Geen datum is ingevoerd");
-
-                DateTime birthDate = DateTime.Parse(date);
+                if (!DateTime.TryParse(Console.ReadLine(), out DateTime birthDate))
+                    throw new FormatException("Voer een geldig format in: Maand/Dag/Jaar");
 
                 Student newstu = new Student(name, birthDate);
 
                 Console.Write("Student is corect toegevoegd, Druk op enter > ");
+
+                newstu.studentFile.Add(DateTime.Now, newstu.CourseRegistrations.ToString() ?? "Student heeft nog geen file");
+
                 Console.ReadKey();
             }
             catch (Exception e)
@@ -189,42 +197,53 @@ namespace SchoolAdmin
             }
         }
 
-
         //DEMO'S
         public static void DemoStudents()
         {
-            //student objecten maken
-            Student student1 = new Student("Said Aziz", new DateTime(2000, 6, 1));
-            Student student2 = new Student("Mieke Vermeulen", new DateTime(1998, 1, 1));
-           
+            var students = Person.AllPersons.OfType<Student>().ToList();
 
-            //Course object aanmaken en studenten toevoegen plus studiepunten
-            Course webCourse = new Course("Webtechnologie", 6);
+            if (students.Count != 0)
+            {
+                Console.Clear();
 
-            Course oopCourse = new Course("OO Programmeren");
+                foreach (var student in students)
+                {
+                    
+                    student.ShowOverview();
+                }
+            }
+            else
+            {
+                //student objecten maken
+                Student student1 = new Student("Said Aziz", new DateTime(2000, 6, 1));
+                Student student2 = new Student("Mieke Vermeulen", new DateTime(1998, 1, 1));
 
-            Course wplCours = new Course("WPL", 9);
+                //Course object aanmaken en studenten toevoegen plus studiepunten
+                Course webCourse = new Course("Webtechnologie", 6);
 
-            student1.RegisterCourseResult(webCourse, 4);
-            student1.RegisterCourseResult(webCourse, 4);//dubbele invoer MAG NIET!!
-            student1.RegisterCourseResult(oopCourse, 7);
-            student1.RegisterCourseResult(wplCours, 0);
+                Course oopCourse = new Course("OO Programmeren");
 
-            student2.RegisterCourseResult(webCourse, 0);
-            student2.RegisterCourseResult(oopCourse, 2);
-            student2.RegisterCourseResult(wplCours, 14);
+                Course wplCours = new Course("WPL", 9);
 
-            //Beeld schoon maken
-            Console.Clear();
+                student1.RegisterCourseResult(webCourse, 4);
+                student1.RegisterCourseResult(webCourse, 4);//dubbele invoer MAG NIET!!
+                student1.RegisterCourseResult(oopCourse, 7);
+                student1.RegisterCourseResult(wplCours, 0);
 
-            student1.ShowOverview();
-            student2.ShowOverview();
+                student2.RegisterCourseResult(webCourse, 0);
+                student2.RegisterCourseResult(oopCourse, 2);
+                student2.RegisterCourseResult(wplCours, 14);
+
+                //Beeld schoon maken
+                Console.Clear();
+
+                student1.ShowOverview();
+                student2.ShowOverview();
+            }
 
             Console.WriteLine("Druk op Enter om verder te gaan");
             Console.Write(">");
             Console.ReadKey();
         }
-
-
     }
 }

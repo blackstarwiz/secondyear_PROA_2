@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.Immutable;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Immutable;
 
 namespace SchoolAdmin
 {
@@ -11,21 +6,27 @@ namespace SchoolAdmin
     {
         private uint id;
         private static uint maxId = 1;
-        private string name;
+        private string? name;
         private DateTime birthDate;
         private static ImmutableList<Person> allPersons = ImmutableList<Person>.Empty;
-        
+
         public Person(string name, DateTime birthdate)
         {
-            id = maxId;
-            maxId++;
+            if (name.Contains("null"))
+            {
+                id = 0;
+            }
+            else
+            {
+                id = maxId++;
+            }
 
             Name = name;
 
             birthDate = birthdate;
-
-            allPersons =  allPersons.Add(this);
+            allPersons = allPersons.Add(this);
         }
+
         public uint Id
         {
             get
@@ -34,7 +35,7 @@ namespace SchoolAdmin
             }
         }
 
-        public string Name
+        public string? Name
         {
             get
             {
@@ -73,7 +74,7 @@ namespace SchoolAdmin
 
         public override bool Equals(object? obj)
         {
-            if(!(obj is null))
+            if (!(obj is null))
                 return obj is Person other && Id == other.Id;
             return false;
         }
@@ -86,7 +87,7 @@ namespace SchoolAdmin
         public abstract string GenerateNameCard();
 
         public abstract double DetermineWorkload();
-         
+
         public override string ToString()
         {
             string person = "Person\n";

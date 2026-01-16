@@ -3,7 +3,7 @@
 namespace UnitTesting_tester
 {
     [TestClass]
-    public sealed class CalculatorTest1
+    public class CalculatorTest1
     {
         [TestMethod]
         public void SumTest()

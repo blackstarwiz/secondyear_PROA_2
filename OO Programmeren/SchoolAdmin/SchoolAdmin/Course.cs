@@ -6,17 +6,24 @@ namespace SchoolAdmin
     internal class Course
     {
         public string Title;
-        private readonly ImmutableList<Student> students;
+
         private byte creditPoints;
 
         private int id;
         private static int maxId = 1;
         public static ImmutableList<Course>.Builder AllCourses = ImmutableList.CreateBuilder<Course>();
 
-        
-
         public Course(string title, byte creditpoints)
         {
+            if (title.Contains("null"))
+            {
+                id = 0;
+            }
+            else
+            {
+                this.Id = maxId++;
+            }
+
             //voor elke bestaande course
             foreach (Course existingCourse in AllCourses)
             {
@@ -27,7 +34,6 @@ namespace SchoolAdmin
                 }
             }
 
-            this.Id = maxId++;
             this.Title = title;
 
             this.CreditPoints = creditpoints;
@@ -36,6 +42,10 @@ namespace SchoolAdmin
         }
 
         public Course(string title) : this(title, 3)
+        {
+        }
+
+        public Course() : this("null", byte.MinValue)
         {
         }
 
@@ -133,14 +143,14 @@ namespace SchoolAdmin
                 }
             }
 
-            return null;
+            return (Course)new Object();
         }
 
         public static void AddCourse()
         {
             Console.WriteLine("Titel van de cursus?");
             Console.Write("> ");
-            string course = Console.ReadLine();
+            string course = Console.ReadLine() ?? "";
 
             Console.WriteLine("Aantal studiepunten?");
             Console.Write("> ");
@@ -173,42 +183,53 @@ namespace SchoolAdmin
             }
         }
 
-
         //DEMO'S
         public static void DemoCourses()
         {
             try
             {
-                //student objecten maken
-                
-                Student student1 = new Student("Jason Meulemans", new DateTime(1998, 1, 1));
+                if (Course.AllCourses.Count != 0)
+                {
+                    Console.Clear();
+                    foreach(var course in Course.AllCourses.ToImmutableList())
+                    {
+                        course.ShowOverview();
+                    }
+                }
+                else
+                {
+                    //student objecten maken
 
-                Student student2 = new Student("Mieke Vermeulen", new DateTime(1998, 1, 1));
+                    Student student1 = new Student("Jason Meulemans", new DateTime(1998, 1, 1));
 
-                //Course object aanmaken en studenten toevoegen plus studiepunten
-                Course webCourse = new Course("Webtechnologie", 6);
+                    Student student2 = new Student("Mieke Vermeulen", new DateTime(1998, 1, 1));
 
-                Course oopCourse = new Course("OO Programmeren");
+                    //Course object aanmaken en studenten toevoegen plus studiepunten
+                    Course webCourse = new Course("Webtechnologie", 6);
 
-                Course wplCours = new Course("WPL",9);
+                    Course oopCourse = new Course("OO Programmeren");
 
-                student1.RegisterCourseResult(webCourse, 4);
-                student1.RegisterCourseResult(webCourse, 4);//dubbele invoer MAG NIET!!
-                student1.RegisterCourseResult(oopCourse, 7);
-                student1.RegisterCourseResult(wplCours, 0);
+                    Course wplCours = new Course("WPL", 9);
 
-                student2.RegisterCourseResult(webCourse,0);
-                student2.RegisterCourseResult(oopCourse, 2);
-                student2.RegisterCourseResult(wplCours, 14);
-                
-                webCourse.ShowOverview();
-                oopCourse.ShowOverview();
-                wplCours.ShowOverview();
+                    student1.RegisterCourseResult(webCourse, 4);
+                    //student1.RegisterCourseResult(webCourse, 4);//dubbele invoer MAG NIET!!
+                    student1.RegisterCourseResult(oopCourse, 7);
+                    student1.RegisterCourseResult(wplCours, 0);
+
+                    student2.RegisterCourseResult(webCourse, 0);
+                    student2.RegisterCourseResult(oopCourse, 2);
+                    student2.RegisterCourseResult(wplCours, 14);
+
+                    Console.Clear();
+
+                    webCourse.ShowOverview();
+                    oopCourse.ShowOverview();
+                    wplCours.ShowOverview();
+                }
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 Console.WriteLine(e.Message);
-
             }
             Console.WriteLine("Druk op Enter om verder te gaan");
             Console.Write(">");

@@ -9,7 +9,7 @@ public class CalculatorTest2
 {
     Calculator? calculator;
     [TestInitialize]
-    public void ArrangeTests()
+    public void Initialize()
     {
         calculator = new Calculator();
     }
@@ -27,12 +27,13 @@ public class CalculatorTest2
     [DataRow(1)]
     public void EvenTestTrue(int number)
     {
+        //Arrange
         if (calculator is null)
             throw new NullReferenceException("Initialize is niet gebeurt");
 
-        bool result = calculator.Even(number);
-
-        Assert.IsTrue(result);
+        //Act
+        //Assert
+        Assert.IsTrue(calculator.Even(number));
     }
 
     [DataTestMethod]
@@ -51,8 +52,6 @@ public class CalculatorTest2
         if (calculator is null)
             throw new NullReferenceException("Initialize is niet gebeurt");
 
-        bool result = calculator.Even(number);
-
-        Assert.IsFalse(result);
+        Assert.IsFalse(calculator.Even(number));
     }
 }

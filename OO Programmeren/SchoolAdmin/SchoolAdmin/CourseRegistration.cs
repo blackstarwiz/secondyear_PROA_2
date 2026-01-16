@@ -27,12 +27,16 @@ namespace SchoolAdmin
             //bekijken of max aantal studenten voor course bereikt is of niet
             foreach (var co in AllCourseRegistrations)
             {
+                if (co is null || Course is null)
+                    throw new ArgumentNullException("Course is leeg");
+                if (co.Course is null)
+                    throw new ArgumentNullException("Students Course is leeg");
                 if (co.Course.Title == Course.Title)
                     aantal++;
             }
 
             //als het aantal gelijk is aan maxstu dan zal er een execption gegooit worden.
-            if (aantal == maxStu && course is not null)
+            if (aantal == maxStu && Course is not null)
                 throw new CapacityExceededException($"Max aantal studenten bereikt voor {Course.Title}");
 
             //als max aantal niet bereik is gaan we verder
@@ -96,95 +100,110 @@ namespace SchoolAdmin
 
         public static void AddCourseRegistration()
         {
-            try
+            Student targetStudent;
+            Course targetCourse;
+
+            //We halen lijst op van object Person en Course
+            var studenten = Person.AllPersons.OfType<Student>().ToList();
+            var courses = Course.AllCourses.ToList();
+
+            if (studenten.Count == 0)
+
+                throw new ArgumentNullException("Er zijn nog geen studenten toegevoegt.");
+
+            if (courses.Count == 0)
+
+                throw new ArgumentNullException("Er zijn nog geen courses toevoegt");
+
+            //We voegen een null object toe
+            studenten.Add(new Student());
+
+            //We sorteren de studenten op ID 0 naar X
+            studenten.Sort(new StudentsAscendingByID());
+
+            Console.WriteLine("Welke student?");
+
+            //Voor elke student in studenten geven we de hun id en hun naam
+            foreach (var student in studenten)
             {
-                //new list Student met extra null object als optie 0
-                var studenten = new List<Student?>() { null };
+                Console.WriteLine($"{student.Id}: {student.Name}");
+            }
 
-                //Welke student
-                Console.WriteLine("Welke student?");
-                Console.WriteLine("0. null");
+            Console.Write("> ");
+            //Als ingevoerde waarde een string is
+            if (!int.TryParse(Console.ReadLine(), out int keuzeStu))
+                throw new FormatException("Voer geldige keuzen in");
 
-                //loop door bestaande list van Person
-                for (int i = 0; i < Person.AllPersons.Count; i++)
-                {
-                    //als person object is van type student
-                    if (Person.AllPersons[i] is Student)
-                    {
-                        //toon dan de student
-                        Console.WriteLine($"{i + 1}: {Person.AllPersons[i].Name}");
+            if (keuzeStu > studenten.Count)
+                throw new ArgumentOutOfRangeException("Ingevoerde optie bestaat niet");
 
-                        //dan toevoegen aan nieuwe list studenten met toegevoegde optie 0{null}
-                        studenten.Add((Student)Person.AllPersons[i]);
-                    }
-                }
+            //Als keuze 0 = terug gaan
+            if (keuzeStu == 0)
+                return;
 
-                Console.Write("> ");
+            //De keuze wordt gebruikt om het juist Student Object te vinden
+            targetStudent = studenten.ElementAt(keuzeStu);
+            //-------------------------------------------------------------------------------------//
 
-                int choiceStudent = Convert.ToInt32(Console.ReadLine());
+            //we voegen null object toe
+            courses.Add(new Course());
 
-                Student? selectedStudent = studenten[choiceStudent];
+            //We sorteren de courses op id
+            courses.Sort(new CourseSortByID());
 
-                //Welke cursus
+            Console.WriteLine("Welke course?");
 
-                //new list Courses met extra null object optie  0
-                var courses = new List<Course?>() { null };
-                Console.WriteLine("Welke cursus?");
+            //Voor elke course in courses tonen we de id en title
+            foreach (var course in courses)
+            {
+                Console.WriteLine($"{course.Id}: {course.Title}");
+            }
 
-                Console.WriteLine("0. null");
+            if (!int.TryParse(Console.ReadLine(), out int keuzeCo))
+                throw new FormatException("Voer geldige waarde in");
 
-                //loop door bestaande list Course
-                for (int i = 0; i < Course.AllCourses.Count; i++)
-                {
-                    //voorbeeld { 1: course.title(Programmeren)}
-                    Console.WriteLine($"{i + 1}: {Course.AllCourses[i].Title}");
-                    //toevoegen aan nieuwe list courses met toegevoegde optie 0{null object}
-                    courses.Add(Course.AllCourses[i]);
-                }
+            if (keuzeCo == 0)
+                return;
 
-                Console.Write("> ");
+            targetCourse = courses.ElementAt(keuzeCo);
+            //------------------------------------------------------------------------------------------------------
 
-                int choiceCourse = Convert.ToInt32(Console.ReadLine());
+            //resultaat toevoegen? aan student -- course: result
 
-                //choiceCourse int (position) pakken en en deze om zetten als object course
-                Course? selectedCourse = courses[choiceCourse];
+            Console.WriteLine("Wil je een resultaat toekennen? ja/nee");
+            Console.Write("> ");
 
-                //result toevoegen ja of nee
-                Console.WriteLine("Wil je een resultaat toekennen? ja/nee");
-                Console.Write("> ");
-                string choiceResult = Console.ReadLine();
-                byte result = 0;
+            string awnser;
 
-                if (choiceResult == "ja")
-                {
-                    Console.WriteLine("Wat is het resultaat");
+            if (int.TryParse(awnser = Console.ReadLine() ?? "", out int number))
+                throw new FormatException("Voer geldige waarden in");
+
+            switch (awnser)
+            {
+                case "ja":
+                case "Ja":
+                case "JA":
+                case "jA":
+                    Console.WriteLine("Voer resultaat in");
                     Console.Write("> ");
-                    result = Convert.ToByte(Console.ReadLine());
-                }
 
-                CourseRegistration newRegistration = new CourseRegistration(selectedStudent, selectedCourse, result);
+                    if (!byte.TryParse(Console.ReadLine(), out byte result))
+                        throw new FormatException("Voer geldige waarde in");
+                    if (result < 0)
+                        throw new ArgumentNullException("Waarde moet positief zijn");
 
-                Console.Write("Registratie is correct verlopen, Druk op Enter > ");
-                Console.ReadKey();
+                    new CourseRegistration(targetStudent, targetCourse, result);
+
+                    break;
+
+                default:
+                    return;
             }
-            catch (ArgumentException a)
-            {
-                Console.WriteLine(a.Message);
-                Console.Write("Druk op enter om door te gaan > ");
-                Console.ReadKey();
-            }
-            catch (CapacityExceededException c)
-            {
-                Console.WriteLine(c.Message);
-                Console.Write("Druk op enter om door te gaan > ");
-                Console.ReadKey();
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-                Console.Write("Druk op enter om door te gaan > ");
-                Console.ReadKey();
-            }
+
+            //CourseRegistration newRegistration = new CourseRegistration(selectedStudent, selectedCourse, result);
+
+            Console.Write("Registratie is correct verlopen, Druk op Enter > ");
+            Console.ReadKey();
         }
     }
 }

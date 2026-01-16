@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SchoolAdmin
 {
-    internal class StudentsAscendingByName : IComparer<Student>
+    internal class StudentsDescendingByName : IComparer<Student>
     {
         //We gaan ICompare implementeren en zeggen hoe we gaan sorteren
         public int Compare(Student? x, Student? y)
@@ -14,18 +14,18 @@ namespace SchoolAdmin
             //1. Als de namen gelijk zijn aan elkaar sturen we 0
             if (x == null && y == null)
                 return 0;
-            if (x == null)
-                //2. Als student object x voor y gaat
-                return -1; //A tot
-            // 3. Als student object y voor x gaat
-            if (y == null)//Z
+            if (y == null)
+                //2. Als student object y voor x gaat
+                return -1; //Z tot
+            // 3. Als student object x voor y gaat
+            if (x == null)//A
                 return 1;
 
             //We gebruiken hiervoor de naam van elk student object
-            if (x.Name is null)
+            if (y.Name is null)
                 return 0;
 
-            return x.Name.CompareTo(y.Name);
+            return y.Name.CompareTo(x.Name);
         }
     }
 }
