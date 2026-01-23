@@ -3,12 +3,12 @@
 namespace SchoolAdmin
 {
     //CourseRegistrationis bedoeld om naam een resultaat van een student bij te houden bij een bepaalde opleiding
-    internal class CourseRegistration
+    public class CourseRegistration
     {
         private static List<CourseRegistration> allCourseRegistrations = new();
         private Course? course;
         private byte? result;
-        private readonly Student student;
+        private Student? student;
 
         //aantal student toegelaten in course
         private int maxStu = 20;
@@ -16,12 +16,10 @@ namespace SchoolAdmin
         //de aantal  students counter
         private int aantal = 1;
 
-        public CourseRegistration(Student student, Course? course, byte? result)
+        public CourseRegistration(Student? student, Course? course, byte? result)
         {
-            if (student is null)
-                throw new ArgumentNullException(nameof(student), "Student mag niet ontbreken!");
             this.student = student;
-            this.Course = course;//check op null object -> property
+            this.course = course;//check op null object -> property
             this.Result = result;//check op null object -> property
 
             //bekijken of max aantal studenten voor course bereikt is of niet
@@ -44,7 +42,7 @@ namespace SchoolAdmin
             foreach (var registration in AllCourseRegistrations)
             {
                 //als Course niet leeg is
-                if (Course is not null)
+                if (Course is not null && Student is not null)
                     //bekijken we of de student de klass in zijn lijst heeft staan
                     if (registration.student.Courses.Contains(Course))
                     {
@@ -64,12 +62,6 @@ namespace SchoolAdmin
             get
             {
                 return course;
-            }
-            private set
-            {
-                if (value is null)
-                    throw new ArgumentException("Cursus mag niet ontbreken");
-                course = value;
             }
         }
 
@@ -100,8 +92,8 @@ namespace SchoolAdmin
 
         public static void AddCourseRegistration()
         {
-            Student targetStudent;
-            Course targetCourse;
+            Student? targetStudent;
+            Course? targetCourse;
 
             //We halen lijst op van object Person en Course
             var studenten = Person.AllPersons.OfType<Student>().ToList();
@@ -115,15 +107,10 @@ namespace SchoolAdmin
 
                 throw new ArgumentNullException("Er zijn nog geen courses toevoegt");
 
-            //We voegen een null object toe
-            studenten.Add(new Student());
-
-            //We sorteren de studenten op ID 0 naar X
-            studenten.Sort(new StudentsAscendingByID());
-
             Console.WriteLine("Welke student?");
 
             //Voor elke student in studenten geven we de hun id en hun naam
+            Console.WriteLine($"0: null");
             foreach (var student in studenten)
             {
                 Console.WriteLine($"{student.Id}: {student.Name}");
@@ -139,21 +126,21 @@ namespace SchoolAdmin
 
             //Als keuze 0 = terug gaan
             if (keuzeStu == 0)
-                return;
+            {
+                targetStudent = null;
+            }
+            else
+            {
+                //De keuze wordt gebruikt om het juist Student Object te vinden
+                targetStudent = studenten.ElementAt(keuzeStu);
+            }
 
-            //De keuze wordt gebruikt om het juist Student Object te vinden
-            targetStudent = studenten.ElementAt(keuzeStu);
             //-------------------------------------------------------------------------------------//
-
-            //we voegen null object toe
-            courses.Add(new Course());
-
-            //We sorteren de courses op id
-            courses.Sort(new CourseSortByID());
 
             Console.WriteLine("Welke course?");
 
             //Voor elke course in courses tonen we de id en title
+            Console.WriteLine($"0: null");
             foreach (var course in courses)
             {
                 Console.WriteLine($"{course.Id}: {course.Title}");
@@ -163,9 +150,14 @@ namespace SchoolAdmin
                 throw new FormatException("Voer geldige waarde in");
 
             if (keuzeCo == 0)
-                return;
+            {
+                targetCourse = null;
+            }
+            else
+            {
+                targetCourse = courses.ElementAt(keuzeCo);
+            }
 
-            targetCourse = courses.ElementAt(keuzeCo);
             //------------------------------------------------------------------------------------------------------
 
             //resultaat toevoegen? aan student -- course: result

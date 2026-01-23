@@ -2,29 +2,26 @@
 
 namespace SchoolAdmin
 {
-    internal abstract class Person
+    public abstract class Person : IComparable<Person>
     {
         private uint id;
         private static uint maxId = 1;
-        private string? name;
+        private string? name = null;
         private DateTime birthDate;
         private static ImmutableList<Person> allPersons = ImmutableList<Person>.Empty;
 
         public Person(string name, DateTime birthdate)
         {
-            if (name.Contains("null"))
-            {
-                id = 0;
-            }
-            else
-            {
-                id = maxId++;
-            }
+            id = maxId++;
 
-            Name = name;
+            this.name = name;
 
             birthDate = birthdate;
             allPersons = allPersons.Add(this);
+        }
+
+        public Person()
+        {
         }
 
         public uint Id
@@ -40,10 +37,6 @@ namespace SchoolAdmin
             get
             {
                 return name;
-            }
-            set
-            {
-                name = value;
             }
         }
 
@@ -70,6 +63,22 @@ namespace SchoolAdmin
             {
                 return allPersons.ToImmutableList();
             }
+        }
+
+        public int CompareTo(Person? other)
+        {
+            if (this == null && other == null)
+                return 0;
+            if (this == null)
+                return -1; //A
+
+            if (other == null)//tot
+                return 1;//Z
+
+            if (this.Name is null)
+                return 0;
+
+            return this.Name.CompareTo(other.Name);
         }
 
         public override bool Equals(object? obj)

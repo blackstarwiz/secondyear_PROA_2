@@ -3,9 +3,9 @@ using System.Collections.Immutable;
 
 namespace SchoolAdmin
 {
-    internal class Course
+    public class Course
     {
-        public string Title;
+        public string? Title;
 
         private byte creditPoints;
 
@@ -15,14 +15,7 @@ namespace SchoolAdmin
 
         public Course(string title, byte creditpoints)
         {
-            if (title.Contains("null"))
-            {
-                id = 0;
-            }
-            else
-            {
-                this.Id = maxId++;
-            }
+            this.Id = maxId++;
 
             //voor elke bestaande course
             foreach (Course existingCourse in AllCourses)
@@ -45,7 +38,7 @@ namespace SchoolAdmin
         {
         }
 
-        public Course() : this("null", byte.MinValue)
+        public Course()
         {
         }
 
@@ -135,7 +128,7 @@ namespace SchoolAdmin
 
         public static Course SearchCourseById(int id)
         {
-            foreach (Course c in AllCourses)
+            foreach (Course c in Course.AllCourses)
             {
                 if (id == c.Id)
                 {
@@ -191,7 +184,7 @@ namespace SchoolAdmin
                 if (Course.AllCourses.Count != 0)
                 {
                     Console.Clear();
-                    foreach(var course in Course.AllCourses.ToImmutableList())
+                    foreach (var course in Course.AllCourses.ToImmutableList())
                     {
                         course.ShowOverview();
                     }
@@ -200,9 +193,9 @@ namespace SchoolAdmin
                 {
                     //student objecten maken
 
-                    Student student1 = new Student("Jason Meulemans", new DateTime(1998, 1, 1));
+                    Student student1 = new Student("Jason Meulemans", new DateTime(1998, 1, 1),"");
 
-                    Student student2 = new Student("Mieke Vermeulen", new DateTime(1998, 1, 1));
+                    Student student2 = new Student("Mieke Vermeulen", new DateTime(1998, 1, 1),"");
 
                     //Course object aanmaken en studenten toevoegen plus studiepunten
                     Course webCourse = new Course("Webtechnologie", 6);

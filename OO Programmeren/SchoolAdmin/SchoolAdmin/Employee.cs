@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SchoolAdmin
 {
-    internal abstract class Employee : Person
+    public abstract class Employee : Person
     {
         private byte seniority;
 

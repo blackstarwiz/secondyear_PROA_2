@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace SchoolAdmin
 {
-    internal class Lecturer : Employee
+    public class Lecturer : Employee
     {
         private ImmutableDictionary<Course, byte> allCourses = ImmutableDictionary<Course, byte>.Empty;
 
-        public Lecturer(string name, DateTime birthdate, Dictionary<string, byte> courses) : base(name, birthdate, courses)
+        public Lecturer(string name, DateTime birthdate, Dictionary<string, byte>? courses) : base(name, birthdate, courses)
         {
             if (courses != null)
             {

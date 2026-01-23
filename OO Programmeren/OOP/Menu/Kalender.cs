@@ -16,7 +16,7 @@ namespace Menu
         {
             kalenderNaam = naam;
         }
-
+        
         public string KalenderNaam
         {
             get
@@ -266,7 +266,7 @@ namespace Menu
             item.Initialiseer();//losse koppeling
 
             begin = Inplannen();//static methode//hier vragen we wanneer het moet ingepland worden voor elke object is dit anders
-
+            
             Rooster[item.RoosterOm(begin)] = item;//[deze datum] is gelinked aan = item (afspraak/taak)
             ShowOverview();
         }

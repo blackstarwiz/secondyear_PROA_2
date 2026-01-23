@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SchoolAdmin
 {
-    internal class AdministrativePersonnel : Employee
+    public class AdministrativePersonnel : Employee
     {
         public AdministrativePersonnel(string name, DateTime birthdate, Dictionary<string, byte> task) : base(name, birthdate, task)
         {

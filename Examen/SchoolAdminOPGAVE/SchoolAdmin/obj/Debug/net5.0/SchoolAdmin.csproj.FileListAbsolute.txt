@@ -1,0 +1,370 @@
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen programmeren\22-23\Les 2\SchoolAdmin\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.exe
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen programmeren\22-23\Les 2\SchoolAdmin\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.deps.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen programmeren\22-23\Les 2\SchoolAdmin\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen programmeren\22-23\Les 2\SchoolAdmin\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.dev.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen programmeren\22-23\Les 2\SchoolAdmin\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen programmeren\22-23\Les 2\SchoolAdmin\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen programmeren\22-23\Les 2\SchoolAdmin\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.AssemblyReference.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen programmeren\22-23\Les 2\SchoolAdmin\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen programmeren\22-23\Les 2\SchoolAdmin\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfoInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen programmeren\22-23\Les 2\SchoolAdmin\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfo.cs
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen programmeren\22-23\Les 2\SchoolAdmin\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.CoreCompileInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen programmeren\22-23\Les 2\SchoolAdmin\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen programmeren\22-23\Les 2\SchoolAdmin\SchoolAdmin\obj\Debug\net5.0\refint\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen programmeren\22-23\Les 2\SchoolAdmin\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen programmeren\22-23\Les 2\SchoolAdmin\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.genruntimeconfig.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen programmeren\22-23\Les 2\SchoolAdmin\SchoolAdmin\obj\Debug\net5.0\ref\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_2StudentklasseMethoden\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.AssemblyReference.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_2StudentklasseMethoden\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_2StudentklasseMethoden\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfoInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_2StudentklasseMethoden\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfo.cs
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_2StudentklasseMethoden\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.CoreCompileInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_2StudentklasseMethoden\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_2StudentklasseMethoden\SchoolAdmin\obj\Debug\net5.0\refint\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_2StudentklasseMethoden\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_2StudentklasseMethoden\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.exe
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_2StudentklasseMethoden\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.deps.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_2StudentklasseMethoden\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_2StudentklasseMethoden\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.dev.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_2StudentklasseMethoden\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_2StudentklasseMethoden\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_2StudentklasseMethoden\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.genruntimeconfig.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_2StudentklasseMethoden\SchoolAdmin\obj\Debug\net5.0\ref\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.exe
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.deps.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.dev.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.AssemblyReference.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfoInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfo.cs
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.CoreCompileInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate\SchoolAdmin\obj\Debug\net5.0\refint\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.genruntimeconfig.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate\SchoolAdmin\obj\Debug\net5.0\ref\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.exe
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.deps.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.dev.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.AssemblyReference.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfoInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfo.cs
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.CoreCompileInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate - Engels\SchoolAdmin\obj\Debug\net5.0\refint\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.genruntimeconfig.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_3StudentCursussenPrivate - Engels\SchoolAdmin\obj\Debug\net5.0\ref\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_4CursusKlasseMaken - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.exe
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_4CursusKlasseMaken - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.deps.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_4CursusKlasseMaken - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_4CursusKlasseMaken - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.dev.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_4CursusKlasseMaken - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_4CursusKlasseMaken - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_4CursusKlasseMaken - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.AssemblyReference.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_4CursusKlasseMaken - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_4CursusKlasseMaken - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfoInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_4CursusKlasseMaken - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfo.cs
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_4CursusKlasseMaken - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.CoreCompileInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_4CursusKlasseMaken - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_4CursusKlasseMaken - Engels\SchoolAdmin\obj\Debug\net5.0\refint\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_4CursusKlasseMaken - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_4CursusKlasseMaken - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.genruntimeconfig.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_4CursusKlasseMaken - Engels\SchoolAdmin\obj\Debug\net5.0\ref\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_5CursusResultaatMaken - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.exe
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_5CursusResultaatMaken - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.deps.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_5CursusResultaatMaken - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_5CursusResultaatMaken - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.dev.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_5CursusResultaatMaken - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_5CursusResultaatMaken - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_5CursusResultaatMaken - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.AssemblyReference.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_5CursusResultaatMaken - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_5CursusResultaatMaken - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfoInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_5CursusResultaatMaken - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfo.cs
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_5CursusResultaatMaken - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.CoreCompileInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_5CursusResultaatMaken - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_5CursusResultaatMaken - Engels\SchoolAdmin\obj\Debug\net5.0\refint\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_5CursusResultaatMaken - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_5CursusResultaatMaken - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.genruntimeconfig.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_5CursusResultaatMaken - Engels\SchoolAdmin\obj\Debug\net5.0\ref\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_6StudentAverage - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.exe
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_6StudentAverage - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.deps.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_6StudentAverage - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_6StudentAverage - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.dev.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_6StudentAverage - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_6StudentAverage - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_6StudentAverage - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.AssemblyReference.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_6StudentAverage - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_6StudentAverage - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfoInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_6StudentAverage - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfo.cs
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_6StudentAverage - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.CoreCompileInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_6StudentAverage - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_6StudentAverage - Engels\SchoolAdmin\obj\Debug\net5.0\refint\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_6StudentAverage - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_6StudentAverage - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.genruntimeconfig.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_6StudentAverage - Engels\SchoolAdmin\obj\Debug\net5.0\ref\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_7CursusProperties - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.exe
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_7CursusProperties - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.deps.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_7CursusProperties - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_7CursusProperties - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.dev.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_7CursusProperties - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_7CursusProperties - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_7CursusProperties - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.AssemblyReference.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_7CursusProperties - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_7CursusProperties - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfoInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_7CursusProperties - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfo.cs
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_7CursusProperties - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.CoreCompileInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_7CursusProperties - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_7CursusProperties - Engels\SchoolAdmin\obj\Debug\net5.0\refint\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_7CursusProperties - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_7CursusProperties - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.genruntimeconfig.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_7CursusProperties - Engels\SchoolAdmin\obj\Debug\net5.0\ref\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_8CursusResultaat - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.exe
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_8CursusResultaat - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.deps.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_8CursusResultaat - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_8CursusResultaat - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.dev.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_8CursusResultaat - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_8CursusResultaat - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_8CursusResultaat - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.AssemblyReference.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_8CursusResultaat - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_8CursusResultaat - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfoInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_8CursusResultaat - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfo.cs
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_8CursusResultaat - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.CoreCompileInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_8CursusResultaat - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_8CursusResultaat - Engels\SchoolAdmin\obj\Debug\net5.0\refint\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_8CursusResultaat - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_8CursusResultaat - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.genruntimeconfig.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_8CursusResultaat - Engels\SchoolAdmin\obj\Debug\net5.0\ref\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_9StudendLeeftijd - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.exe
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_9StudendLeeftijd - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.deps.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_9StudendLeeftijd - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_9StudendLeeftijd - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.dev.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_9StudendLeeftijd - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_9StudendLeeftijd - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_9StudendLeeftijd - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.AssemblyReference.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_9StudendLeeftijd - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_9StudendLeeftijd - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfoInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_9StudendLeeftijd - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfo.cs
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_9StudendLeeftijd - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.CoreCompileInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_9StudendLeeftijd - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_9StudendLeeftijd - Engels\SchoolAdmin\obj\Debug\net5.0\refint\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_9StudendLeeftijd - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_9StudendLeeftijd - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.genruntimeconfig.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH10_9StudendLeeftijd - Engels\SchoolAdmin\obj\Debug\net5.0\ref\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_1StudendConstructor - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.exe
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_1StudendConstructor - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.deps.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_1StudendConstructor - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_1StudendConstructor - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.dev.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_1StudendConstructor - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_1StudendConstructor - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_1StudendConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_1StudendConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfoInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_1StudendConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfo.cs
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_1StudendConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.CoreCompileInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_1StudendConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_1StudendConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\refint\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_1StudendConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_1StudendConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.genruntimeconfig.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_1StudendConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\ref\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_2CursusConstructor - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.exe
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_2CursusConstructor - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.deps.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_2CursusConstructor - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_2CursusConstructor - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.dev.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_2CursusConstructor - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_2CursusConstructor - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_2CursusConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_2CursusConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfoInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_2CursusConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfo.cs
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_2CursusConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.CoreCompileInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_2CursusConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_2CursusConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\refint\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_2CursusConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_2CursusConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.genruntimeconfig.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_2CursusConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\ref\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_3CursusResultaatConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_3CursusResultaatConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfoInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_3CursusResultaatConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfo.cs
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_3CursusResultaatConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.CoreCompileInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_3CursusResultaatConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_3CursusResultaatConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\refint\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_3CursusResultaatConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_3CursusResultaatConstructor - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.exe
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_3CursusResultaatConstructor - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.deps.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_3CursusResultaatConstructor - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_3CursusResultaatConstructor - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.dev.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_3CursusResultaatConstructor - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_3CursusResultaatConstructor - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_3CursusResultaatConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.genruntimeconfig.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_3CursusResultaatConstructor - Engels\SchoolAdmin\obj\Debug\net5.0\ref\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_4StudentUitTekst - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.exe
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_4StudentUitTekst - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.deps.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_4StudentUitTekst - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_4StudentUitTekst - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.dev.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_4StudentUitTekst - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_4StudentUitTekst - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_4StudentUitTekst - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_4StudentUitTekst - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfoInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_4StudentUitTekst - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfo.cs
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_4StudentUitTekst - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.CoreCompileInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_4StudentUitTekst - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_4StudentUitTekst - Engels\SchoolAdmin\obj\Debug\net5.0\refint\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_4StudentUitTekst - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_4StudentUitTekst - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.genruntimeconfig.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH11_4StudentUitTekst - Engels\SchoolAdmin\obj\Debug\net5.0\ref\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_1ResultaatNullable - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_1ResultaatNullable - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfoInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_1ResultaatNullable - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfo.cs
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_1ResultaatNullable - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.CoreCompileInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_1ResultaatNullable - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_1ResultaatNullable - Engels\SchoolAdmin\obj\Debug\net5.0\refint\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_1ResultaatNullable - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_1ResultaatNullable - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.exe
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_1ResultaatNullable - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.deps.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_1ResultaatNullable - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_1ResultaatNullable - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.dev.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_1ResultaatNullable - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_1ResultaatNullable - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_1ResultaatNullable - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.genruntimeconfig.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_1ResultaatNullable - Engels\SchoolAdmin\obj\Debug\net5.0\ref\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_2CursusOpzoekenMetId - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.exe
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_2CursusOpzoekenMetId - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.deps.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_2CursusOpzoekenMetId - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_2CursusOpzoekenMetId - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.dev.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_2CursusOpzoekenMetId - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_2CursusOpzoekenMetId - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_2CursusOpzoekenMetId - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_2CursusOpzoekenMetId - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfoInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_2CursusOpzoekenMetId - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfo.cs
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_2CursusOpzoekenMetId - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.CoreCompileInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_2CursusOpzoekenMetId - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_2CursusOpzoekenMetId - Engels\SchoolAdmin\obj\Debug\net5.0\refint\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_2CursusOpzoekenMetId - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_2CursusOpzoekenMetId - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.genruntimeconfig.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_2CursusOpzoekenMetId - Engels\SchoolAdmin\obj\Debug\net5.0\ref\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_3GelinkteObjecten - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.exe
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_3GelinkteObjecten - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.deps.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_3GelinkteObjecten - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_3GelinkteObjecten - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.dev.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_3GelinkteObjecten - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_3GelinkteObjecten - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_3GelinkteObjecten - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_3GelinkteObjecten - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfoInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_3GelinkteObjecten - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfo.cs
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_3GelinkteObjecten - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.CoreCompileInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_3GelinkteObjecten - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_3GelinkteObjecten - Engels\SchoolAdmin\obj\Debug\net5.0\refint\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_3GelinkteObjecten - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_3GelinkteObjecten - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.genruntimeconfig.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_3GelinkteObjecten - Engels\SchoolAdmin\obj\Debug\net5.0\ref\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_4StudieProgramma - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.exe
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_4StudieProgramma - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.deps.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_4StudieProgramma - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_4StudieProgramma - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.dev.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_4StudieProgramma - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_4StudieProgramma - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_4StudieProgramma - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_4StudieProgramma - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfoInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_4StudieProgramma - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfo.cs
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_4StudieProgramma - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.CoreCompileInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_4StudieProgramma - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_4StudieProgramma - Engels\SchoolAdmin\obj\Debug\net5.0\refint\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_4StudieProgramma - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_4StudieProgramma - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.genruntimeconfig.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_4StudieProgramma - Engels\SchoolAdmin\obj\Debug\net5.0\ref\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_5StudieProgrammaAanpassen - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.exe
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_5StudieProgrammaAanpassen - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.deps.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_5StudieProgrammaAanpassen - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_5StudieProgrammaAanpassen - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.dev.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_5StudieProgrammaAanpassen - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_5StudieProgrammaAanpassen - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_5StudieProgrammaAanpassen - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_5StudieProgrammaAanpassen - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfoInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_5StudieProgrammaAanpassen - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfo.cs
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_5StudieProgrammaAanpassen - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.CoreCompileInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_5StudieProgrammaAanpassen - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_5StudieProgrammaAanpassen - Engels\SchoolAdmin\obj\Debug\net5.0\refint\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_5StudieProgrammaAanpassen - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_5StudieProgrammaAanpassen - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.genruntimeconfig.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH12_5StudieProgrammaAanpassen - Engels\SchoolAdmin\obj\Debug\net5.0\ref\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_1AlleStudenten - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.exe
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_1AlleStudenten - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.deps.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_1AlleStudenten - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_1AlleStudenten - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.dev.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_1AlleStudenten - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_1AlleStudenten - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_1AlleStudenten - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_1AlleStudenten - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfoInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_1AlleStudenten - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfo.cs
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_1AlleStudenten - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.CoreCompileInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_1AlleStudenten - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_1AlleStudenten - Engels\SchoolAdmin\obj\Debug\net5.0\refint\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_1AlleStudenten - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_1AlleStudenten - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.genruntimeconfig.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_1AlleStudenten - Engels\SchoolAdmin\obj\Debug\net5.0\ref\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_2CursussenImmutable - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.exe
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_2CursussenImmutable - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.deps.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_2CursussenImmutable - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_2CursussenImmutable - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.dev.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_2CursussenImmutable - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_2CursussenImmutable - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_2CursussenImmutable - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_2CursussenImmutable - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfoInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_2CursussenImmutable - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfo.cs
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_2CursussenImmutable - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.CoreCompileInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_2CursussenImmutable - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_2CursussenImmutable - Engels\SchoolAdmin\obj\Debug\net5.0\refint\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_2CursussenImmutable - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_2CursussenImmutable - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.genruntimeconfig.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH13_2CursussenImmutable - Engels\SchoolAdmin\obj\Debug\net5.0\ref\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_2StudentErftVanPersoon - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.exe
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_2StudentErftVanPersoon - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.deps.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_2StudentErftVanPersoon - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_2StudentErftVanPersoon - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.dev.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_2StudentErftVanPersoon - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_2StudentErftVanPersoon - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_2StudentErftVanPersoon - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_2StudentErftVanPersoon - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfoInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_2StudentErftVanPersoon - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfo.cs
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_2StudentErftVanPersoon - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.CoreCompileInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_2StudentErftVanPersoon - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_2StudentErftVanPersoon - Engels\SchoolAdmin\obj\Debug\net5.0\refint\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_2StudentErftVanPersoon - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_2StudentErftVanPersoon - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.genruntimeconfig.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_2StudentErftVanPersoon - Engels\SchoolAdmin\obj\Debug\net5.0\ref\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_3PersoneelErftVanPersoon - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.exe
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_3PersoneelErftVanPersoon - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.deps.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_3PersoneelErftVanPersoon - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_3PersoneelErftVanPersoon - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.dev.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_3PersoneelErftVanPersoon - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_3PersoneelErftVanPersoon - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_3PersoneelErftVanPersoon - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_3PersoneelErftVanPersoon - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfoInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_3PersoneelErftVanPersoon - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfo.cs
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_3PersoneelErftVanPersoon - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.CoreCompileInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_3PersoneelErftVanPersoon - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_3PersoneelErftVanPersoon - Engels\SchoolAdmin\obj\Debug\net5.0\refint\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_3PersoneelErftVanPersoon - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_3PersoneelErftVanPersoon - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.genruntimeconfig.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_3PersoneelErftVanPersoon - Engels\SchoolAdmin\obj\Debug\net5.0\ref\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_4AdministratiefPersoneel - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.exe
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_4AdministratiefPersoneel - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.deps.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_4AdministratiefPersoneel - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_4AdministratiefPersoneel - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.runtimeconfig.dev.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_4AdministratiefPersoneel - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_4AdministratiefPersoneel - Engels\SchoolAdmin\bin\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_4AdministratiefPersoneel - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_4AdministratiefPersoneel - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfoInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_4AdministratiefPersoneel - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.AssemblyInfo.cs
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_4AdministratiefPersoneel - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.csproj.CoreCompileInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_4AdministratiefPersoneel - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_4AdministratiefPersoneel - Engels\SchoolAdmin\obj\Debug\net5.0\refint\SchoolAdmin.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_4AdministratiefPersoneel - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_4AdministratiefPersoneel - Engels\SchoolAdmin\obj\Debug\net5.0\SchoolAdmin.genruntimeconfig.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\SchoolAdmin_Nieuw\SchoolAdminNaH14_4AdministratiefPersoneel - Engels\SchoolAdmin\obj\Debug\net5.0\ref\SchoolAdmin.dll

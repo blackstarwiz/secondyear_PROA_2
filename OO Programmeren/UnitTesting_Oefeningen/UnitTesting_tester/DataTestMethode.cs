@@ -12,7 +12,7 @@ namespace UnitTesting_tester
     [TestClass]
     public class DataTestMethode
     {
-        Calculator? calculator;
+        Calculator calculator;
         [TestInitialize]
         public void Initialize()
         {
@@ -31,9 +31,8 @@ namespace UnitTesting_tester
             var expected = Math.Round(gewicht / (Math.Pow(lengte, 2)));
             //Act
             //Assert
-            if (calculator is null)
-                throw new ArgumentNullException("Calculator is null");
             Assert.AreEqual(expected, calculator.BMICalculator(gewicht, lengte));
+            
         }
 
 
@@ -56,10 +55,17 @@ namespace UnitTesting_tester
 
             //Act
             //Assert
-            if (calculator is null)
-                throw new ArgumentNullException("Calculater object is null");
-
+            
             Assert.AreEqual(expected, calculator.BMIRange(bmi).ToString());
+        }
+
+        [TestMethod]
+        public void BMICalculatorArgumentOutOfRangeException_GewichtOnder30()
+        {
+            //Arrange
+            //Act
+            //Assert
+            Assert.ThrowsException<ArgumentOutOfRangeException>(() => calculator.BMICalculator(23, 1.75));
         }
     }
 }

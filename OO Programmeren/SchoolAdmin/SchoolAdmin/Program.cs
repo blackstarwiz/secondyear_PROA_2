@@ -12,7 +12,7 @@
             bool active = true;
 
             // Menu-opties die de gebruiker kan kiezen
-            string[] optie = ["DemonstreerStudenten", "DemostreerCursussen", "ReadTextFormatStudent", "DemoStudyProgram", "DemoAdministrativePersonnel", "DemoLecturers", "Student toevoegen", "Cursus Toevoegen", "VakInschrijving toevoegen", "Inschrijvingsgegevens tonen", "Studenten sorteren a -> z", "Terminating"];
+            string[] optie = ["DemonstreerStudenten", "DemostreerCursussen", "ReadTextFormatStudent", "DemoStudyProgram", "DemoAdministrativePersonnel", "DemoLecturers", "Student toevoegen", "Cursus Toevoegen", "VakInschrijving toevoegen", "Inschrijvingsgegevens tonen", "Studenten sorteren a -> z","Voorbeeld code Examen", "Terminating"];
 
             do
             {
@@ -109,6 +109,9 @@
                             Console.Write("> ");
                             Console.ReadKey();
                             break;
+                        case 12:
+                            InternShipLecturer.Demo();
+                            break;
 
                         default:
                             Console.WriteLine("Terminating, press Enter");
@@ -124,7 +127,12 @@
                     Console.WriteLine("Druk op Enter");
                     Console.Write("> ");
                     Console.ReadKey();
-                }catch(Exception e)
+                }
+                catch (TyringToLeaveAPException e)
+                {
+                    Console.WriteLine($"{e.Message} probeert AP te verlaten");
+                }
+                catch(Exception e)
                 {
                     Console.WriteLine(e.Message);
                     Console.WriteLine("Druk op Enter");

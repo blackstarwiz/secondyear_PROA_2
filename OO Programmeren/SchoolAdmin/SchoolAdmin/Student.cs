@@ -5,16 +5,41 @@ using System.Xml.Serialization;
 
 namespace SchoolAdmin
 {
-    internal class Student : Person
+    public class Student : Person, IIntershipable
     {
+        private TimeSpan hours;
+        private string company;
+
         private ImmutableDictionary<DateTime, string> studentFile = ImmutableDictionary<DateTime, string>.Empty;
 
-        public Student(string name, DateTime birthdate) : base(name, birthdate)
+        public Student(string name, DateTime birthdate, string company) : base(name, birthdate)
+        {
+            this.company = company;
+            this.hours = new TimeSpan(0, 72*8, 0);
+        }
+
+        public Student()
         {
         }
 
-        public Student() : base("null", new DateTime())
+        public TimeSpan Hours
         {
+            get
+            {
+                return hours;
+            }
+        }
+
+        public string Company
+        {
+            get
+            {
+                return company;
+            }
+            set
+            {
+                company = value;
+            }
         }
 
         public Student Allstudents
@@ -181,7 +206,7 @@ namespace SchoolAdmin
                 if (!DateTime.TryParse(Console.ReadLine(), out DateTime birthDate))
                     throw new FormatException("Voer een geldig format in: Maand/Dag/Jaar");
 
-                Student newstu = new Student(name, birthDate);
+                Student newstu = new Student(name, birthDate, "");
 
                 Console.Write("Student is corect toegevoegd, Druk op enter > ");
 
@@ -197,6 +222,12 @@ namespace SchoolAdmin
             }
         }
 
+
+        public void PrintInternshipInfo()
+        {
+            Console.WriteLine($"'{Name}' doet WPL bij '{Company}'");
+        }
+
         //DEMO'S
         public static void DemoStudents()
         {
@@ -208,15 +239,14 @@ namespace SchoolAdmin
 
                 foreach (var student in students)
                 {
-                    
                     student.ShowOverview();
                 }
             }
             else
             {
                 //student objecten maken
-                Student student1 = new Student("Said Aziz", new DateTime(2000, 6, 1));
-                Student student2 = new Student("Mieke Vermeulen", new DateTime(1998, 1, 1));
+                Student student1 = new Student("Said Aziz", new DateTime(2000, 6, 1),"");
+                Student student2 = new Student("Mieke Vermeulen", new DateTime(1998, 1, 1),"");
 
                 //Course object aanmaken en studenten toevoegen plus studiepunten
                 Course webCourse = new Course("Webtechnologie", 6);

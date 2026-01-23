@@ -19,7 +19,13 @@ namespace UnitTesting
             return a + b;
         }
 
+        public double Divide(double a, double b)
+        {
+            if (b == 0)
+                throw new DivideByZeroException();
 
+            return a / b;
+        }
         public  bool Even(int a)
         {
             //Het getal is even als het deel baar is door twee en er blijdt 0 resten over
@@ -39,6 +45,9 @@ namespace UnitTesting
 
         public double BMICalculator(double gewicht, double lengte)
         {
+            if (gewicht < 30)
+                throw new ArgumentOutOfRangeException();
+
             double lengtToPow2 = Math.Pow(lengte, 2);
 
             return Math.Round(gewicht / lengtToPow2); ;
