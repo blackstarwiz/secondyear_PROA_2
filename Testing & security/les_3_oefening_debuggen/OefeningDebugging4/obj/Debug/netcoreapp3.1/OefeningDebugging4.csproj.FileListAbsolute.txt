@@ -1,0 +1,14 @@
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\les_3_oefening_debuggen\OefeningDebugging4\bin\Debug\netcoreapp3.1\OefeningDebugging4.exe
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\les_3_oefening_debuggen\OefeningDebugging4\bin\Debug\netcoreapp3.1\OefeningDebugging4.deps.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\les_3_oefening_debuggen\OefeningDebugging4\bin\Debug\netcoreapp3.1\OefeningDebugging4.runtimeconfig.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\les_3_oefening_debuggen\OefeningDebugging4\bin\Debug\netcoreapp3.1\OefeningDebugging4.runtimeconfig.dev.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\les_3_oefening_debuggen\OefeningDebugging4\bin\Debug\netcoreapp3.1\OefeningDebugging4.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\les_3_oefening_debuggen\OefeningDebugging4\bin\Debug\netcoreapp3.1\OefeningDebugging4.pdb
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\les_3_oefening_debuggen\OefeningDebugging4\obj\Debug\netcoreapp3.1\OefeningDebugging4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\les_3_oefening_debuggen\OefeningDebugging4\obj\Debug\netcoreapp3.1\OefeningDebugging4.AssemblyInfoInputs.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\les_3_oefening_debuggen\OefeningDebugging4\obj\Debug\netcoreapp3.1\OefeningDebugging4.AssemblyInfo.cs
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\les_3_oefening_debuggen\OefeningDebugging4\obj\Debug\netcoreapp3.1\OefeningDebugging4.csproj.CoreCompileInputs.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\les_3_oefening_debuggen\OefeningDebugging4\obj\Debug\netcoreapp3.1\OefeningDebugging4.sourcelink.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\les_3_oefening_debuggen\OefeningDebugging4\obj\Debug\netcoreapp3.1\OefeningDebugging4.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\les_3_oefening_debuggen\OefeningDebugging4\obj\Debug\netcoreapp3.1\OefeningDebugging4.pdb
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\les_3_oefening_debuggen\OefeningDebugging4\obj\Debug\netcoreapp3.1\OefeningDebugging4.genruntimeconfig.cache
