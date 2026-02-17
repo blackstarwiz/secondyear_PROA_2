@@ -17,7 +17,8 @@ namespace Greetings
 
         public string GetMessage() 
         {
-            var date = dateGetter.GetDate();
+            var date = dateGetter.GetDate();//Het readonly IDateGetter object zal de methode GetDate aanspreken en de current dayoftheweek terug geven
+            //Als date gelijk is aan zaterdag of zondag zal deze een andere string terug geven
             if(date == DayOfWeek.Saturday || date == DayOfWeek.Sunday)
             {
                 return "Party time.....It's weekend";
