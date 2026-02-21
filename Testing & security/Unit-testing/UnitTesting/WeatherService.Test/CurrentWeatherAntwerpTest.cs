@@ -14,13 +14,13 @@ namespace MessageWeatherService.Test
     {
         //check message form under 0 between 15 and max till 24 celecius
         [TestMethod]
-        public void WeatherService_Below_0_Returns_Correct(string json)
+        public void WeatherService_Below_0_Returns_Correct()
         { 
-            //const string realUrl = "http://api.openweathermap.org/data/2.5/weather?q=Antwerp,BE&appid=bla...&units=metric";
+            const string weatherJsonAntwerp = "{\"main\":{\"temp\":-5.0}}";
             
             //Arrange
             var mockHttpClient = new Mock<IWeatherHttpClient>();
-            mockHttpClient.Setup(x => x.GetStringAsync(It.IsAny<string>())).ReturnsAsync(json);
+            mockHttpClient.Setup(x => x.GetStringAsync(It.IsAny<string>())).ReturnsAsync(weatherJsonAntwerp);
             Console.WriteLine(mockHttpClient);
             var tempApi = new OpenWeatherMapApi(mockHttpClient.Object);
             WeatherService weatherService = new WeatherService();
