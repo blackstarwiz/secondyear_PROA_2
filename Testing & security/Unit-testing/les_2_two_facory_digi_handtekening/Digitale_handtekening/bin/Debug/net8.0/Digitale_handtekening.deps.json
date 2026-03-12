@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Digitale_handtekening/1.0.0": {
+        "runtime": {
+          "Digitale_handtekening.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Digitale_handtekening/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

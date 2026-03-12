@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36915.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadAuthenticatie", "BadAuthenticatie\BadAuthenticatie.csproj", "{D4A6428F-176F-4F88-8DD0-3A371583CDE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptieAndHashing", "EncryptieAndHashing\EncryptieAndHashing.csproj", "{D930301E-88AB-40FD-8C60-49C8E05A3F9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4A6428F-176F-4F88-8DD0-3A371583CDE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4A6428F-176F-4F88-8DD0-3A371583CDE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4A6428F-176F-4F88-8DD0-3A371583CDE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4A6428F-176F-4F88-8DD0-3A371583CDE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D930301E-88AB-40FD-8C60-49C8E05A3F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D930301E-88AB-40FD-8C60-49C8E05A3F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D930301E-88AB-40FD-8C60-49C8E05A3F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D930301E-88AB-40FD-8C60-49C8E05A3F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC6CF4C8-2F05-43E0-8AA3-F4AF8B431C82}
+	EndGlobalSection
+EndGlobal

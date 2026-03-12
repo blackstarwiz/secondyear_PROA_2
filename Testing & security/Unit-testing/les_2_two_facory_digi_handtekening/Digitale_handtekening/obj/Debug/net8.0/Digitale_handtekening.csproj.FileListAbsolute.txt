@@ -1,0 +1,15 @@
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\les_2_two_facory_digi_handtekening\Digitale_handtekening\bin\Debug\net8.0\Digitale_handtekening.exe
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\les_2_two_facory_digi_handtekening\Digitale_handtekening\bin\Debug\net8.0\Digitale_handtekening.deps.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\les_2_two_facory_digi_handtekening\Digitale_handtekening\bin\Debug\net8.0\Digitale_handtekening.runtimeconfig.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\les_2_two_facory_digi_handtekening\Digitale_handtekening\bin\Debug\net8.0\Digitale_handtekening.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\les_2_two_facory_digi_handtekening\Digitale_handtekening\bin\Debug\net8.0\Digitale_handtekening.pdb
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\les_2_two_facory_digi_handtekening\Digitale_handtekening\obj\Debug\net8.0\Digitale_handtekening.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\les_2_two_facory_digi_handtekening\Digitale_handtekening\obj\Debug\net8.0\Digitale_handtekening.AssemblyInfoInputs.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\les_2_two_facory_digi_handtekening\Digitale_handtekening\obj\Debug\net8.0\Digitale_handtekening.AssemblyInfo.cs
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\les_2_two_facory_digi_handtekening\Digitale_handtekening\obj\Debug\net8.0\Digitale_handtekening.csproj.CoreCompileInputs.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\les_2_two_facory_digi_handtekening\Digitale_handtekening\obj\Debug\net8.0\Digitale_handtekening.sourcelink.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\les_2_two_facory_digi_handtekening\Digitale_handtekening\obj\Debug\net8.0\Digitale_handtekening.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\les_2_two_facory_digi_handtekening\Digitale_handtekening\obj\Debug\net8.0\refint\Digitale_handtekening.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\les_2_two_facory_digi_handtekening\Digitale_handtekening\obj\Debug\net8.0\Digitale_handtekening.pdb
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\les_2_two_facory_digi_handtekening\Digitale_handtekening\obj\Debug\net8.0\Digitale_handtekening.genruntimeconfig.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\les_2_two_facory_digi_handtekening\Digitale_handtekening\obj\Debug\net8.0\ref\Digitale_handtekening.dll

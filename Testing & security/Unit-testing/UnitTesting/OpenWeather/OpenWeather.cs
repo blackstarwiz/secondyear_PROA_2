@@ -8,7 +8,7 @@ using Newtonsoft.Json;
 namespace TempAntwerpen
 {
     //type/template json voor temp te vinden 
-    public class OpenWeather
+    public class OpenWeather_AntwerpTemp
     {
         public Main main { get; set; }
     }

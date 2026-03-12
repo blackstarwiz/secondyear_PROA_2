@@ -22,15 +22,28 @@ namespace MessageWeatherService.Test
             var mockHttpClient = new Mock<IWeatherHttpClient>();
             mockHttpClient.Setup(x => x.GetStringAsync(It.IsAny<string>())).ReturnsAsync(weatherJsonAntwerp);
             Console.WriteLine(mockHttpClient);
-            var tempApi = new OpenWeatherMapApi(mockHttpClient.Object);
-            WeatherService weatherService = new WeatherService();
+            var weatherApi = new OpenWeatherMapApi(mockHttpClient.Object);
+            WeatherService weatherService = new WeatherService(weatherApi);
 
             //Act
             float temp = tempApi.GetCurrentTemperatureInAntwerp();
-            var result = weatherService.GetCurrentWeatherInAntwerp(temp);
+            var result = weatherService.GetCurrentWeatherInAntwerp();
 
             //Assert
             Assert.AreEqual("Brrrrrr, it's freeeezzzzziiinnnngg", result);
         }
-    }
-}
+
+        [TestMethod()]
+        public void GetCurrentWeatherInAntwerp_When_Getting_Temperature_Fails()
+        {
+            // Arrange
+            var openWeatherMap = new Mock<IOpenWeatherMapApi>();
+            openWeatherMap.Setup(x => x.GetCurrentTemperatureInAntwerp()).Throws<Exception>(); // (1)
+
+            // Act
+            var weatherService = new WeatherService(openWeatherMap);
+
+            // Assert
+            Assert.ThrowsException<Exception>(() => weatherService.GetCurrentWeatherInAntwerp()); // (2)
+        }
+    }}

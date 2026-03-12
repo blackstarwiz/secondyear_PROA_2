@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36915.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2FactorAuth", "2FactorAuth\2FactorAuth.csproj", "{A528BC93-5C43-4C58-B3AF-25ADE1B4EBB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2FactorAuth_Test", "2FactorAuth_Test\2FactorAuth_Test.csproj", "{A78FC3C4-EB67-44C3-B7ED-15AA86182DEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2FA_met_tijdslimiet", "2FA_met_tijdslimiet\2FA_met_tijdslimiet.csproj", "{E490A2E7-C84A-4911-83D9-3AF34AD1503E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digitale_handtekening", "Digitale_handtekening\Digitale_handtekening.csproj", "{A8F2F28B-FD9E-4454-8932-D282F58F57CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A528BC93-5C43-4C58-B3AF-25ADE1B4EBB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A528BC93-5C43-4C58-B3AF-25ADE1B4EBB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A528BC93-5C43-4C58-B3AF-25ADE1B4EBB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A528BC93-5C43-4C58-B3AF-25ADE1B4EBB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A78FC3C4-EB67-44C3-B7ED-15AA86182DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A78FC3C4-EB67-44C3-B7ED-15AA86182DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A78FC3C4-EB67-44C3-B7ED-15AA86182DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A78FC3C4-EB67-44C3-B7ED-15AA86182DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E490A2E7-C84A-4911-83D9-3AF34AD1503E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E490A2E7-C84A-4911-83D9-3AF34AD1503E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E490A2E7-C84A-4911-83D9-3AF34AD1503E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E490A2E7-C84A-4911-83D9-3AF34AD1503E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8F2F28B-FD9E-4454-8932-D282F58F57CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F2F28B-FD9E-4454-8932-D282F58F57CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F2F28B-FD9E-4454-8932-D282F58F57CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F2F28B-FD9E-4454-8932-D282F58F57CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9B7767F-66B6-4E6E-86F1-CB4B9B2C86BF}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\BadAuthenticatie\bin\Debug\net8.0\BadAuthenticatie.exe
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\BadAuthenticatie\bin\Debug\net8.0\BadAuthenticatie.deps.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\BadAuthenticatie\bin\Debug\net8.0\BadAuthenticatie.runtimeconfig.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\BadAuthenticatie\bin\Debug\net8.0\BadAuthenticatie.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\BadAuthenticatie\bin\Debug\net8.0\BadAuthenticatie.pdb
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\BadAuthenticatie\obj\Debug\net8.0\BadAuthenticatie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\BadAuthenticatie\obj\Debug\net8.0\BadAuthenticatie.AssemblyInfoInputs.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\BadAuthenticatie\obj\Debug\net8.0\BadAuthenticatie.AssemblyInfo.cs
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\BadAuthenticatie\obj\Debug\net8.0\BadAuthenticatie.csproj.CoreCompileInputs.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\BadAuthenticatie\obj\Debug\net8.0\BadAuthenticatie.sourcelink.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\BadAuthenticatie\obj\Debug\net8.0\BadAuthenticatie.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\BadAuthenticatie\obj\Debug\net8.0\refint\BadAuthenticatie.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\BadAuthenticatie\obj\Debug\net8.0\BadAuthenticatie.pdb
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\BadAuthenticatie\obj\Debug\net8.0\BadAuthenticatie.genruntimeconfig.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\BadAuthenticatie\obj\Debug\net8.0\ref\BadAuthenticatie.dll

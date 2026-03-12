@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TempAntwerpen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73ad04d46bd153ced594fc6950ae129d7031d817")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42a1a872c475b26c957d5f9ec5a947e5333ee52d")]
 [assembly: System.Reflection.AssemblyProductAttribute("TempAntwerpen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TempAntwerpen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
