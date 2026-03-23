@@ -1,0 +1,18 @@
+toets volgende week donderdag 26ste
+
+testing and security
+
+
+testing:
+
+- exeption opvangen binnen methode en zien gelijk aan exception tekst of type
+
+- mocking
+- verify
+
+
+security:
+
+-  lab2 ,labo3,labo4
+
+

@@ -113,7 +113,6 @@ namespace _2FA_met_tijdslimiet
             private void OnTimerElapsed(object sender, ElapsedEventArgs e) 
             { 
                 GenerateTOTP(); 
-               
             }
 
             public void Verify2FA(string user2fa)//als code is ingevoerd checken of deze code gelijk is

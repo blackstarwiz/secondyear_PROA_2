@@ -68,7 +68,8 @@ namespace EncryptieAndHashing
         public static string HashString(string _input = "")
         {
             {
-                string hash = "";
+                string hash = string.Empty;
+
                 using (SHA256 sha256 = SHA256.Create())
                 {
                     byte[] bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(_input));
@@ -80,7 +81,6 @@ namespace EncryptieAndHashing
        
         public static byte[] EncryptWithCms(string plainText, X509Certificate2 recipientCert) 
         {
-            
             return [];
         }
 

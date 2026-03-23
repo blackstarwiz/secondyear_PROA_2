@@ -17,9 +17,9 @@ namespace Digitale_handtekening
 
         public string CalculateHash(string filepath)
         {
-            byte[] fileBytes = File.ReadAllBytes(filepath);
+            string fileBytes = File.ReadAllText(filepath);
             using SHA256 sha256 = SHA256.Create();
-            byte[] hashBytes = sha256.ComputeHash(fileBytes);
+            byte[] hashBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(fileBytes));
             string base64Hash = Convert.ToBase64String(hashBytes);
             Console.WriteLine("Hash: " + base64Hash);
 
@@ -41,7 +41,7 @@ namespace Digitale_handtekening
             string sigPath = filepath + ".sig";
             string pubkeyPath = filepath + ".pubkey";
 
-            //herbereken de hash vaaan het huidige bestand
+            //herbereken de hash van het huidige bestand
             string currentHash = CalculateHash(filepath);
 
             //lees opgeslagen signature
