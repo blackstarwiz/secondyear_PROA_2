@@ -6,18 +6,18 @@ namespace Mock_Open_Weather.Test
     public sealed class WeatherServiceTest
     {
         [TestMethod]
-        [DataRow(34)]
+        [DataRow(-5)]
         [DataRow(-4)]
         [DataRow(-3)]
         [DataRow(-2)]
         [DataRow(-1)]
-        public void GetCurrentWeatherInAntwerp_Returns_Correct_String(float temp)
+        public void GetCurrentWeatherInAntwerp_Lower_0_Returns_Correct_String(float temp)
         {
             //Arrange
             var mockWeatherMapApi = new Mock<IOpenWeatherMapApi>();
             mockWeatherMapApi.Setup(x => x.GetCurrentTemperatureInAntwerp()).Returns(temp);
 
-            var weatherService = new WeatherService();
+            var weatherService = new WeatherService(mockWeatherMapApi.Object);
             //Action
             var result = weatherService.GetCurrentWeatherInAntwerp();
             //Assert

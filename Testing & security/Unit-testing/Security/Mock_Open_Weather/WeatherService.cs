@@ -8,23 +8,29 @@ namespace Mock_Open_Weather
 {
     public class WeatherService
     {
+        private readonly IOpenWeatherMapApi _openWeatherMapApi;
+
+        public WeatherService(IOpenWeatherMapApi openWeatherMapApi)
+        {
+            _openWeatherMapApi = openWeatherMapApi;
+        }
+
+
         public string GetCurrentWeatherInAntwerp()
         {
-             var openWeatherMapApi = new OpenWeatherMapApi();
+            var temp = _openWeatherMapApi.GetCurrentTemperatureInAntwerp();
 
-            var temp = openWeatherMapApi.GetCurrentTemperatureInAntwerp();
-
-            if(temp < 0)
+            if (temp < 0)
             {
                 return "Brrrr, Het is aan het vriezen";
             }
 
-            if(temp < 15)
+            if (temp < 15)
             {
                 return "Het is koud";
             }
 
-            if(temp < 24)
+            if (temp < 24)
             {
                 return "Het is perfect weer";
             }

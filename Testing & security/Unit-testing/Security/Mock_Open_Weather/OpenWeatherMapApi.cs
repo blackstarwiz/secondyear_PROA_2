@@ -19,8 +19,10 @@ namespace Mock_Open_Weather
                 var httpResponse = httpClient.GetAsync(url).GetAwaiter().GetResult();
 
                 var response = httpResponse.Content.ReadAsStringAsync().GetAwaiter().GetResult();
-                return JsonConvert.DeserializeObject<OpenWeather>(response).main.temp;
-                ;
+                var temp = JsonConvert.DeserializeObject<OpenWeather>(response).main.temp;
+                
+                return temp;
+                
             }
         }
     }
