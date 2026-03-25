@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\UnitTestingDependencies.Tests\\UnitTestingDependencies.Tests.csproj": {}
+    "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\UnitTestingDependencies.Tests\\UnitTestingDependencies.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\UnitTestingDependencies.Tests\\UnitTestingDependencies.Tests.csproj": {
+    "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\UnitTestingDependencies.Tests\\UnitTestingDependencies.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\UnitTestingDependencies.Tests\\UnitTestingDependencies.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\UnitTestingDependencies.Tests\\UnitTestingDependencies.Tests.csproj",
         "projectName": "UnitTestingDependencies.Tests",
-        "projectPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\UnitTestingDependencies.Tests\\UnitTestingDependencies.Tests.csproj",
+        "projectPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\UnitTestingDependencies.Tests\\UnitTestingDependencies.Tests.csproj",
         "packagesPath": "C:\\Users\\jason\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\UnitTestingDependencies.Tests\\obj\\",
+        "outputPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\UnitTestingDependencies.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\UnitTestingDependencies\\UnitTestingDependencies.csproj": {
-                "projectPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\UnitTestingDependencies\\UnitTestingDependencies.csproj"
+              "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\UnitTestingDependencies\\UnitTestingDependencies.csproj": {
+                "projectPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\UnitTestingDependencies\\UnitTestingDependencies.csproj"
               }
             }
           }
@@ -78,6 +78,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -87,14 +101,14 @@
         }
       }
     },
-    "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\UnitTestingDependencies\\UnitTestingDependencies.csproj": {
+    "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\UnitTestingDependencies\\UnitTestingDependencies.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\UnitTestingDependencies\\UnitTestingDependencies.csproj",
+        "projectUniqueName": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\UnitTestingDependencies\\UnitTestingDependencies.csproj",
         "projectName": "UnitTestingDependencies",
-        "projectPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\UnitTestingDependencies\\UnitTestingDependencies.csproj",
+        "projectPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\UnitTestingDependencies\\UnitTestingDependencies.csproj",
         "packagesPath": "C:\\Users\\jason\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\UnitTestingDependencies\\obj\\",
+        "outputPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\UnitTestingDependencies\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -143,6 +157,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

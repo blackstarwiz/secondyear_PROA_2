@@ -1,0 +1,15 @@
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Mock_Weekend\bin\Debug\net8.0\Mock_Weekend.exe
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Mock_Weekend\bin\Debug\net8.0\Mock_Weekend.deps.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Mock_Weekend\bin\Debug\net8.0\Mock_Weekend.runtimeconfig.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Mock_Weekend\bin\Debug\net8.0\Mock_Weekend.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Mock_Weekend\bin\Debug\net8.0\Mock_Weekend.pdb
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Mock_Weekend\obj\Debug\net8.0\Mock_Weekend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Mock_Weekend\obj\Debug\net8.0\Mock_Weekend.AssemblyInfoInputs.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Mock_Weekend\obj\Debug\net8.0\Mock_Weekend.AssemblyInfo.cs
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Mock_Weekend\obj\Debug\net8.0\Mock_Weekend.csproj.CoreCompileInputs.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Mock_Weekend\obj\Debug\net8.0\Mock_Weekend.sourcelink.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Mock_Weekend\obj\Debug\net8.0\Mock_Weekend.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Mock_Weekend\obj\Debug\net8.0\refint\Mock_Weekend.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Mock_Weekend\obj\Debug\net8.0\Mock_Weekend.pdb
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Mock_Weekend\obj\Debug\net8.0\Mock_Weekend.genruntimeconfig.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Mock_Weekend\obj\Debug\net8.0\ref\Mock_Weekend.dll

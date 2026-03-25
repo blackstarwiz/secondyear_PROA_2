@@ -1,0 +1,15 @@
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\UnitTestingDependencies\obj\Debug\net8.0\UnitTestingDependencies.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\UnitTestingDependencies\obj\Debug\net8.0\UnitTestingDependencies.AssemblyInfoInputs.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\UnitTestingDependencies\obj\Debug\net8.0\UnitTestingDependencies.AssemblyInfo.cs
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\UnitTestingDependencies\obj\Debug\net8.0\UnitTestingDependencies.csproj.CoreCompileInputs.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\UnitTestingDependencies\obj\Debug\net8.0\UnitTestingDependencies.sourcelink.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\UnitTestingDependencies\bin\Debug\net8.0\UnitTestingDependencies.exe
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\UnitTestingDependencies\bin\Debug\net8.0\UnitTestingDependencies.deps.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\UnitTestingDependencies\bin\Debug\net8.0\UnitTestingDependencies.runtimeconfig.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\UnitTestingDependencies\bin\Debug\net8.0\UnitTestingDependencies.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\UnitTestingDependencies\bin\Debug\net8.0\UnitTestingDependencies.pdb
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\UnitTestingDependencies\obj\Debug\net8.0\UnitTestingDependencies.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\UnitTestingDependencies\obj\Debug\net8.0\refint\UnitTestingDependencies.dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\UnitTestingDependencies\obj\Debug\net8.0\UnitTestingDependencies.pdb
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\UnitTestingDependencies\obj\Debug\net8.0\UnitTestingDependencies.genruntimeconfig.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\UnitTestingDependencies\obj\Debug\net8.0\ref\UnitTestingDependencies.dll

@@ -1801,11 +1801,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\Greeting.Test\\Greetings.Test.csproj",
+      "projectUniqueName": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\Greeting.Test\\Greetings.Test.csproj",
       "projectName": "Greetings.Test",
-      "projectPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\Greeting.Test\\Greetings.Test.csproj",
+      "projectPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\Greeting.Test\\Greetings.Test.csproj",
       "packagesPath": "C:\\Users\\jason\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\Greeting.Test\\obj\\",
+      "outputPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\Greeting.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1826,8 +1826,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\Greetings\\Greetings.csproj": {
-              "projectPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\Greetings\\Greetings.csproj"
+            "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\Greetings\\Greetings.csproj": {
+              "projectPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\Greetings\\Greetings.csproj"
             }
           }
         }
@@ -1872,6 +1872,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.23, 8.0.23]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.23, 8.0.23]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.23, 8.0.23]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

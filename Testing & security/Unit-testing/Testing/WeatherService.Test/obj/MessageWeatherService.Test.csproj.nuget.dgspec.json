@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\WeatherService.Test\\MessageWeatherService.Test.csproj": {}
+    "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\WeatherService.Test\\MessageWeatherService.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\OpenWeather\\TempAntwerpen.csproj": {
+    "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\OpenWeather\\TempAntwerpen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\OpenWeather\\TempAntwerpen.csproj",
+        "projectUniqueName": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\OpenWeather\\TempAntwerpen.csproj",
         "projectName": "TempAntwerpen",
-        "projectPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\OpenWeather\\TempAntwerpen.csproj",
+        "projectPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\OpenWeather\\TempAntwerpen.csproj",
         "packagesPath": "C:\\Users\\jason\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\OpenWeather\\obj\\",
+        "outputPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\OpenWeather\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -66,6 +66,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -75,14 +93,14 @@
         }
       }
     },
-    "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\WeatherService.Test\\MessageWeatherService.Test.csproj": {
+    "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\WeatherService.Test\\MessageWeatherService.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\WeatherService.Test\\MessageWeatherService.Test.csproj",
+        "projectUniqueName": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\WeatherService.Test\\MessageWeatherService.Test.csproj",
         "projectName": "MessageWeatherService.Test",
-        "projectPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\WeatherService.Test\\MessageWeatherService.Test.csproj",
+        "projectPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\WeatherService.Test\\MessageWeatherService.Test.csproj",
         "packagesPath": "C:\\Users\\jason\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\WeatherService.Test\\obj\\",
+        "outputPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\WeatherService.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -103,8 +121,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\OpenWeather\\TempAntwerpen.csproj": {
-                "projectPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\UnitTesting\\OpenWeather\\TempAntwerpen.csproj"
+              "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\OpenWeather\\TempAntwerpen.csproj": {
+                "projectPath": "C:\\Users\\jason\\OneDrive\\Desktop\\01-Programmeren-25-26\\Testing & security\\Unit-testing\\Testing\\OpenWeather\\TempAntwerpen.csproj"
               }
             }
           }
@@ -149,6 +167,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
