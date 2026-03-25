@@ -26,15 +26,9 @@ namespace _2FA_met_tijdslimiet
                     //login creeren
                     Login newUser = new Login(username, password);
 
+                    //check de 2FA
+                    newUser.Verify2FA();
 
-                    //loop dat time based code genereerd om de 30 seconden (token style)
-
-                   
-
-                    Console.WriteLine("Voer je 2FA in");
-                    string user2fa = Console.ReadLine() ?? "";
-
-                    newUser.Verify2FA(user2fa);
                     active = false;
                 }
                 catch (Exception e)
@@ -60,17 +54,17 @@ namespace _2FA_met_tijdslimiet
 
             public Login(string username, string password)
             {
-                _username = username;
-                _password = password;
+                _username = username;//"admin"
+                _password = password;//"admin
 
                 //init de timer
-                _timer = new Timer(30000);
-                _timer.Elapsed += OnTimerElapsed;
+                _timer = new Timer(10000);//"timer van 10 seconden"
+                //_timer.Elapsed += OnTimerElapsed;//"als de tijd verlopen is spreek deze functie aan"
                 _timer.AutoReset = true;
 
                 GenerateTOTP();//Genereer code
 
-                _timer.Start();//start de timer
+                ///_timer.Start();//start de timer
             }
 
             public string Username
@@ -115,8 +109,12 @@ namespace _2FA_met_tijdslimiet
                 GenerateTOTP(); 
             }
 
-            public void Verify2FA(string user2fa)//als code is ingevoerd checken of deze code gelijk is
+            public void Verify2FA()//als code is ingevoerd checken of deze code gelijk is
             {
+                Console.WriteLine("Voer je 2FA in:");
+                Console.Write("> ");
+
+                string user2fa = Console.ReadLine() ?? "";
                 //bereken het verschil 
                 TimeSpan elapsed = DateTime.UtcNow - _generationTime;
 

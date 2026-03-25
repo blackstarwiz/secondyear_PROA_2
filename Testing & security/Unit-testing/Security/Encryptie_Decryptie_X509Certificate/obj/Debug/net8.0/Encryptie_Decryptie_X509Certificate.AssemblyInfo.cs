@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Encryptie_Decryptie_X509Certificate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+409ddb9c2f8145b45b09d39391bab4213803867d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5295b297b100be574219756a817d4f8d674f378")]
 [assembly: System.Reflection.AssemblyProductAttribute("Encryptie_Decryptie_X509Certificate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Encryptie_Decryptie_X509Certificate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

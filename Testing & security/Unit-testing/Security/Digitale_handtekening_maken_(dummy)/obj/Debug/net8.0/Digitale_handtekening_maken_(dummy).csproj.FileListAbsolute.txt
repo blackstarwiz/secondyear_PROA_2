@@ -1,0 +1,15 @@
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Digitale_handtekening_maken_(dummy)\bin\Debug\net8.0\Digitale_handtekening_maken_(dummy).exe
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Digitale_handtekening_maken_(dummy)\bin\Debug\net8.0\Digitale_handtekening_maken_(dummy).deps.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Digitale_handtekening_maken_(dummy)\bin\Debug\net8.0\Digitale_handtekening_maken_(dummy).runtimeconfig.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Digitale_handtekening_maken_(dummy)\bin\Debug\net8.0\Digitale_handtekening_maken_(dummy).dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Digitale_handtekening_maken_(dummy)\bin\Debug\net8.0\Digitale_handtekening_maken_(dummy).pdb
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Digitale_handtekening_maken_(dummy)\obj\Debug\net8.0\Digitale_handtekening_maken_(dummy).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Digitale_handtekening_maken_(dummy)\obj\Debug\net8.0\Digitale_handtekening_maken_(dummy).AssemblyInfoInputs.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Digitale_handtekening_maken_(dummy)\obj\Debug\net8.0\Digitale_handtekening_maken_(dummy).AssemblyInfo.cs
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Digitale_handtekening_maken_(dummy)\obj\Debug\net8.0\Digitale_handtekening_maken_(dummy).csproj.CoreCompileInputs.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Digitale_handtekening_maken_(dummy)\obj\Debug\net8.0\Digitale_handtekening_maken_(dummy).sourcelink.json
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Digitale_handtekening_maken_(dummy)\obj\Debug\net8.0\Digitale_handtekening_maken_(dummy).dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Digitale_handtekening_maken_(dummy)\obj\Debug\net8.0\refint\Digitale_handtekening_maken_(dummy).dll
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Digitale_handtekening_maken_(dummy)\obj\Debug\net8.0\Digitale_handtekening_maken_(dummy).pdb
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Digitale_handtekening_maken_(dummy)\obj\Debug\net8.0\Digitale_handtekening_maken_(dummy).genruntimeconfig.cache
+C:\Users\jason\OneDrive\Desktop\01-Programmeren-25-26\Testing & security\Unit-testing\Security\Digitale_handtekening_maken_(dummy)\obj\Debug\net8.0\ref\Digitale_handtekening_maken_(dummy).dll

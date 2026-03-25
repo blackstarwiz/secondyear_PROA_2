@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Encrypt_Sign_Verify_Decrypt/1.0.0": {
+        "runtime": {
+          "Encrypt_Sign_Verify_Decrypt.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Encrypt_Sign_Verify_Decrypt/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

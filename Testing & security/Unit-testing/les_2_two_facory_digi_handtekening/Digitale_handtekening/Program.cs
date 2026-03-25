@@ -19,10 +19,13 @@
                 string base64Hash = sign.CalculateHash(filePath);
 
                 string signature = pubKey + ":" + base64Hash;
-                //maak public key bestand
-                sign.CreatePublicKey(pubKey, pubKeyFilePath);
+                
                 //maak sig bestand
                 sign.CreateSigFile(signature, sigPath);
+                
+                //maak public key bestand
+                sign.CreatePublicKey(pubKey, pubKeyFilePath);
+                
 
                 if (File.Exists(filePath) && File.Exists(pubKeyFilePath) && File.Exists(sigPath))
                 {
